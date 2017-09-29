@@ -1,0 +1,96 @@
+{
+  "name": "Loved by Josef",
+  "type": "dark",
+  "include": "./base-dark-vs.json",
+  "colors": {
+    // 
+    // activity bar
+    // 
+    "activityBar.background": "#172030",
+    "activityBar.foreground": "#c6797e",
+    "activityBarBadge.background": "#c6797e",
+    "activityBarBadge.foreground": "#fff",
+    "activityBar.border": "#1A2335",
+    // 
+    // editor
+    // 
+    "editor.background": "#172030",
+    "editorLineNumber.foreground": "#758095",
+    // "editorLineNumber.foreground": "#795759",
+    "editor.lineHighlightBackground": "#91d1bd10",
+    // "editor.lineHighlightBorder": "#91d1bd20",
+    "editor.wordHighlightBackground": "#91d1bd10",
+    "editor.wordHighlightStrongBackground": "#91d1bd10",
+    "editor.findMatchBackground": "#91d1bd40",
+    "editor.findMatchHighlightBackground": "#91d1bd40",
+    "editor.findRangeHighlightBackground": "#91d1bd40",
+    // "editor.foreground": "#fff",
+    "editor.hoverHighlightBackground": "#91d1bd40",
+    "editor.selectionBackground": "#91d1bd1a",
+    "editor.selectionForeground": "#91d1bdff",
+    "editor.inactiveSelectionBackground": "#91d1bd1a",
+    "editorLink.activeForeground": "#758095",
+    // "editorGroup.background": "#fff",
+    "editorGroup.background": "#172030",
+    // 
+    // tabs
+    "editorGroupHeader.noTabsBackground": "#172030",
+    "editorGroupHeader.tabsBackground": "#172030",
+    "editorGroupHeader.tabsBorder": "#1A2335",
+    "tab.activeBackground": "#c6797edf",
+    "tab.activeForeground": "#fff",
+    // "tab.activeBorder": "#c6797e",
+    "tab.inactiveBackground": "#172030",
+    "tab.inactiveForeground": "#A7ACB9",
+    "tab.unfocusedActiveBorder": "#1A2335",
+    "tab.unfocusedInactiveForeground": "#A7ACB9",
+    "tab.unfocusedActiveForeground": "#fff",
+    // 
+    // cursor
+    "editorCursor.background": "#c6797e",
+    "editorCursor.foreground": "#c6797e",
+    // 
+    // sidebar
+    // 
+    "sideBar.background": "#172030",
+    "sideBar.border": "#1A2335",
+    "sideBar.dropBackground": "#c6797e",
+    "sideBar.foreground": "#a7acb9",
+    // "sideBarSectionHeader.background": "#995D61",
+    "sideBarSectionHeader.background": "#c6797edf",
+    "sideBarSectionHeader.foreground": "#fff",
+    // "sideBarTitle.foreground": "#fff"
+    // 
+    // buttons
+    // 
+    "button.background": "#c6797e",
+    "button.foreground": "#fff",
+    "button.hoverBackground": "#a06468",
+    // 
+    // dropdown control
+    // 
+    "dropdown.border": "#a06468df",
+    "dropdown.background": "#c6797ebf",
+    "dropdown.foreground": "#fff",
+    // 
+    // input control
+    // 
+    "input.background": "#172030",
+    "input.border": "#a06468df",
+    "input.foreground": "#A7ACB9",
+    "inputOption.activeBorder": "#fff",
+    // "inputValidation.errorBackground": "#fff",
+    // "inputValidation.errorBorder": "#fff",
+    // "inputValidation.warningBackground": "#fff",
+    // "inputValidation.warningBorder": "#fff",
+    // "inputValidation.infoBackground": "#fff",
+    // "inputValidation.infoBorder": "#fff",
+    // 
+    // scroll bar control
+    // 
+    "scrollbar.shadow": "#a0646810",
+    "scrollbarSlider.activeBackground": "#c6797e",
+    "scrollbarSlider.background": "#a06468",
+    "scrollbarSlider.hoverBackground": "#c6797e"
+  }
+}

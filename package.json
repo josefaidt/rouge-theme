@@ -1,0 +1,28 @@
+{
+    "name": "loved-by-josef",
+    "displayName": "Loved Theme",
+    "description": "Loved Theme optimized for Operator Mono",
+    "icon": "icon.png",
+    "version": "0.0.1",
+    "publisher": "josef",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Loved Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/loved-theme-syntax.json"
+            }
+        ]
+    },
+    "homepage": "https://github.com/josefaidt/loved-by-josef-theme/readme.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/josefaidt/loved-by-josef-theme.git"
+    }
+}

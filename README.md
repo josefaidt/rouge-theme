@@ -1,1 +1,2 @@
-# loved-theme
+# Loved Theme by Josef
+VSCode theme created for a dark, material-like feel with a flushed pastel color palette, optimized for use with Operator Mono font. Inspiration was drawn from Atom's Material Theme tweaked to my liking, and (loved-syntax)[https://github.com/DanielPintilei/atom-loved-syntax].

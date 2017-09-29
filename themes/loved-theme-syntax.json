@@ -104,7 +104,8 @@
 			"name": "Operator keywords",
 			"scope": [
 				"keyword.operator.expression.delete",
-				"keyword.operator.new"
+				"keyword.operator.new",
+				"keyword.operator.typeof"
 			],
 			"settings": {
 				"foreground": "#b18bb1",

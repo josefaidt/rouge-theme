@@ -91,6 +91,85 @@
     "scrollbar.shadow": "#a0646810",
     "scrollbarSlider.activeBackground": "#c6797e",
     "scrollbarSlider.background": "#a06468",
-    "scrollbarSlider.hoverBackground": "#c6797e"
+    "scrollbarSlider.hoverBackground": "#c6797e",
+    // 
+    // status bar
+    // 
+    // "statusBar.background": "#c6797e",
+    "statusBar.background": "#1A2335",
+    // "statusBar.border": "#1A2335",
+    "statusBar.foreground": "#fff",
+    "statusBar.debuggingBackground": "#97a38f",
+    "statusBar.debuggingForeground": "#fff",
+    "statusBarItem.activeBackground": "#c6797e",
+    "statusBarItem.hoverBackground": "#c6797e",
+    "statusBarItem.prominentBackground": "#b18bb1",
+    "statusBarItem.prominentHoverBackground": "#D6AED6",
+    "statusBar.noFolderBackground": "#f7987e",
+    "statusBar.noFolderForeground": "#fff",
+    // 
+    // title bar
+    // 
+    "titleBar.activeBackground": "#c6797edf",
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveBackground": "#1A2335",
+    "titleBar.inactiveForeground": "#A7ACB9",
+    // 
+    // notifications
+    // 
+    "notification.background": "#1A2335",
+    "notification.foreground": "#fff",
+    "notification.buttonBackground": "#728069",
+    "notification.buttonForeground": "#fff",
+    "notification.buttonHoverBackground": "#97a38f",
+    "notification.errorBackground": "#CC565EDF",
+    "notification.errorForeground": "#fff",
+    "notification.infoBackground": "#6e94b9",
+    "notification.infoForeground": "#fff",
+    "notification.warningBackground": "#eabe9a",
+    "notification.warningForeground": "#1A2335",
+    // 
+    // extensions
+    // 
+    "extensionButton.prominentBackground": "#728069",
+    "extensionButton.prominentForeground": "#fff",
+    "extensionButton.prominentHoverBackground": "#97a38f",
+    // 
+    // picker group
+    // 
+    "pickerGroup.border": "#1A2335",
+    "pickerGroup.foreground": "#fff",
+    // 
+    // terminal colors
+    // 
+    "terminal.background": "#1A2335",
+    "terminal.foreground": "#A7ACB9",
+    "terminal.ansiBlack": "",
+    "terminal.ansiBlue": "",
+    "terminal.ansiBrightBlack": "",
+    "terminal.ansiBrightBlue": "",
+    "terminal.ansiBrightCyan": "",
+    "terminal.ansiBrightGreen": "",
+    "terminal.ansiBrightMagenta": "",
+    "terminal.ansiBrightRed": "",
+    "terminal.ansiBrightWhite": "",
+    "terminal.ansiBrightYellow": "",
+    "terminal.ansiCyan": "",
+    "terminal.ansiGreen": "",
+    "terminal.ansiMagenta": "",
+    "terminal.ansiRed": "",
+    "terminal.ansiWhite": "",
+    "terminal.ansiYellow": "",
+    "terminalCursor.background": "#c6797e",
+    "terminalCursor.foreground": "#ADB9A4",
+    // 
+    // debug toolbar
+    // 
+    "debugToolBar.background": "#97a38f",
+    // 
+    // welcome page
+    // 
+    "welcomePage.buttonBackground": "#728069",
+    "welcomePage.buttonHoverBackground": "#97a38f"
   }
 }

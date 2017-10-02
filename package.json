@@ -14,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Rouge Theme",
+                "label": "Rouge",
                 "uiTheme": "vs-dark",
                 "path": "./themes/rouge-theme-syntax.json"
             }

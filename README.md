@@ -10,7 +10,7 @@ VSCode theme created for a dark, material feel with a flushed pastel color palet
 1. Ensure your copy of VSCode is above v1.15
 2. Download/unzip contents of this project
 3. Copy folder to your profile's extensions folder
-  - Windows:  `C:\Users\<yourprofile>\.vscode\extensions`
-  - macOS:    `~/.vscode/extensions`
+    Windows:  `C:\Users\<yourprofile>\.vscode\extensions`
+    macOS:    `~/.vscode/extensions`
 4. Reload the VSCode window (command palette > reload window)
 5. Select **Rouge**

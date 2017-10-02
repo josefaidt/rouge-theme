@@ -11,15 +11,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - list/tree coloring:
   - hover
   - active/inactive
+- terminal color palette, moving to QA
 
 ### Changed
 - editor coloring:
   - status bar hover colors faded for ease of reading text
   - welcome page button colors edited for flat look
   - notification button colors edited to match welcome page
+  - changed dropdown control background, got rid of alpha use in favor of straight color to avoid dropdown choices being brighter than the initial background (dropdown choices ignore alpha)
 
 ### Removed
-- renamed JSON theme files to match new name
+- renamed theme files to match new name
 
 ## [0.0.2] - 2017-09-30
 ### Added

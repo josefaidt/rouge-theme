@@ -96,13 +96,14 @@
     // status bar
     // 
     // "statusBar.background": "#c6797e",
-    "statusBar.background": "#1A2335",
+    "statusBar.background": "#172030",
     // "statusBar.border": "#1A2335",
-    "statusBar.foreground": "#fff",
+    "statusBar.foreground": "#c6cad2",
     "statusBar.debuggingBackground": "#97a38f",
     "statusBar.debuggingForeground": "#fff",
-    "statusBarItem.activeBackground": "#c6797e",
-    "statusBarItem.hoverBackground": "#c6797e",
+    "statusBarItem.activeBackground": "#c6797edf",
+    "statusBarItem.activeForeground": "#fff",
+    "statusBarItem.hoverBackground": "#c6797edf",
     "statusBarItem.prominentBackground": "#b18bb1",
     "statusBarItem.prominentHoverBackground": "#D6AED6",
     "statusBar.noFolderBackground": "#f7987e",
@@ -142,8 +143,9 @@
     // 
     // terminal colors
     // 
-    "terminal.background": "#1A2335",
-    "terminal.foreground": "#A7ACB9",
+    "terminal.background": "#172030",
+    // "terminal.foreground": "#A7ACB9",
+    "terminal.foreground": "#b8bcc6",
     "terminal.ansiBlack": "",
     "terminal.ansiBlue": "",
     "terminal.ansiBrightBlack": "",

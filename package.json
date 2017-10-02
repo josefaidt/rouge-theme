@@ -1,9 +1,9 @@
 {
-    "name": "loved-by-josef",
-    "displayName": "Loved Theme",
-    "description": "Loved Theme optimized for Operator Mono",
+    "name": "rouge-by-josef",
+    "displayName": "Rouge Theme",
+    "description": "Rouge Theme optimized for Operator Mono",
     "icon": "icon.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "josef",
     "engines": {
         "vscode": "^1.15.0"
@@ -14,15 +14,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "Loved Theme",
+                "label": "Rouge Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/loved-theme-syntax.json"
+                "path": "./themes/rouge-theme-syntax.json"
             }
         ]
     },
-    "homepage": "https://github.com/josefaidt/loved-by-josef-theme/readme.md",
+    "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/josefaidt/loved-by-josef-theme.git"
+        "url": "https://github.com/josefaidt/rouge-theme.git"
     }
 }

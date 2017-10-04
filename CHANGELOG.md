@@ -11,6 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - list/tree coloring:
   - hover
   - active/inactive
+  - drop background
 - terminal color palette, moving to QA
 
 ### Changed
@@ -19,6 +20,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - welcome page button colors edited for flat look
   - notification button colors edited to match welcome page
   - changed dropdown control background, got rid of alpha use in favor of straight color to avoid dropdown choices being brighter than the initial background (dropdown choices ignore alpha)
+  - sidebar drop background to match color scheme (added df as alpha)
 
 ### Removed
 - renamed theme files to match new name

@@ -103,9 +103,10 @@
 		{
 			"name": "Operator keywords",
 			"scope": [
+				"keyword",
 				"keyword.operator.expression.delete",
 				"keyword.operator.new",
-				"keyword.operator.typeof"
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#b18bb1",

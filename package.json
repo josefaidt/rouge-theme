@@ -3,7 +3,7 @@
     "displayName": "Rouge Theme",
     "description": "Rouge Theme optimized for Operator Mono",
     "icon": "icon.png",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "josef",
     "engines": {
         "vscode": "^1.15.0"

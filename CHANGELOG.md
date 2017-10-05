@@ -5,6 +5,31 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 ---
+## [0.0.4] - 2017-10-05
+### Added
+- syntax: fixed 'typeof' keyword coloring in JS
+- syntax: normalized CSS selector colors (class, tag, id)
+- syntax: SCSS/LESS logical operator color
+- syntax: SCSS/LESS keyword color
+- syntax: Markdown overhaul
+  - Heading color to match tag
+  - Bullet/lists color to match heading
+  - Link (underline) color
+  - Link text, image alt text
+  - Bold color & font style
+  - Inline code color
+  - Blockquotes color & font style
+  - invalid, changed, error, deleted, deprecated
+
+### Changed
+- syntax: CSS/SCSS selector colors
+- syntax: Changed variable colors to match default text color
+- syntax: JS dropped alpha of function declarations to 95%
+- syntax: brightened support function and keyword operator by 7% for readability
+- editor: brightened highlight background for visibility
+- editor: brightened 'find' match highlight for visibility
+- editor: brightened word selection highlight for visibility
+
 ## [0.0.3] - 2017-10-02
 ### Added
 - *new* name: Rouge Theme

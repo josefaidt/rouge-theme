@@ -1,5 +1,5 @@
 {
-	"name": "Loved by Josef",
+	"name": "Rouge",
 	"type": "dark",
 	"include": "./rouge-theme-editor.json",
 	"tokenColors": [
@@ -107,15 +107,11 @@
 				"keyword",
 				"keyword.operator.expression.delete",
 				"keyword.operator.new",
-<<<<<<< HEAD
 				"keyword.operator.expression",
 				// "keyword.operator.cast",
 				"keyword.operator.sizeof"
 				// "keyword.operator.typeof",
 				// "keyword.operator.js"
-=======
-				"keyword.operator"
->>>>>>> 277dee0663223a143510a8ae1961b1d474c77904
 			],
 			"settings": {
 				"foreground": "#b18bb1",

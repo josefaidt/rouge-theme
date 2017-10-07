@@ -5,6 +5,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 ---
+## [0.0.5] - 2017-10-07
+### Added
+- editor: suggest widget coloring
+- editor: hover widget coloring
+- editor: bracket match coloring
+- syntax: CSS attribute names (:after)
+- syntax: Java/C# keyword italics
+
+### Changed
+- editor: dropdown background, foreground, and border changed to match input control
+- editor: pickergroup and list highlighting changed to yellow
+- editor: brightened inactive selection background by 5%
+- syntax: CSS unit color to match numeric
+- syntax: CSS brightened property values for visibility
+
 ## [0.0.4] - 2017-10-05
 ### Added
 - syntax: fixed 'typeof' keyword coloring in JS

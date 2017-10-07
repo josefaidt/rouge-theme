@@ -108,10 +108,8 @@
 				"keyword.operator.expression.delete",
 				"keyword.operator.new",
 				"keyword.operator.expression",
-				// "keyword.operator.cast",
+				"keyword.operator.cast",
 				"keyword.operator.sizeof"
-				// "keyword.operator.typeof",
-				// "keyword.operator.js"
 			],
 			"settings": {
 				"foreground": "#b18bb1",
@@ -119,13 +117,23 @@
 			}
 		},
 		{
+			"name": "Operator keywords for C# and Java",
+			"scope": [
+				"keyword.cs",
+				"keyword.java"
+			],
+			"settings": {
+				"foreground": "#b18bb1",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": [
 				"storage",
+				"storage.modifier",
 				"storage.type.js",
 				"storage.type.function.js"
-				// "keyword",
-				// "punctuation.definition.keyword"
 			],
 			"settings": {
 				"foreground": "#b18bb1"
@@ -175,7 +183,8 @@
 			"name": "Constants (null, boolean)",
 			"scope": [
 				"constant.language",
-				"constant.numeric"
+				"constant.numeric",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#eabe9a"
@@ -215,6 +224,7 @@
 		{
 			"name": "this, super, self, etc.",
 			"scope": [
+				"this.self",
 				"keyword.expressions-and-types.swift",
 				"keyword.other.this",
 				"variable.language",
@@ -248,11 +258,22 @@
 			}
 		},
 		{
+			"name": "CSS attribute parent selectors ('&')",
+			"scope": [
+					"entity.other.attribute-name.parent-selector"
+			],
+			"settings": {
+					"foreground": "#fff",
+					"fontStyle": "regular"
+			}
+		},
+		{
 			"name": "HTML/CSS attribute names",
 			"scope": [
 				"entity.other.attribute-name",
 				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.id.css"
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#eabe9a",
@@ -297,7 +318,8 @@
 				"meta.property-value.css"
 			],
 			"settings": {
-				"foreground": "#97a38f"
+				// "foreground": "#97a38f"
+				"foreground": "#9BBA9A"
 			}
 		},
 		{
@@ -430,6 +452,15 @@
 			"settings": {
 				"foreground": "#97a38f",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SCSS attibute selector strings",
+			"scope": [
+					"meta.attribute-selector.scss"
+			],
+			"settings": {
+					"foreground": "#F1FA8C"
 			}
 		}
 	]

@@ -1,7 +1,28 @@
 # Change Log
 All notable changes to the "rouge-theme" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Released]
+---
+## [1.0.0] - 2017-10-10
+### Added
+- editor: gutter coloring
+- editor: diff editor coloring
+- editor: warning squigly
+- editor: error squigly
+- editor: merge colors
+- SCSS/LESS/CSS fixed vendored property names
+
+### Changed
+- Markup inserted color to lighter green to identify against strings
+- CSS curly braces and parenthesis to match text
+- HTML unbolded tag names
+- HTML fixed 'id' attribute coloring
+- SCSS/LESS/CSS logical operators to match text
+- SCSS/LESS/CSS keyword operators (ex: =, ^=) to match text color
+- SCSS/LESS/CSS attribute selector brackets
+- SCSS/LESS/CSS changed property values to match string text
+- SCSS/LESS/CSS unit keywords changed to match property values
+- SCSS/LESS/CSS flipped tag names to match HTML tag color
 
 ## [Unreleased]
 ---

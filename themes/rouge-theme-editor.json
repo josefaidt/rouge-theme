@@ -28,6 +28,8 @@
     "editor.inactiveSelectionBackground": "#91d1bd26",
     "editorLink.activeForeground": "#758095",
     "editorGroup.background": "#172030",
+    "editorWarning.foreground": "#CC565Edf",
+    "editorError.foreground": "#cc565e",
     // brackets
     "editorBracketMatch.background": "#212e45",
     "editorBracketMatch.border": "#eabe9a80",
@@ -44,6 +46,20 @@
     "editorSuggestWidget.selectedBackground": "#c6797e4d",
     "editorHoverWidget.background": "#192334",
     "editorHoverWidget.border": "#c6797e",
+    // 
+    // gutter
+    // 
+    "editorGutter.background": "#172030",
+    "editorGutter.addedBackground": "#9BBA9Acc",
+    "editorGutter.deletedBackground": "#CC565Ecc",
+    "editorGutter.modifiedBackground": "#eabe9acc",
+    // 
+    // diff editor (changes)
+    // 
+    "diffEditor.insertedTextBackground": "#9BBA9A40",
+    "diffEditor.insertedTextBorder": "#9BBA9A",
+    "diffEditor.removedTextBackground": "#CC565E40",
+    "diffEditor.removedTextBorder": "#CC565E",
     // 
     // tabs
     // 
@@ -62,6 +78,16 @@
     // 
     "editorCursor.background": "#c6797e",
     "editorCursor.foreground": "#c6797e",
+    // 
+    // merge conflicts
+    // 
+    "merge.border": "#A7ACB9",
+    // "merge.commonContentBackground": "",
+    // "merge.commonHeaderBackground": "",
+    "merge.currentContentBackground": "#9BBA9A40",
+    "merge.currentHeaderBackground": "#9BBA9A80",
+    "merge.incomingContentBackground": "#6e94b966",
+    "merge.incomingHeaderBackground": "#6e94b999",
     // 
     // sidebar
     // 
@@ -114,11 +140,11 @@
     "inputOption.activeBorder": "#fff",
     "input.placeholderForeground": "#808799",
     // "inputValidation.errorBackground": "#fff",
-    "inputValidation.errorBorder": "#fff",
+    // "inputValidation.errorBorder": "#fff",
     // "inputValidation.warningBackground": "#fff",
-    "inputValidation.warningBorder": "#fff",
+    // "inputValidation.warningBorder": "#fff",
     // "inputValidation.infoBackground": "#fff",
-    "inputValidation.infoBorder": "#fff",
+    // "inputValidation.infoBorder": "#fff",
     // 
     // scroll bar control
     // 

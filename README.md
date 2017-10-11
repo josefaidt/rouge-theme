@@ -27,7 +27,7 @@ I prefer to use the colorless version of [file-icons](https://marketplace.visual
 		
 
 ### Options
-As of version [1.1.2](CHANGELOG.MD#[1.1.2]) the sidebar header colors ("Open Editors" and "Projects") have been flattened. If you preferred the Rouge colored headers, add the following to your `User Settings`
+As of version [1.1.0](CHANGELOG.MD#[1.1.0]) the sidebar header colors ("Open Editors" and "Projects") have been flattened. If you preferred the Rouge colored headers, add the following to your `User Settings`
 
 	
 	"workbench.colorCustomizations": {

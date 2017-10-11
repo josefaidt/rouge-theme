@@ -3,7 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
-## [1.1.2] - 2017-10-11
+## [1.1.0] - 2017-10-11
 ### Added
 - icon: removed blankspace
 - editor: text selection background added

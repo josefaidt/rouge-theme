@@ -3,6 +3,10 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.0.1] - 2017-10-11
+### Added
+- editor: option for flattening sidebar header
+
 ## [1.0.0] - 2017-10-10
 ### Added
 - editor: gutter coloring

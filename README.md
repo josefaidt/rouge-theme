@@ -21,18 +21,21 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 ### Recommended Settings
 I prefer to use the colorless version of [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) and the settings below. If you do not have Operator Mono installed, Fira Code works well also, though the italics are optimized for use with Operator Mono.
 
-	````json
+	```json
 	"workbench.iconTheme": "file-icons-colourless",
 	"editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace"
-	````	
+	```	
 
 ### Options
-I'm torn with a design choice, if you do not care for the Rouge colored sidebar headers you can flatten the colors with the following lines:
-	````json
-	"sideBarSectionHeader.background": "#172030",
-	"sideBarSectionHeader.foreground": "#e6e6e6"
-	````	
-	
+I'm torn with a design choice, if you do not care for the Rouge colored sidebar headers you can flatten the colors with the following lines to your user settings:
+
+	```json
+	"workbench.colorCustomizations": {
+		"sideBarSectionHeader.background": "#172030",
+		"sideBarSectionHeader.foreground": "#e6e6e6"
+	}
+	```	
+
 ![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04a.png)![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04b.png)
 
 ### Supported Languages

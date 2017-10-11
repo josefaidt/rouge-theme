@@ -27,12 +27,12 @@ I prefer to use the colorless version of [file-icons](https://marketplace.visual
 		
 
 ### Options
-I'm torn with a design choice, if you do not care for the Rouge colored sidebar headers you can flatten the colors with the following lines to your user settings:
+As of version [1.1.2](CHANGELOG.MD#[1.1.2]) the sidebar header colors ("Open Editors" and "Projects") have been flattened. If you preferred the Rouge colored headers, add the following to your `User Settings`
 
 	
 	"workbench.colorCustomizations": {
-		"sideBarSectionHeader.background": "#172030",
-		"sideBarSectionHeader.foreground": "#e6e6e6"
+		"sideBarSectionHeader.background": "#c6797edf",
+		"sideBarSectionHeader.foreground": "#fff"
 	}
 	
 
@@ -54,8 +54,8 @@ I'm torn with a design choice, if you do not care for the Rouge colored sidebar 
 3. Copy folder to your profile's extensions folder
 	- Windows:  `C:\Users\<yourprofile>\.vscode\extensions`
 	- macOS:    `~/.vscode/extensions`
-4. Reload the VSCode window (command palette > reload window)
-5. Select **Rouge** (command palette > Preferences: Color Theme)
+4. Reload the VSCode window (`Command Palette` > `Reload Window`)
+5. Select **Rouge** (`Command Palette` > `Preferences: Color Theme`)
 
 
 ### License

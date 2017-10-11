@@ -162,14 +162,6 @@
 			}
 		},
 		{
-			"scope": [
-				"support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#bbb"
-			}
-		},
-		{
 			"name": "Object keys, TS grammar specific",
 			"scope": [
 				"meta.object-literal.key",
@@ -183,8 +175,8 @@
 			"name": "Constants (null, boolean)",
 			"scope": [
 				"constant.language",
-				"constant.numeric",
-				"keyword.other.unit"
+				"constant.numeric"
+				// "keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#eabe9a"
@@ -239,11 +231,22 @@
 		{
 			"name": "HTML tags",
 			"scope": [
-				"entity.name.tag"
+				"entity.name.tag",
+				"entity.name.tag.css"
 			],
 			"settings": {
 				"foreground": "#ea7599",
-				"fontStyle": "bold"
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"name": "SCSS/LESS/CSS Property Names",
+			"scope": [
+				"support.type.property-name",
+				"support.type.vendored.property-name"
+			],
+			"settings": {
+				"foreground": "#bbb"
 			}
 		},
 		{
@@ -260,11 +263,24 @@
 		{
 			"name": "CSS attribute parent selectors ('&')",
 			"scope": [
-					"entity.other.attribute-name.parent-selector"
+				
 			],
 			"settings": {
-					"foreground": "#fff",
-					"fontStyle": "regular"
+				"foreground": "#bbb",
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"name": "HTML attribute names",
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.id.html"
+				// "meta.attribute-with-value.id.html"
+			],
+			"settings": {
+				"foreground": "#dcdcaa",
+				// "foreground": "#eabe9a",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -272,8 +288,14 @@
 			"scope": [
 				"entity.other.attribute-name",
 				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.attribute.scss",
+				"entity.other.attribute-name.scss"
 			],
 			"settings": {
 				"foreground": "#eabe9a",
@@ -283,24 +305,14 @@
 		{
 			"name": "Generic selectors (CSS/SCSS/Less/Stylus)",
 			"scope": [
-				"entity.name.tag.css",
+				// "entity.name.tag.css",
 				"meta.selector",
-				"meta.selector.css"
+				"meta.selector.css",
+				"support.constant.media"
 			],
 			"settings": {
 				// "foreground": "#dcdcaa",
 				"foreground": "#eabe9a",
-				"fontStyle": "regular"
-			}
-		},
-		{
-			"name": "SCSS/LESS Keywords and Logical Operators",
-			"scope": [
-				"support.constant.media",
-				"keyword.operator.logical.scss"
-			],
-			"settings": {
-				"foreground": "#f7987e",
 				"fontStyle": "regular"
 			}
 		},
@@ -315,11 +327,43 @@
 				"support.constant.color",
 				"meta.property-list.css",
 				"meta.property-name.css",
-				"meta.property-value.css"
+				// "meta.property-value.css"
+				"keyword.other.unit"
 			],
 			"settings": {
-				// "foreground": "#97a38f"
-				"foreground": "#9BBA9A"
+				"foreground": "#97a38f"
+				// "foreground": "#9BBA9A"
+			}
+		},
+		{
+			"name": "CSS Curly Braces, Operators, and a few selectors",
+			"scope": [
+				"meta.property-list.css",
+				"meta.property-value.css",
+				"keyword.operator.pattern.css",
+				"keyword.operator.css",
+				"keyword.operator.scss",
+				"keyword.operator.less",
+				"punctuation.definition.attribute-selector",
+				"punctuation.definition.entity.begin.bracket.square.css",
+				"punctuation.definition.entity.end.bracket.square.css",
+				"entity.other.attribute-name.parent-selector",
+				"keyword.operator.logical.and.media.css",
+				"keyword.operator.logical.scss",
+				"keyword.operator.logical.less"
+			],
+			"settings": {
+				"foreground": "#bbb"
+			}
+		},
+
+		{
+			"name": "SCSS attibute selector strings",
+			"scope": [
+				"meta.attribute-selector.scss"
+			],
+			"settings": {
+				"foreground": "#97a38f"
 			}
 		},
 		{
@@ -335,7 +379,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#97a38f"
+				"foreground": "#9BBA9A"
 			}
 		},
 		{
@@ -452,15 +496,6 @@
 			"settings": {
 				"foreground": "#97a38f",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "SCSS attibute selector strings",
-			"scope": [
-					"meta.attribute-selector.scss"
-			],
-			"settings": {
-					"foreground": "#F1FA8C"
 			}
 		}
 	]

@@ -97,6 +97,8 @@
     "sideBar.foreground": "#a7acb9",
     "sideBarSectionHeader.background": "#c6797edf",
     "sideBarSectionHeader.foreground": "#fff",
+    // "sideBarSectionHeader.background": "#172030",
+    // "sideBarSectionHeader.foreground": "#e6e6e6",
     // 
     // lists and trees
     // 

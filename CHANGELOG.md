@@ -3,6 +3,11 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.0.2] - 2017-10-11
+### Changed
+- shrunk icon to match 400x400 icons of other projects
+- updated readme with smaller screenshots and options
+
 ## [1.0.1] - 2017-10-11
 ### Added
 - editor: option for flattening sidebar header

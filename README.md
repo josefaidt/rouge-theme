@@ -3,7 +3,7 @@ VSCode theme created for a dark, material feel with a flushed color palette, opt
 Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.
 
 ## Version 1.0 is here!
-Welcome to Rouge Theme for VSCode, official release on the Marketplace.
+Welcome to Rouge Theme for VSCode, official release on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme).
 
 ### Screenshots
 ![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot01.png)
@@ -25,7 +25,7 @@ Welcome to Rouge Theme for VSCode, official release on the Marketplace.
 - XML
 - Markdown
 
-### Demo Instructions
+### Manual Install Instructions
 1. Ensure your copy of VSCode is above v1.15
 2. Download/unzip contents of this project
 3. Copy folder to your profile's extensions folder

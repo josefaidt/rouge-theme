@@ -2,15 +2,28 @@
     "name": "rouge-theme",
     "displayName": "Rouge Theme",
     "description": "Dark Material Theme optimized for Operator Mono",
-    "icon": "icon.png",
     "version": "1.0.0",
     "publisher": "josef",
+    "bugs": {
+        "url": "https://github.com/josefaidt/rouge-theme/issues"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "rouge",
+        "dark",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#172030",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {

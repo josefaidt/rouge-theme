@@ -3,6 +3,19 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.1.2] - 2017-10-11
+### Added
+- icon: removed blankspace
+- editor: flipped button colors (hover/background were backwards)
+- editor: flattened sidebar headers for contrast (option added to reverse)
+- editor: text selection background added
+- editor: input validation (error, warning, info)
+- editor: input option active border darkened to match
+- editor: badge coloring
+- editor: code lense to match line numbers
+- editor: editor overview selection highlight to match selection highlight background
+- editor: embedded editor coloring set to 4% darker than editor background
+
 ## [1.0.2] - 2017-10-11
 ### Changed
 - shrunk icon to match 400x400 icons of other projects

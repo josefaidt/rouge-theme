@@ -2,7 +2,7 @@
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font. 
 Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.
 
-## Version 1.0 is here!
+## Version 1.1 is here!
 Welcome to Rouge Theme for VSCode, official release on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme).
 
 ### Changelog
@@ -36,7 +36,7 @@ As of version [1.1.0](CHANGELOG.MD#[1.1.0]) the sidebar header colors ("Open Edi
 	}
 	
 
-![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04a.png)![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04b.png)
+![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04b.png)![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot04a.png)
 
 ### Supported Languages
 - C#

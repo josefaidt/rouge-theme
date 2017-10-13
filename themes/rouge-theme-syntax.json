@@ -261,16 +261,6 @@
 			}
 		},
 		{
-			"name": "CSS attribute parent selectors ('&')",
-			"scope": [
-				
-			],
-			"settings": {
-				"foreground": "#bbb",
-				"fontStyle": "regular"
-			}
-		},
-		{
 			"name": "HTML attribute names",
 			"scope": [
 				"entity.other.attribute-name.html",
@@ -308,7 +298,10 @@
 				// "entity.name.tag.css",
 				"meta.selector",
 				"meta.selector.css",
-				"support.constant.media"
+				"support.constant.media",
+				"keyword.operator.logical.and.media.css",
+				"keyword.operator.logical.scss",
+				"keyword.operator.logical.less"
 			],
 			"settings": {
 				// "foreground": "#dcdcaa",
@@ -348,9 +341,6 @@
 				"punctuation.definition.entity.begin.bracket.square.css",
 				"punctuation.definition.entity.end.bracket.square.css",
 				"entity.other.attribute-name.parent-selector",
-				"keyword.operator.logical.and.media.css",
-				"keyword.operator.logical.scss",
-				"keyword.operator.logical.less"
 			],
 			"settings": {
 				"foreground": "#bbb"

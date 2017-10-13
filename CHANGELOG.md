@@ -3,7 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
-## [1.1.1] - 2017-10-12
+## [1.1.1] - 2017-10-13
 ### Changed
 - SCSS/LESS/CSS logical operators changed to match media
 

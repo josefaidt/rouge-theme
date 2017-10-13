@@ -3,6 +3,11 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.1.1] - 2017-10-12
+### Changed
+- SCSS/LESS/CSS logical operators changed to match media
+
+
 ## [1.1.0] - 2017-10-11
 ### Added
 - icon: removed blankspace

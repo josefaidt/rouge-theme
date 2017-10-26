@@ -340,7 +340,7 @@
 				"punctuation.definition.attribute-selector",
 				"punctuation.definition.entity.begin.bracket.square.css",
 				"punctuation.definition.entity.end.bracket.square.css",
-				"entity.other.attribute-name.parent-selector",
+				"entity.other.attribute-name.parent-selector"
 			],
 			"settings": {
 				"foreground": "#bbb"

@@ -3,6 +3,14 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.1.2] - 2017-10-26
+### Fixed
+- Parse error in syntax, line 343 had a comma on the last line
+
+### Changed
+- editor: drop background changed to match hover background
+
+
 ## [1.1.1] - 2017-10-13
 ### Changed
 - SCSS/LESS/CSS logical operators changed to match media

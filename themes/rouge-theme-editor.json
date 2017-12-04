@@ -1,7 +1,7 @@
 {
   "name": "Rouge",
   "type": "dark",
-  "include": "./base-dark-vs.json",
+  // "include": "./base-dark-vs.json",
   "colors": {
     // 
     // activity bar
@@ -47,7 +47,7 @@
     "editorSuggestWidget.background": "#192334",
     "editorSuggestWidget.border": "#c6797e",
     "editorSuggestWidget.foreground": "#A7ACB9",
-    "editorSuggestWidget.highlightForeground": "#a7acb9",
+    "editorSuggestWidget.highlightForeground": "#eabe9a",   // foreground of command palette typing match
     // "editorSuggestWidget.selectedBackground": "#91d1bd4d",
     "editorSuggestWidget.selectedBackground": "#c6797e4d",
     "editorHoverWidget.background": "#192334",
@@ -162,9 +162,9 @@
     // scroll bar control
     // 
     "scrollbar.shadow": "#a0646810",
-    "scrollbarSlider.activeBackground": "#c6797e",
-    "scrollbarSlider.background": "#a06468",
-    "scrollbarSlider.hoverBackground": "#c6797e",
+    "scrollbarSlider.activeBackground": "#c6797ef2",
+    "scrollbarSlider.background": "#a06468cc",
+    "scrollbarSlider.hoverBackground": "#c6797ecc",
     // 
     // status bar
     // 
@@ -213,7 +213,8 @@
     // 
     // picker group
     // 
-    "list.highlightForeground": "#eabe9a",  // foreground of command palette typing match
+    "list.highlightForeground": "#eabe9a",
+    // "list.highlightForeground": "#c6cad2",
     "pickerGroup.border": "#eabe9acc",
     "pickerGroup.foreground": "#eabe9acc",
     // 

@@ -3,6 +3,34 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.2.0] - 2017-12-06
+### Added
+- syntax: GLOBAL terminator punctuation coloring
+- syntax: JS string interpolation
+- syntax: JS arrow function
+- syntax: punctuation (braces, brackets, semicolons, etc.) coloring
+- syntax: HTML normalized yellow on HTML with JS
+- syntax: normalized pink color across languages
+
+### Changed
+- global: removed and unlinked base-dark-vs.json
+- syntax: JS gave color to variables for distinction
+- syntax: JS normalized coloring on support classes, modules, native functions
+- syntax: CSS variables darkened to match JS variables
+- syntax: CSS gave color to operators and braces for flow
+- syntax: CSS changed color of numeric constants to match support functions (orange)
+- syntax: GLOBAL brightened color on strings for readability
+- syntax: GLOBAL italicized storage and operator keywords (function, if, try, typeof, etc.)
+- syntax: GLOBAL changed "invalid" text to match text color (previously white)
+- syntax: MARKDOWN brightened blockquotes' green to match comments
+- editor: gave scrollbar 80% opacity on inactive, 95% active
+
+### Fixed
+- `editorSuggestWidget.highlightForeground` - changed back to yellow from grey
+- syntax code refactoring - condensed heavily-scoped entries
+- syntax: CSS fixed issues with `meta` tags and pseudoclasses
+
+
 ## [1.1.2] - 2017-10-26
 ### Fixed
 - Parse error in syntax, line 343 had a comma on the last line

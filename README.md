@@ -2,21 +2,23 @@
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font. 
 Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.
 
-## Version 1.1 is here!
-Welcome to Rouge Theme for VSCode, official release on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme).
+## Version 1.2 is here!
+Syntax coloring went through a massive overhaul since v1.1.2 to enhance the flow and ease of reading.
 
 ### Changelog
-[CHANGELOG.MD](./CHANGELOG.MD)
+[CHANGELOG.MD](https://github.com/josefaidt/rouge-theme/blob/master/CHANGELOG.md)
 
 ### Issues or Concerns?
 Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
 
 ### Screenshots
-![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot01.png)
+![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
 
-![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot02.png)
+![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
 
-![Screenshot](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/screenshot03.png)
+![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
+
+![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_2.png)
 
 ### Recommended Settings
 I prefer to use the colorless version of [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) and the settings below. If you do not have Operator Mono installed, Fira Code works well also, though the italics are optimized for use with Operator Mono.
@@ -27,7 +29,7 @@ I prefer to use the colorless version of [file-icons](https://marketplace.visual
 		
 
 ### Options
-As of version [1.1.0](CHANGELOG.MD#[1.1.0]) the sidebar header colors ("Open Editors" and "Projects") have been flattened. If you preferred the Rouge colored headers, add the following to your `User Settings`
+As of version [1.1.0](https://github.com/josefaidt/rouge-theme/blob/master/CHANGELOG.md#110---2017-10-11) the sidebar header colors ("Open Editors" and "Projects") have been flattened. If you preferred the Rouge colored headers, add the following to your `User Settings`
 
 	
 	"workbench.colorCustomizations": {
@@ -44,7 +46,7 @@ As of version [1.1.0](CHANGELOG.MD#[1.1.0]) the sidebar header colors ("Open Edi
 - JavaScript
 - JSON
 - HTML
-- CSS, Sass, LESS
+- CSS, SCSS, LESS
 - XML
 - Markdown
 

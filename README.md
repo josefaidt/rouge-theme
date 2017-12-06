@@ -16,7 +16,7 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 
 ![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
 
-![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
+![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_2.png)
 
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_2.png)
 

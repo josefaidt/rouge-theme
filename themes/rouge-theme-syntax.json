@@ -147,7 +147,16 @@
       "settings": {
         "foreground": "#F9B5AC"
       }
-		},
+    },
+    // {
+    //   "name": "Support Classes",
+    //   "scope": [
+    //     "support.class"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#fff"
+    //   }
+    // },
 		// {
 		// 	"name": "Support Variable",
 		// 	"scope": [
@@ -184,7 +193,6 @@
 				"variable.parameter"
 			],
 			"settings": {
-				// "foreground": "#C79CC7"
 				"foreground": "#DB6E8F"
 			}
 		},
@@ -219,7 +227,6 @@
 				"source.stylus support"
       ],
       "settings": {
-				// "foreground": "#D0D6B5"
 				"foreground": "#bbb"
       }
 		},
@@ -252,7 +259,6 @@
         "source.stylus constant.numeric"
       ],
       "settings": {
-				// "foreground": "#eabe9a"
 				"foreground": "#F9B5AC"
       }
     },
@@ -277,7 +283,6 @@
       ],
       "settings": {
 				"foreground": "#A3B09A"
-				// "foreground": "#D0D6B5"
       }
 		},
 		{
@@ -288,7 +293,6 @@
         "source.stylus meta.property-value"
       ],
       "settings": {
-				// "foreground": "#A3B09A"
 				"foreground": "#D0D6B5"
       }
 		},
@@ -324,7 +328,6 @@
       "scope": "text.html.basic entity.other",
       "settings": {
         "fontStyle": "italic",
-				// "foreground": "#dcdcaa"
 				"foreground": "#F7E3AF"
       }
 		},
@@ -338,7 +341,6 @@
 				"meta.scope.between-tag-pair.html"
 			],
       "settings": {
-				// "foreground": "#bbb"
 				"foreground": "#808080"
       }
 		},
@@ -347,7 +349,6 @@
       "scope": "text.html.basic meta.tag",
       "settings": {
 				"foreground": "#bbb"
-				// "foreground": "#808080"
       }
 		},
     {
@@ -356,7 +357,25 @@
       "settings": {
         "foreground": "#D0D6B5"
       }
-		},
+    },
+    {
+      "name": "[JS/JSX] React Tag Names",
+      "scope": [
+        "source.js support.class.component",
+        "source.jsx support.class.component"
+      ],
+      "settings": {
+        "foreground": "#DB6E8F"
+      }
+    },
+    {
+      "name": "[JS/JSX] React Tag Attributes",
+      "scope": "source.js entity.other.attribute-name, source.jsx entity.other.attribute-name",
+      "settings": {
+        "foreground": "#F7E3AF",
+        "fontStyle": "italic"
+      }
+    },
 		{
       "name": "[JSON] - Support",
       "scope": "source.json support",
@@ -450,7 +469,6 @@
       "name": "[MARKDOWN] - Link Title",
       "scope": "string.other.link.title.markdown",
       "settings": {
-				// "foreground": "#F7E3AF"
 				"foreground": "#F9B5AC"
       }
     },
@@ -462,7 +480,6 @@
         "string.other.link.description.title.markdown"
       ],
       "settings": {
-				// "foreground": "#F7E3AF"
         "foreground": "#F9B5AC"
       }
     },
@@ -497,19 +514,6 @@
         "foreground": "#A3B09A"
       }
 		},
-		// {
-    //   "name": "Italicsify for Operator Mono",
-    //   "scope": [
-    //     "modifier",
-    //     "this",
-    //     "comment",
-    //     "storage.modifier.js",
-    //     "entity.other.attribute-name.js"
-    //   ],
-    //   "settings": {
-    //     "fontStyle": "italic"
-    //   }
-    // }
 		{
 			"scope": [
 				"markup.error"
@@ -541,6 +545,6 @@
 			"settings": {
 				"foreground": "#FFB86C"
 			}
-		}
+    }
 	]
 }

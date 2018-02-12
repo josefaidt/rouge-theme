@@ -3,6 +3,11 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.2.1] - 2018-02-12
+### Added
+- syntax: JS/JSX React tag name colors to reflect HTML styling
+- syntax: JS/JSX React tag attributes italicized to reflect HTML styling
+
 ## [1.2.0] - 2017-12-06
 ### Added
 - syntax: GLOBAL terminator punctuation coloring

@@ -305,6 +305,17 @@
       "settings": {
         "foreground": "#C6878F"
       }
+    },
+		{
+      "name": "[SCSS] - Punctuation",
+      "scope": [
+        "source.css meta.at-rule.keyframes",
+        "source.css meta.at-rule.mixin",
+        "source.css meta.property-list"
+      ],
+      "settings": {
+				"foreground": "#D0D6B5"
+      }
 		},
 		{
       "name": "[HTML] - Entity Name and doctype",
@@ -372,7 +383,7 @@
       }
     },
     {
-      "name": "[JS/JSX] React Tag Names",
+      "name": "[JS/JSX] - React Tag Names",
       "scope": [
         "source.js support.class.component",
         "source.jsx support.class.component"
@@ -382,7 +393,7 @@
       }
     },
     {
-      "name": "[JS/JSX] React Tag Attributes",
+      "name": "[JS/JSX] - React Tag Attributes",
       "scope": "source.js entity.other.attribute-name, source.jsx entity.other.attribute-name",
       "settings": {
         "foreground": "#F7E3AF",
@@ -390,7 +401,7 @@
       }
     },
     {
-      "name": "[JS/JSX] React Tag styling property values",
+      "name": "[JS/JSX] - React Tag Property Values",
       "scope": [
         "source.js meta.tag variable.other.readwrite",
         "source.jsx meta.tag variable.other.readwrite"
@@ -400,7 +411,7 @@
       }
     },
     {
-      "name": "[JS/JSX] React Tag styling property values",
+      "name": "[JS/JSX] - React Tag Property Values",
       "scope": [
         "punctuation.definition.tag.begin.js",
         "punctuation.definition.tag.end.js"

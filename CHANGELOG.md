@@ -3,6 +3,10 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.2.4] - 2018-02-12
+### Added
+- syntax: SCSS puntuation in mixins and keyframes
+
 ## [1.2.3] - 2018-02-12
 ### Added
 - syntax: JS/JSX React styling properties to reflect CSS styling

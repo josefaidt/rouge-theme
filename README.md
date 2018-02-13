@@ -1,9 +1,8 @@
 # Rouge Theme for VSCode
+[![Version](https://vsmarketplacebadge.apphb.com/version/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)
+
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font. 
 Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.
-
-## Version 1.2 is here!
-Syntax coloring went through a massive overhaul since v1.1.2 to enhance the flow and ease of reading.
 
 ### Changelog
 [CHANGELOG.MD](https://github.com/josefaidt/rouge-theme/blob/master/CHANGELOG.md)
@@ -17,6 +16,8 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 ![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
 
 ![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_2.png)
+
+![JavaScript/JSX](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-jsx-1_2_3.png)
 
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_2.png)
 
@@ -44,6 +45,7 @@ As of version [1.1.0](https://github.com/josefaidt/rouge-theme/blob/master/CHANG
 - C#
 - Java
 - JavaScript
+- JSX
 - JSON
 - HTML
 - CSS, SCSS, LESS

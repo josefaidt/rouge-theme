@@ -11,14 +11,19 @@ Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [love
 Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
 
 ### Screenshots
+#### HTML
 ![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
 
+#### SCSS
 ![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
 
+#### JavaScript
 ![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_2.png)
 
+#### JavaScript/JSX
 ![JavaScript/JSX](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-jsx-1_2_3.png)
 
+#### Markdown
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_2.png)
 
 ### Recommended Settings

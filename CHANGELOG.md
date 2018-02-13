@@ -3,6 +3,17 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.2.2] - 2018-02-12
+### Added
+- syntax: JS/JSX React styling properties to reflect CSS styling
+- syntax: JS/JSX React styling property values to reflect CSS styling
+- syntax: JS/JSX React text within tags to reflect HTML styling
+- syntax: JS/JSX React tag brackets < and > to reflect HTML styling
+- syntax: MARKDOWN meta characters in paragraphs set to reflect text color
+
+### Changed
+- syntax: JS/JSX Changed meta selector to default #bbb, includes object literal key coloring
+
 ## [1.2.1] - 2018-02-12
 ### Added
 - syntax: JS/JSX React tag name colors to reflect HTML styling

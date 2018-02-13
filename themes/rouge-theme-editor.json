@@ -15,6 +15,7 @@
     // editor
     // 
     "editor.background": "#172030",
+    "editor.foreground": "#bbb",
     "selection.background": "#91d1bd40",
     "editorLineNumber.foreground": "#758095",
     "editor.lineHighlightBackground": "#91d1bd10",

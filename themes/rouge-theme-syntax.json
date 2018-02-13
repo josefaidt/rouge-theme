@@ -67,8 +67,8 @@
       "scope": "meta",
       "settings": {
 				// "foreground": "#ea7599"
-				"foreground": "#DB6E8F"
-				// "foreground": "#bbb"
+        "foreground": "#DB6E8F"
+        // "foreground": "#fff"
       }
     },
     {
@@ -359,13 +359,26 @@
       }
     },
     {
+      "name": "[JS/JSX] Meta",
+      "scope": [
+        // need to define further; see command.js
+        // "source.js meta.object-literal.key",
+        // "source.jsx meta.object-literal.key"
+        "source.js meta",
+        "source.jsx meta"
+      ],
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
+    {
       "name": "[JS/JSX] React Tag Names",
       "scope": [
         "source.js support.class.component",
         "source.jsx support.class.component"
       ],
       "settings": {
-        "foreground": "#DB6E8F"
+        "foreground": "#DB6E8F" 
       }
     },
     {
@@ -374,6 +387,36 @@
       "settings": {
         "foreground": "#F7E3AF",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[JS/JSX] React Tag styling property values",
+      "scope": [
+        "source.js meta.tag variable.other.readwrite",
+        "source.jsx meta.tag variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#a3b09a"
+      }
+    },
+    {
+      "name": "[JS/JSX] React Tag styling property values",
+      "scope": [
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "[JS/JSX] React Style Tag Text",
+      "scope": [
+        "source.js meta.jsx.children",
+        "source.jsx meta.jsx.children"
+      ],
+      "settings": {
+        "foreground": "#bbb"
       }
     },
 		{
@@ -416,6 +459,15 @@
       "name": "[MARKDOWN] - Paragraph",
       "scope": [
         "meta.paragraph.markdown"
+      ],
+      "settings": {
+        "foreground": "#bbb"
+      }
+		},
+		{
+      "name": "[MARKDOWN] - Brackets in Paragraphs",
+      "scope": [
+        "meta.paragraph.markdown meta.other"
       ],
       "settings": {
         "foreground": "#bbb"
@@ -546,5 +598,13 @@
 				"foreground": "#FFB86C"
 			}
     }
+    // {
+    //   "scope": [
+    //     "support.type.property-name"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#fff"
+    //   }
+    // }
 	]
 }

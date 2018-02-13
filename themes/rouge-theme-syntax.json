@@ -61,6 +61,21 @@
 				"foreground": "#D0D6B5",
 				"fontStyle": "regular"
       }
+    },
+		{
+      "name": "`New` Operator",
+      "scope": "keyword.operator.new",
+      "settings": {
+				"foreground": "#D0D6B5",
+				"fontStyle": "italic"
+      }
+		},
+		{
+      "name": "`This` Variable",
+      "scope": "variable.language.this",
+      "settings": {
+				"fontStyle": "italic"
+      }
 		},
 		{
       "name": "Meta",
@@ -370,18 +385,29 @@
       }
     },
     {
-      "name": "[JS/JSX] Meta",
+      "name": "[GLOBAL] - Comment Block w/ Code",
       "scope": [
-        // need to define further; see command.js
-        // "source.js meta.object-literal.key",
-        // "source.jsx meta.object-literal.key"
-        "source.js meta",
-        "source.jsx meta"
+        "comment.block.documentation storage",
+        "comment.block.documentation variable",
+        "comment.block.documentation punctuation",
+        "comment.block.documentation meta"
       ],
       "settings": {
-        "foreground": "#bbb"
+        "foreground": "#64727d"
       }
     },
+    // {
+    //   "name": "[JS] - Object Literal Keys",
+    //   "scope": [
+    //     // "source.js meta.object-literal.key",
+    //     // "source.jsx meta.object-literal.key"
+    //     "source.js meta.object-literal.key entity",
+    //     "source.jsx meta.object-literal.key"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#fff"
+    //   }
+    // },
     {
       "name": "[JS/JSX] - React Tag Names",
       "scope": [
@@ -394,10 +420,25 @@
     },
     {
       "name": "[JS/JSX] - React Tag Attributes",
-      "scope": "source.js entity.other.attribute-name, source.jsx entity.other.attribute-name",
+      "scope": [
+        "source.js entity.other.attribute-name",
+        "source.jsx entity.other.attribute-name"
+      ],
       "settings": {
         "foreground": "#F7E3AF",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[JS/JSX] - React Tag Property Keys",
+      "scope": [
+        // "source.js meta.object-literal.key",
+        // "source.jsx meta.object-literal.key"
+        "source.js meta.jsx.children meta.object-literal.key",
+        "source.jsx meta.jsx.children meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#bbb"
       }
     },
     {
@@ -421,7 +462,7 @@
       }
     },
     {
-      "name": "[JS/JSX] React Style Tag Text",
+      "name": "[JS/JSX] - React Style Tag Text",
       "scope": [
         "source.js meta.jsx.children",
         "source.jsx meta.jsx.children"

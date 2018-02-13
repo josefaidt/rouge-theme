@@ -3,6 +3,25 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.0] - 2018-02-13
+### Added
+- editor: Peek view coloring - all settings
+- editor: Git Decorations
+
+### Changed
+- syntax: GLOBAL italicized `new` operator
+- syntax: GLOBAL italicized `this` variable
+- editor: button background and hover background - removed rouge color in favor of flatter, blue-grey color
+- editor: extensions button background and hover background - applied buttons a 75% alpha background, 100% on hover
+- editor: status bar buttons - applied similar hover colors, 100% alpha on active color
+- editor: prominent status bar button - applied 50% alpha on background, 100% on hover
+- editor: reduced alpha on current merge color by 10% for readability of changes
+- editor: Walkthrough embedded editor background changed to match peek view background
+
+### Fixed
+- syntax: GLOBAL comment block with code styled to match comment coloring rather than using code coloring
+- syntax: JS/JSX split out tag styling properties from object literal key colors. Object literal key colors reverted to the tags' pink, property keys kept #bbb coloring
+
 ## [1.2.4] - 2018-02-12
 ### Added
 - syntax: SCSS puntuation in mixins and keyframes

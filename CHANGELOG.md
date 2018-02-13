@@ -3,7 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
-## [1.2.2] - 2018-02-12
+## [1.2.3] - 2018-02-12
 ### Added
 - syntax: JS/JSX React styling properties to reflect CSS styling
 - syntax: JS/JSX React styling property values to reflect CSS styling

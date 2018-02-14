@@ -11,6 +11,8 @@ Inspiration was drawn from Atom's Material Theme tweaked to my liking, and [love
 Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
 
 ### Screenshots
+![Desktop](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-desktop-1_3.png)
+
 #### HTML
 ![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
 

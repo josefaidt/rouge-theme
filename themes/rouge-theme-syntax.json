@@ -196,7 +196,8 @@
 		{
 			"name": "Variable Property",
 			"scope": [
-				"variable.other.property"
+        "variable.other.property",
+        "variable.other.object.property"
 			],
 			"settings": {
 				"foreground": "#DB6E8F"
@@ -208,7 +209,8 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#DB6E8F"
+        "foreground": "#DB6E8F"
+        // "foreground": "#bbb"
 			}
 		},
 		{
@@ -397,15 +399,13 @@
       }
     },
     // {
-    //   "name": "[JS] - Object Literal Keys",
+    //   "name": "[GLOBAL] - Object Literal Keys",
     //   "scope": [
-    //     // "source.js meta.object-literal.key",
-    //     // "source.jsx meta.object-literal.key"
-    //     "source.js meta.object-literal.key entity",
-    //     "source.jsx meta.object-literal.key"
+    //     "meta.object-literal.key entity",
+    //     "meta.object-literal.key"
     //   ],
     //   "settings": {
-    //     "foreground": "#fff"
+    //     "foreground": "#bbb"
     //   }
     // },
     {

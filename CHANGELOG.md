@@ -3,6 +3,10 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.1] - 2018-02-20
+### Fixed
+- syntax: object properties inside an object literal
+
 ## [1.3.0] - 2018-02-13
 ### Added
 - editor: Peek view coloring - all settings

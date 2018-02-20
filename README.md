@@ -14,19 +14,19 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 ![Desktop](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-desktop-1_3.png)
 
 #### HTML
-![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_2.png)
+![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_3_1.png)
 
 #### SCSS
 ![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
 
 #### JavaScript
-![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_2.png)
+![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_3_1.png)
 
 #### JavaScript/JSX
 ![JavaScript/JSX](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-jsx-1_2_3.png)
 
 #### Markdown
-![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_2.png)
+![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_3_1.png)
 
 ### Recommended Settings
 I prefer to use the colorless version of [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) and the settings below. If you do not have Operator Mono installed, Fira Code works well also, though the italics are optimized for use with Operator Mono.

@@ -3,6 +3,18 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.2] - 2018-02-21
+### Changed
+- syntax: CSS URL's that are not strings - changed to string color to ease readability
+- syntax: CSS punctuation on class, ID, and pseudo-selectors - changed to match coloring of selector
+- syntax: CSS punctuation on keywords (i.e. `import`) - changed to match coloring of keyword
+- syntax: GLOBAL object literal keys - changed to match CSS property keys
+
+### Fixed
+- syntax: CSS class selector coloring was not affecting CSS within HTML style tags - fixed to reflect display in CSS files
+- syntax: CSS pseudo-class selector coloring within HTML style tags - fixed to reflect display in CSS files
+- syntax: SCSS/LESS property values - fixed due to some commas and values in property values getting styling from meta (same color as tag selectors)
+
 ## [1.3.1] - 2018-02-20
 ### Fixed
 - syntax: object properties inside an object literal

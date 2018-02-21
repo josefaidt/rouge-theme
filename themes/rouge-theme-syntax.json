@@ -213,6 +213,35 @@
         // "foreground": "#bbb"
 			}
 		},
+    {
+      "name": "[GLOBAL] - Quotation Marks",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "settings": {
+        "foreground": "#D0D6B5"
+      }
+    },
+    {
+      "name": "[GLOBAL] - Comment Block w/ Code",
+      "scope": [
+        "comment.block.documentation storage",
+        "comment.block.documentation variable",
+        "comment.block.documentation punctuation",
+        "comment.block.documentation meta"
+      ],
+      "settings": {
+        "foreground": "#64727d"
+      }
+    },
+    {
+      "name": "[GLOBAL] - Object Literal Keys",
+      "scope": [
+        "meta.object-literal.key entity",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
 		{
       "name": "[CSS] - Entity",
       "scope": [
@@ -225,14 +254,39 @@
 		},
 		{
       "name": "[CSS] - ID Selector",
-      "scope": "entity.other.attribute-name.id.css",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#eabe9a"
+      }
+    },
+		{
+      "name": "[CSS] - Class Selector",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#eabe9a"
+      }
+    },
+		{
+      "name": "[CSS] - Pseudo-Class Selector",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css"
+      ],
       "settings": {
         "foreground": "#eabe9a"
       }
     },
     {
       "name": "[CSS] - Element Selector",
-      "scope": "entity.name.tag",
+      "scope": [
+        "entity.name.tag"
+      ],
       "settings": {
         "foreground": "#DB6E8F"
       }
@@ -301,16 +355,24 @@
       "settings": {
 				"foreground": "#A3B09A"
       }
-		},
-		{
-      "name": "[CSS] - Property List and Values",
+    },
+    {
+      "name": "[CSS] - Keyword Punctuation",
       "scope": [
-				// also selects pseudoclasses
-        "source.css meta.property-value",
+        "punctuation.definition.keyword"
+      ],
+      "settings": {
+				"foreground": "#b18bb1"
+      }
+    },
+		{
+      "name": "[CSS] - Property Values",
+      "scope": [
+        "meta.property-value.css",
         "source.stylus meta.property-value"
       ],
       "settings": {
-				"foreground": "#D0D6B5"
+				"foreground": "#A3B09A"
       }
 		},
     {
@@ -323,6 +385,26 @@
         "foreground": "#C6878F"
       }
     },
+    {
+      "name": "[CSS] - URLs",
+      "scope": [
+        "source.css variable.parameter.url",
+        "source.stylus variable.parameter.url"
+      ],
+      "settings": {
+        "foreground": "#A3B09A"
+      }
+    },
+		{
+      "name": "[SCSS/LESS] - Property Values",
+      "scope": [
+        "meta.property-value.scss",
+        "meta.property-value.less"
+      ],
+      "settings": {
+				"foreground": "#A3B09A"
+      }
+		},
 		{
       "name": "[SCSS] - Punctuation",
       "scope": [
@@ -379,35 +461,6 @@
 				"foreground": "#bbb"
       }
 		},
-    {
-      "name": "[GLOBAL] - Quotation Marks",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
-      "settings": {
-        "foreground": "#D0D6B5"
-      }
-    },
-    {
-      "name": "[GLOBAL] - Comment Block w/ Code",
-      "scope": [
-        "comment.block.documentation storage",
-        "comment.block.documentation variable",
-        "comment.block.documentation punctuation",
-        "comment.block.documentation meta"
-      ],
-      "settings": {
-        "foreground": "#64727d"
-      }
-    },
-    // {
-    //   "name": "[GLOBAL] - Object Literal Keys",
-    //   "scope": [
-    //     "meta.object-literal.key entity",
-    //     "meta.object-literal.key"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#bbb"
-    //   }
-    // },
     {
       "name": "[JS/JSX] - React Tag Names",
       "scope": [

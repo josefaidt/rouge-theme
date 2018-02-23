@@ -7,10 +7,11 @@
     // activity bar
     // 
     "activityBar.background": "#172030",
-    "activityBar.foreground": "#c6797e",
+    // "activityBar.foreground": "#c6797e",
+    "activityBar.foreground": "#A7ACB9",
     "activityBarBadge.background": "#c6797e",
     "activityBarBadge.foreground": "#fff",
-    "activityBar.border": "#1A2335",
+    // "activityBar.border": "#1A2335",
     // 
     // editor
     // 
@@ -51,8 +52,9 @@
     "editorSuggestWidget.highlightForeground": "#eabe9a",   // foreground of command palette typing match
     // "editorSuggestWidget.selectedBackground": "#91d1bd4d",
     "editorSuggestWidget.selectedBackground": "#c6797e4d",
-    "editorHoverWidget.background": "#192334",
-    "editorHoverWidget.border": "#c6797e",
+    "editorHoverWidget.background": "#1F2A3F",
+    // "editorHoverWidget.border": "#c6797e",
+    "editorHoverWidget.border": "#758095",
     // 
     // peekview
     // 
@@ -93,7 +95,7 @@
     // 
     "editorGroupHeader.noTabsBackground": "#172030",
     "editorGroupHeader.tabsBackground": "#172030",
-    "editorGroupHeader.tabsBorder": "#1A2335",
+    // "editorGroupHeader.tabsBorder": "#1A2335",
     "tab.activeBackground": "#c6797edf",
     "tab.activeForeground": "#fff",
     "tab.inactiveBackground": "#172030",

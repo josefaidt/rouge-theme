@@ -3,6 +3,14 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.3] - 2018-02-23
+### Changed
+- editor: brightened hover widget background to match peek view results background
+- editor: changed hover widget border to pale blue to ease readability and to easily discern from underlying code
+- editor: removed rouge color on activity bar icons to flatten the appearance
+- editor: removed activity bar border to flatten appearance
+- editor: removed tab group border to flatten appearance
+
 ## [1.3.2] - 2018-02-21
 ### Changed
 - syntax: CSS URL's that are not strings - changed to string color to ease readability

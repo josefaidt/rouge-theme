@@ -59,7 +59,7 @@ In version [1.3.3](https://github.com/josefaidt/rouge-theme/releases/tag/v1.3.3)
   "activityBar.foreground": "#c6797e",
 }
 ```
-![Screenshotbadges1](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_2.png)![Screenshotbadges2](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_3.png)
+![Screenshotbadges1](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_2_small.png)![Screenshotbadges2](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_3_small.png)
 
 ### Supported Languages
 - C#

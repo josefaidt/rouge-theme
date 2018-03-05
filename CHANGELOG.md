@@ -3,6 +3,16 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.4] - 2018-03-05
+### Added
+- syntax: Markdown - inline code rendered with punctuation color (bright green) for visibility
+
+### Fixed
+- syntax: better JSON property name support
+- syntax: CSS property name support
+- syntax: Markdown fenced code support
+- syntax: Markdown - embedded JSON support
+
 ## [1.3.3] - 2018-02-23
 ### Changed
 - editor: brightened hover widget background to match peek view results background

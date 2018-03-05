@@ -2,7 +2,7 @@ node_modules/
 bower_components/
 samples/
 *.log
-
+copy.sh
 build/
 dist/
 .DS_Store

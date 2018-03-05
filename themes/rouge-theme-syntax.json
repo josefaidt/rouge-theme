@@ -395,6 +395,16 @@
         "foreground": "#A3B09A"
       }
     },
+    {
+      "name": "[CSS/SCSS] - Property List Keys",
+      "scope": [
+        "meta.property-list.scss",
+        "meta.property-list.css"
+      ],
+      "settings": {
+				"foreground": "#bbb"
+      }
+		},
 		{
       "name": "[SCSS/LESS] - Property Values",
       "scope": [
@@ -525,8 +535,30 @@
       }
     },
 		{
+      "name": "[JSON] - Meta",
+      "scope": [
+        "meta.embedded.block.json"
+      ],
+      "settings": {
+        "foreground": "#D0D6B5"
+        // "foreground": "#bbb"
+      }
+    },
+		{
       "name": "[JSON] - Support",
-      "scope": "source.json support",
+      "scope": [
+        "source.json support", 
+        "support.json"
+      ],
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
+    {
+      "name": "[JSON] - Property Names",
+      "scope": [
+        "support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#bbb"
       }
@@ -534,8 +566,8 @@
     {
       "name": "[JSON] - String",
       "scope": [
-        "source.json string",
-        "source.json punctuation.definition.string"
+        "source.json string.json",
+        "source.json punctuation.definition.string.json"
       ],
       "settings": {
         "foreground": "#A3B09A"
@@ -596,6 +628,20 @@
     {
       "name": "[MARKDOWN] - Separator",
       "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "#D0D6B5"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Fenced Code",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Inline Code",
+      "scope": "markup.inline.raw.string.markdown",
       "settings": {
         "foreground": "#D0D6B5"
       }

@@ -470,7 +470,37 @@
       "settings": {
 				"foreground": "#bbb"
       }
-		},
+    },
+    {
+      "name": "[XML] - Brackets for tags: < and >",
+      "scope": [
+				"punctuation.definition.tag.xml",
+				"punctuation.definition.tag.begin.xml",
+				"punctuation.definition.tag.end.xml",
+				// below is the fix for opening < on </path>
+				"meta.scope.between-tag-pair.xml"
+			],
+      "settings": {
+				"foreground": "#808080"
+      }
+    },
+    {
+      "name": "[XML] - Equals sign",
+      "scope": [
+        "meta.tag.xml",
+        "meta.tag.preprocessor.xml"
+      ],
+      "settings": {
+				"foreground": "#bbb"
+      }
+    },
+    {
+      "name": "[XML] - Attributes",
+      "scope": "entity.other.attribute-name.localname.xml",
+      "settings": {
+				"fontStyle": "italic"
+      }
+    },
     {
       "name": "[JS/JSX] - React Tag Names",
       "scope": [
@@ -534,6 +564,14 @@
         "foreground": "#bbb"
       }
     },
+		{
+      "name": "[JS] - `Typeof` Operator",
+      "scope": "keyword.operator.expression.typeof.js",
+      "settings": {
+				"foreground": "#D0D6B5",
+				"fontStyle": "italic"
+      }
+		},
 		{
       "name": "[JSON] - Meta",
       "scope": [

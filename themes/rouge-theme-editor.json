@@ -3,6 +3,7 @@
   "type": "dark",
   // "include": "./base-dark-vs.json",
   "colors": {
+    "focusBorder": "#758095",
     // 
     // activity bar
     // 
@@ -36,6 +37,10 @@
     "editorCodeLens.foreground": "#758095",
     "badge.background": "#a06468df",
     "badge.foreground": "#fff",
+    // "editor.rangeHighlightBorder": "",
+    // "editor.rangeHighlightBackground": "",
+    // "editorWhitespace.foreground": "",
+
     // 
     // brackets
     // 
@@ -136,8 +141,8 @@
     "list.activeSelectionBackground": "#c6797edf",
     "list.activeSelectionForeground": "#fff",
     "list.dropBackground": "#44495580",
-    // "list.focusBackground": "#fff",
-    // "list.focusForeground": "",
+    "list.focusBackground": "#75809533",
+    "list.focusForeground": "#c6cad2",
     "list.hoverBackground": "#44495580",
     "list.hoverForeground": "#a7acb9",
     "list.inactiveFocusBackground": "#44495580",
@@ -201,7 +206,7 @@
     // "statusBar.background": "#c6797e",
     "statusBar.background": "#172030",
     "statusBar.foreground": "#c6cad2",
-    "statusBar.debuggingBackground": "#97a38f",
+    "statusBar.debuggingBackground": "#97a38fe6",
     "statusBar.debuggingForeground": "#fff",
     "statusBarItem.activeBackground": "#c6797e",
     "statusBarItem.activeForeground": "#fff",
@@ -210,7 +215,6 @@
     "statusBarItem.prominentHoverBackground": "#b18bb1",
     // "statusBar.noFolderBackground": "#f7987e",
     "statusBar.noFolderBackground": "#c6797edf",
-    "statusBar.noFolderForeground": "#fff",
     // 
     // title bar
     // 
@@ -232,6 +236,17 @@
     "notification.infoForeground": "#fff",
     "notification.warningBackground": "#eabe9a",
     "notification.warningForeground": "#1A2335",
+    // 
+    // notification ^1.21
+    // 
+    "notificationCenter.border": "#c6797e",
+    "notificationCenterHeader.foreground": "#A7ACB9",
+    "notificationCenterHeader.background": "#1F2A3F",
+    "notificationToast.border": "#758095",
+    "notifications.foreground": "#c6cad2",
+    "notifications.background": "#1B2638",
+    "notifications.border": "#c6797e",
+    "notificationLink.foreground": "#c6cad2",
     // 
     // picker group
     // 
@@ -279,5 +294,15 @@
     "gitDecoration.untrackedResourceForeground": "#ADB9A4",
     "gitDecoration.ignoredResourceForeground": "#6e94b9e6",
     "gitDecoration.conflictingResourceForeground": "#d19498"
+    // 
+    // text colors
+    // 
+    // "textBlockQuote.background": "",
+    // "textBlockQuote.border": "",
+    // "textCodeBlock.background": "",
+    // "textLink.activeForeground": "",
+    // "textLink.foreground": "",
+    // "textPreformat.foreground": "",
+    // "textSeparator.foreground": ""
   }
 }

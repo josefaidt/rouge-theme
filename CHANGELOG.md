@@ -3,6 +3,17 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.5] - 2018-03-13
+### Added
+- editor: *New* Notification Center
+- editor: list focus background and foreground
+- editor: focus border coloring to match hover border
+- syntax: better XML support, styled like HTML
+- symtax: JS typeof italicized
+
+### Changed
+- editor: debugging background: reduced alpha
+
 ## [1.3.4] - 2018-03-05
 ### Added
 - syntax: Markdown - inline code rendered with punctuation color (bright green) for visibility

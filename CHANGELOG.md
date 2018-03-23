@@ -3,6 +3,13 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.6] - 2018-03-23
+### Added
+- syntax: JS `instanceof` italicized
+
+### Changed
+- editor: suggest widget background and text to match peek view widget
+
 ## [1.3.5] - 2018-03-13
 ### Added
 - editor: *New* Notification Center

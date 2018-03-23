@@ -51,9 +51,9 @@
     // 
     "editorWidget.background": "#192334",
     "editorWidget.border": "#c6797e",
-    "editorSuggestWidget.background": "#192334",
+    "editorSuggestWidget.background": "#1F2A3F",
     "editorSuggestWidget.border": "#c6797e",
-    "editorSuggestWidget.foreground": "#A7ACB9",
+    "editorSuggestWidget.foreground": "#c6cad2",
     "editorSuggestWidget.highlightForeground": "#eabe9a",   // foreground of command palette typing match
     // "editorSuggestWidget.selectedBackground": "#91d1bd4d",
     "editorSuggestWidget.selectedBackground": "#c6797e4d",

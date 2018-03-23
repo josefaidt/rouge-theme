@@ -565,8 +565,11 @@
       }
     },
 		{
-      "name": "[JS] - `Typeof` Operator",
-      "scope": "keyword.operator.expression.typeof.js",
+      "name": "[JS] - `Typeof`, `Instanceof` Operator",
+      "scope": [
+        "keyword.operator.expression.typeof.js",
+        "keyword.operator.expression.instanceof.js"
+      ],
       "settings": {
 				"foreground": "#D0D6B5",
 				"fontStyle": "italic"

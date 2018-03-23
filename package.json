@@ -2,7 +2,7 @@
     "name": "rouge-theme",
     "displayName": "Rouge Theme",
     "description": "Dark Material Theme optimized for Operator Mono",
-    "version": "1.3.5",
+    "version": "1.3.6",
     "publisher": "josef",
     "bugs": {
         "url": "https://github.com/josefaidt/rouge-theme/issues"

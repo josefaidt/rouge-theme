@@ -3,7 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
-## [1.3.7] - 2018-03-27
+## [1.4.0] - 2018-03-27
 ### Added
 - Pug/Jade support
   - punctuation made bright green
@@ -14,6 +14,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
   - equals sign darkened to match HTML
   - italicized attribute names
   - darkened class and ID names to match CSS selectors
+- editor: Text Colors
+  - links: base and hover
+  - blockquote: border and background
+  - text foreground: `#bbb`
+### Changed
+- welcome screen button backgrounds, gave subtle background to easily discern
 
 ## [1.3.6] - 2018-03-23
 ### Added

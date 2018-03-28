@@ -170,7 +170,8 @@
     // 
     // buttons - welcome page
     // 
-    "welcomePage.buttonBackground": "#172030",
+    // "welcomePage.buttonBackground": "#172030",
+    "welcomePage.buttonBackground": "#1A2335",
     "welcomePage.buttonHoverBackground": "#444955",
     "walkThrough.embeddedEditorBackground": "#1F2A3F",
     // 
@@ -293,16 +294,16 @@
     "gitDecoration.deletedResourceForeground": "#b18bb1e6",
     "gitDecoration.untrackedResourceForeground": "#ADB9A4",
     "gitDecoration.ignoredResourceForeground": "#6e94b9e6",
-    "gitDecoration.conflictingResourceForeground": "#d19498"
+    "gitDecoration.conflictingResourceForeground": "#d19498",
     // 
     // text colors
     // 
-    // "textBlockQuote.background": "",
-    // "textBlockQuote.border": "",
-    // "textCodeBlock.background": "",
-    // "textLink.activeForeground": "",
-    // "textLink.foreground": "",
-    // "textPreformat.foreground": "",
-    // "textSeparator.foreground": ""
+    "textBlockQuote.background": "#1A2335",
+    "textBlockQuote.border": "#c6797e",
+    "textCodeBlock.background": "#fff",
+    "textLink.activeForeground": "#98b3cd",
+    "textLink.foreground": "#6e94b9",
+    "textPreformat.foreground": "#bbb",
+    "textSeparator.foreground": "#bbb"
   }
 }

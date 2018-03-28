@@ -11,13 +11,13 @@ Inspiration was drawn from Atom's Material Theme and [loved-syntax](https://gith
 Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
 
 ### Screenshots
-![Desktop](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-desktop-1_3.png)
+![Desktop](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-desktop-1_4.png)
 
 #### HTML
 ![HTML](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-html-1_3_1.png)
 
 #### SCSS
-![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-css-1_2.png)
+![CSS](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-scss-1_4.png)
 
 #### JavaScript
 ![JavaScript](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-js-1_3_1.png)
@@ -27,6 +27,9 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 
 #### Markdown
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_3_1.png)
+
+#### Markdown
+![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-pug-1_4.png)
 
 ### Recommended Settings
 I prefer to use the colorless version of [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) and the settings below. If you do not have Operator Mono installed, Fira Code works well also, though the italics are optimized for use with Operator Mono.
@@ -71,16 +74,7 @@ In version [1.3.3](https://github.com/josefaidt/rouge-theme/releases/tag/v1.3.3)
 - CSS, SCSS, LESS
 - XML
 - Markdown
-
-### Manual Install Instructions
-1. Ensure your copy of VSCode is above v1.15
-2. Download/unzip contents of this project
-3. Copy folder to your profile's extensions folder
-  - Windows:  `C:\Users\<yourprofile>\.vscode\extensions`
-  - macOS:    `~/.vscode/extensions`
-4. Reload the VSCode window (`Command Palette` > `Reload Window`)
-5. Select **Rouge** (`Command Palette` > `Preferences: Color Theme`)
-
+- PUG
 
 ### License
 [MIT License](./LICENSE)

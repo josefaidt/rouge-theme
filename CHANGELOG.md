@@ -3,6 +3,18 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.3.7] - 2018-03-27
+### Added
+- Pug/Jade support
+  - punctuation made bright green
+    - string interpolation
+    - argument brackets
+    - attribute brackets
+    - variable assignments, constants
+  - equals sign darkened to match HTML
+  - italicized attribute names
+  - darkened class and ID names to match CSS selectors
+
 ## [1.3.6] - 2018-03-23
 ### Added
 - syntax: JS `instanceof` italicized

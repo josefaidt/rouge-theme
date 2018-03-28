@@ -471,6 +471,43 @@
 				"foreground": "#bbb"
       }
     },
+		// {
+    //   "name": "[PUG/JADE] - Equals sign",
+    //   "scope": "text.jade meta.tag.other",
+    //   "settings": {
+		// 		"foreground": "#bbb"
+    //   }
+    // },
+		{
+      "name": "[PUG/JADE] - Punctuation, Brackets",
+      "scope": [
+        "constant.name.attribute.tag.jade",
+        "args.mixin.jade",
+        "string.interpolated.jade",
+        "text.jade meta.tag.other",
+        "text.jade constant"
+      ],
+      "settings": {
+				"foreground": "#D0D6B5"
+      }
+    },
+		{
+      "name": "[PUG/JADE] - Attributes",
+      "scope": "entity.other.attribute-name.tag.jade",
+      "settings": {
+				"fontStyle": "italic"
+      }
+    },
+		{
+      "name": "[PUG/JADE] - Class and ID",
+      "scope": [
+        "entity.other.attribute-name.class.jade",
+        "entity.other.attribute-name.id.jade"
+      ],
+      "settings": {
+				"foreground": "#eabe9a"
+      }
+    },
     {
       "name": "[XML] - Brackets for tags: < and >",
       "scope": [

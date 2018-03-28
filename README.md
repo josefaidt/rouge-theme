@@ -28,7 +28,7 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 #### Markdown
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_3_1.png)
 
-#### Markdown
+#### PUG
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-pug-1_4.png)
 
 ### Recommended Settings

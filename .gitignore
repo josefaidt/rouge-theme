@@ -6,3 +6,4 @@ copy.sh
 build/
 dist/
 .DS_Store
+notes.md

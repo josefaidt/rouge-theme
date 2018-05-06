@@ -3,6 +3,14 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.1] - 2018-05-06
+### Added
+- Whitespace coloring [trello card: XRkiwG7a](https://trello.com/c/XRkiwG7a)
+
+### Changed
+- Input validation backgrounds and borders to fit flush with theme [trello card: 5KflBR0T](https://trello.com/c/5KflBR0T)
+- Text background on inline code items in hover widget [trello card: y8DvbAgj](https://trello.com/c/y8DvbAgj)
+
 ## [1.4.0] - 2018-03-27
 ### Added
 - Pug/Jade support

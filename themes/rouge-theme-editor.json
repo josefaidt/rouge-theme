@@ -39,7 +39,7 @@
     "badge.foreground": "#fff",
     // "editor.rangeHighlightBorder": "",
     // "editor.rangeHighlightBackground": "",
-    // "editorWhitespace.foreground": "",
+    "editorWhitespace.foreground": "#91d1bd26",
 
     // 
     // brackets
@@ -153,11 +153,7 @@
     // 
     // buttons
     // 
-    // "button.background": "#a06468",
     "button.foreground": "#fff",
-    // "button.hoverBackground": "#c6797e",
-    // "button.background": "#444955B3",
-    // "button.hoverBackground": "#444955",
     "button.background": "#75809580",
     "button.hoverBackground": "#758095",
     // 
@@ -165,12 +161,10 @@
     // 
     "extensionButton.prominentBackground": "#728069B3",
     "extensionButton.prominentForeground": "#fff",
-    // "extensionButton.prominentHoverBackground": "#97a38f",
     "extensionButton.prominentHoverBackground": "#728069",
     // 
     // buttons - welcome page
     // 
-    // "welcomePage.buttonBackground": "#172030",
     "welcomePage.buttonBackground": "#1A2335",
     "welcomePage.buttonHoverBackground": "#444955",
     "walkThrough.embeddedEditorBackground": "#1F2A3F",
@@ -188,12 +182,12 @@
     "input.foreground": "#A7ACB9",
     "inputOption.activeBorder": "#b8bcc6",
     "input.placeholderForeground": "#808799",
-    "inputValidation.errorBackground": "#CC565Edf",
-    "inputValidation.errorBorder": "#fff",
-    "inputValidation.warningBackground": "#eabe9adf",
-    "inputValidation.warningBorder": "#fff",
-    "inputValidation.infoBackground": "#6e94b999",
-    "inputValidation.infoBorder": "#fff",
+    "inputValidation.errorBackground": "#192334",
+    "inputValidation.errorBorder": "#c6797e",
+    "inputValidation.warningBackground": "#192334",
+    "inputValidation.warningBorder": "#eabe9adf",
+    "inputValidation.infoBackground": "#192334",
+    "inputValidation.infoBorder": "#6e94b999",
     // 
     // scroll bar control
     // 
@@ -214,7 +208,6 @@
     "statusBarItem.hoverBackground": "#444955e6",
     "statusBarItem.prominentBackground": "#b18bb1cc",
     "statusBarItem.prominentHoverBackground": "#b18bb1",
-    // "statusBar.noFolderBackground": "#f7987e",
     "statusBar.noFolderBackground": "#c6797edf",
     // 
     // title bar
@@ -252,7 +245,6 @@
     // picker group
     // 
     "list.highlightForeground": "#eabe9a",
-    // "list.highlightForeground": "#c6cad2",
     "pickerGroup.border": "#eabe9acc",
     "pickerGroup.foreground": "#eabe9acc",
     // 
@@ -300,7 +292,7 @@
     // 
     "textBlockQuote.background": "#1A2335",
     "textBlockQuote.border": "#c6797e",
-    "textCodeBlock.background": "#fff",
+    "textCodeBlock.background": "#172030",
     "textLink.activeForeground": "#98b3cd",
     "textLink.foreground": "#6e94b9",
     "textPreformat.foreground": "#bbb",

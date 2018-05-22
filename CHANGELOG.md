@@ -3,6 +3,16 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.2.1] - 2018-05-21
+### Added
+- editor: base colors
+  - contrastBorder
+  - widget.shadow 
+  - descriptionForeground **untested**
+  - errorForeground **untested**
+- editor: rulers
+- editor: indent guides
+
 ## [1.4.1] - 2018-05-06
 ### Added
 - Whitespace coloring [trello card: XRkiwG7a](https://trello.com/c/XRkiwG7a)

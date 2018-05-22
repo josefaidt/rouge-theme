@@ -1,21 +1,16 @@
 {
   "name": "Rouge",
   "type": "dark",
-  // "include": "./base-dark-vs.json",
   "colors": {
     "focusBorder": "#758095",
-    // 
-    // activity bar
-    // 
+    "contrastBorder": "#172030",
+    "widget.shadow": "#121321",
+    "descriptionForeground": "#98b3cd",
+    "errorForeground": "#cc565e",
     "activityBar.background": "#172030",
-    // "activityBar.foreground": "#c6797e",
     "activityBar.foreground": "#A7ACB9",
     "activityBarBadge.background": "#c6797e",
     "activityBarBadge.foreground": "#fff",
-    // "activityBar.border": "#1A2335",
-    // 
-    // editor
-    // 
     "editor.background": "#172030",
     "editor.foreground": "#bbb",
     "selection.background": "#91d1bd40",
@@ -37,33 +32,19 @@
     "editorCodeLens.foreground": "#758095",
     "badge.background": "#a06468df",
     "badge.foreground": "#fff",
-    // "editor.rangeHighlightBorder": "",
-    // "editor.rangeHighlightBackground": "",
     "editorWhitespace.foreground": "#91d1bd26",
 
-    // 
-    // brackets
-    // 
     "editorBracketMatch.background": "#212e45",
     "editorBracketMatch.border": "#eabe9a80",
-    // 
-    // editor widgets
-    // 
     "editorWidget.background": "#192334",
     "editorWidget.border": "#c6797e",
     "editorSuggestWidget.background": "#1F2A3F",
     "editorSuggestWidget.border": "#c6797e",
     "editorSuggestWidget.foreground": "#c6cad2",
-    "editorSuggestWidget.highlightForeground": "#eabe9a",   // foreground of command palette typing match
-    // "editorSuggestWidget.selectedBackground": "#91d1bd4d",
+    "editorSuggestWidget.highlightForeground": "#eabe9a",   
     "editorSuggestWidget.selectedBackground": "#c6797e4d",
     "editorHoverWidget.background": "#1F2A3F",
-    // "editorHoverWidget.border": "#c6797e",
     "editorHoverWidget.border": "#758095",
-    // 
-    // peekview
-    // 
-    // "peekView.border": "#758095",
     "peekView.border": "#c6797e",
     "peekViewEditor.background": "#1F2A3F",
     "peekViewEditorGutter.background": "#1F2A3F",
@@ -77,30 +58,17 @@
     "peekViewTitle.background": "#1B2638",
     "peekViewTitleDescription.foreground": "#A7ACB9",
     "peekViewTitleLabel.foreground": "#c6cad2",
-    // 
-    // gutter
-    // 
     "editorGutter.background": "#172030",
     "editorGutter.addedBackground": "#9BBA9Acc",
     "editorGutter.deletedBackground": "#CC565Ecc",
     "editorGutter.modifiedBackground": "#eabe9acc",
-    // 
-    // editor overview (under scroll bar)
-    // 
     "editorOverviewRuler.selectionHighlightForeground": "#91d1bd66",
-    // 
-    // diff editor (changes)
-    // 
     "diffEditor.insertedTextBackground": "#9BBA9A40",
     "diffEditor.insertedTextBorder": "#9BBA9A",
     "diffEditor.removedTextBackground": "#CC565E40",
     "diffEditor.removedTextBorder": "#CC565E",
-    // 
-    // tabs
-    // 
     "editorGroupHeader.noTabsBackground": "#172030",
     "editorGroupHeader.tabsBackground": "#172030",
-    // "editorGroupHeader.tabsBorder": "#1A2335",
     "tab.activeBackground": "#c6797edf",
     "tab.activeForeground": "#fff",
     "tab.inactiveBackground": "#172030",
@@ -108,36 +76,19 @@
     "tab.unfocusedActiveBorder": "#1A2335",
     "tab.unfocusedInactiveForeground": "#A7ACB9",
     "tab.unfocusedActiveForeground": "#fff",
-    // "tab.hoverBackground": "#44495580",
-    // 
-    // cursor
-    // 
     "editorCursor.background": "#c6797e",
     "editorCursor.foreground": "#c6797e",
-    // 
-    // merge conflicts
-    // 
     "merge.border": "#A7ACB9",
-    // "merge.commonContentBackground": "",
-    // "merge.commonHeaderBackground": "",
     "merge.currentContentBackground": "#9BBA9A26",
     "merge.currentHeaderBackground": "#9BBA9A80",
     "merge.incomingContentBackground": "#6e94b966",
     "merge.incomingHeaderBackground": "#6e94b999",
-    // 
-    // sidebar
-    // 
     "sideBar.background": "#172030",
     "sideBar.border": "#1A2335",
     "sideBar.dropBackground": "#c6797edf",
     "sideBar.foreground": "#a7acb9",
-    // "sideBarSectionHeader.background": "#c6797edf",
-    // "sideBarSectionHeader.foreground": "#fff",
     "sideBarSectionHeader.background": "#172030",
     "sideBarSectionHeader.foreground": "#e6e6e6",
-    // 
-    // lists and trees
-    // 
     "list.activeSelectionBackground": "#c6797edf",
     "list.activeSelectionForeground": "#fff",
     "list.dropBackground": "#44495580",
@@ -147,36 +98,20 @@
     "list.hoverForeground": "#a7acb9",
     "list.inactiveFocusBackground": "#44495580",
     "list.inactiveFocusForeground": "#a7acb9",
-    // "list.inactiveSelectionBackground": "#c6797e80",
     "list.inactiveSelectionBackground": "#44495580",
     "list.inactiveSelectionForeground": "#c6cad2",
-    // 
-    // buttons
-    // 
     "button.foreground": "#fff",
     "button.background": "#75809580",
     "button.hoverBackground": "#758095",
-    // 
-    // buttons - extensions
-    // 
     "extensionButton.prominentBackground": "#728069B3",
     "extensionButton.prominentForeground": "#fff",
     "extensionButton.prominentHoverBackground": "#728069",
-    // 
-    // buttons - welcome page
-    // 
     "welcomePage.buttonBackground": "#1A2335",
     "welcomePage.buttonHoverBackground": "#444955",
     "walkThrough.embeddedEditorBackground": "#1F2A3F",
-    // 
-    // dropdown control
-    // 
     "dropdown.border": "#a06468df",
     "dropdown.background": "#172030",
     "dropdown.foreground": "#ccc",
-    // 
-    // input control
-    // 
     "input.background": "#172030",
     "input.border": "#a06468df",
     "input.foreground": "#A7ACB9",
@@ -188,17 +123,10 @@
     "inputValidation.warningBorder": "#eabe9adf",
     "inputValidation.infoBackground": "#192334",
     "inputValidation.infoBorder": "#6e94b999",
-    // 
-    // scroll bar control
-    // 
     "scrollbar.shadow": "#a0646810",
     "scrollbarSlider.activeBackground": "#c6797ef2",
     "scrollbarSlider.background": "#a06468cc",
     "scrollbarSlider.hoverBackground": "#c6797ecc",
-    // 
-    // status bar
-    // 
-    // "statusBar.background": "#c6797e",
     "statusBar.background": "#172030",
     "statusBar.foreground": "#c6cad2",
     "statusBar.debuggingBackground": "#97a38fe6",
@@ -209,16 +137,10 @@
     "statusBarItem.prominentBackground": "#b18bb1cc",
     "statusBarItem.prominentHoverBackground": "#b18bb1",
     "statusBar.noFolderBackground": "#c6797edf",
-    // 
-    // title bar
-    // 
     "titleBar.activeBackground": "#c6797edf",
     "titleBar.activeForeground": "#fff",
     "titleBar.inactiveBackground": "#1A2335",
     "titleBar.inactiveForeground": "#A7ACB9",
-    // 
-    // notifications
-    // 
     "notification.background": "#1A2335",
     "notification.foreground": "#fff",
     "notification.buttonBackground": "#172030",
@@ -230,9 +152,6 @@
     "notification.infoForeground": "#fff",
     "notification.warningBackground": "#eabe9a",
     "notification.warningForeground": "#1A2335",
-    // 
-    // notification ^1.21
-    // 
     "notificationCenter.border": "#c6797e",
     "notificationCenterHeader.foreground": "#A7ACB9",
     "notificationCenterHeader.background": "#1F2A3F",
@@ -241,20 +160,11 @@
     "notifications.background": "#1B2638",
     "notifications.border": "#c6797e",
     "notificationLink.foreground": "#c6cad2",
-    // 
-    // picker group
-    // 
     "list.highlightForeground": "#eabe9a",
     "pickerGroup.border": "#eabe9acc",
     "pickerGroup.foreground": "#eabe9acc",
-    // 
-    // panel colors (output, terminal, etc)
-    // 
     "panelTitle.activeForeground": "#b8bcc6",
     "panel.background": "#172030",
-    // 
-    // terminal colors
-    // 
     "terminal.background": "#172030",
     "terminal.foreground": "#b8bcc6",
     "terminalCursor.background": "#ADB9A4",
@@ -275,21 +185,12 @@
     "terminal.ansiBrightRed": "#d19498",
     "terminal.ansiBrightWhite": "#fff",
     "terminal.ansiBrightYellow": "#F2EFC7",
-    // 
-    // debug toolbar
-    // 
     "debugToolBar.background": "#97a38f",
-    // 
-    // git decorations
-    // 
     "gitDecoration.modifiedResourceForeground": "#eabe9a",
     "gitDecoration.deletedResourceForeground": "#b18bb1e6",
     "gitDecoration.untrackedResourceForeground": "#ADB9A4",
     "gitDecoration.ignoredResourceForeground": "#6e94b9e6",
     "gitDecoration.conflictingResourceForeground": "#d19498",
-    // 
-    // text colors
-    // 
     "textBlockQuote.background": "#1A2335",
     "textBlockQuote.border": "#c6797e",
     "textCodeBlock.background": "#172030",

@@ -5,8 +5,6 @@
 	"tokenColors": [
 		{
 			"settings": {
-				// "foreground": "#A7ACB9",
-				// "background": "#172030"
 				"foreground": "#bbb"
 			}
 		},
@@ -42,8 +40,6 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#bbb"
-				// "background": "#CC565EDF"
-				// "foreground": "#c6797e"
 			}
 		},
     {
@@ -81,9 +77,7 @@
       "name": "Meta",
       "scope": "meta",
       "settings": {
-				// "foreground": "#ea7599"
         "foreground": "#DB6E8F"
-        // "foreground": "#fff"
       }
     },
     {
@@ -100,13 +94,6 @@
         "foreground": "#D0D6B5"
       }
 		},
-		// {
-    //   "name": "Punctuation Parameters",
-    //   "scope": "punctuation.definition.parameters",
-    //   "settings": {
-    //     "foreground": "#ffee80"
-    //   }
-    // },
     {
       "name": "Punctuation Template Expression",
       "scope": [
@@ -163,29 +150,6 @@
         "foreground": "#F9B5AC"
       }
     },
-    // {
-    //   "name": "Support Classes",
-    //   "scope": [
-    //     "support.class"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#fff"
-    //   }
-    // },
-		// {
-		// 	"name": "Support Variable",
-		// 	"scope": [
-		// 		"variable.other.object",
-		// 		"support.variable"
-		// 	],
-		// 	"settings": {
-		// 		// "foreground": "#ea7599"
-		// 		// "foreground": "#C96C8F"
-		// 		// "foreground": "#7A5980"
-		// 		// "foreground": "#C6878F"
-		// 		"foreground": "#fff"
-		// 	}
-		// },
 		{
       "name": "Variable",
       "scope": "variable",
@@ -210,7 +174,6 @@
 			],
 			"settings": {
         "foreground": "#DB6E8F"
-        // "foreground": "#bbb"
 			}
 		},
     {
@@ -457,7 +420,6 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				// below is the fix for opening < on </path>
 				"meta.scope.between-tag-pair.html"
 			],
       "settings": {
@@ -471,13 +433,6 @@
 				"foreground": "#bbb"
       }
     },
-		// {
-    //   "name": "[PUG/JADE] - Equals sign",
-    //   "scope": "text.jade meta.tag.other",
-    //   "settings": {
-		// 		"foreground": "#bbb"
-    //   }
-    // },
 		{
       "name": "[PUG/JADE] - Punctuation, Brackets",
       "scope": [
@@ -514,7 +469,6 @@
 				"punctuation.definition.tag.xml",
 				"punctuation.definition.tag.begin.xml",
 				"punctuation.definition.tag.end.xml",
-				// below is the fix for opening < on </path>
 				"meta.scope.between-tag-pair.xml"
 			],
       "settings": {
@@ -562,8 +516,6 @@
     {
       "name": "[JS/JSX] - React Tag Property Keys",
       "scope": [
-        // "source.js meta.object-literal.key",
-        // "source.jsx meta.object-literal.key"
         "source.js meta.jsx.children meta.object-literal.key",
         "source.jsx meta.jsx.children meta.object-literal.key"
       ],
@@ -619,7 +571,6 @@
       ],
       "settings": {
         "foreground": "#D0D6B5"
-        // "foreground": "#bbb"
       }
     },
 		{
@@ -771,7 +722,6 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-				// "foreground": "#C6878F"
 				"foreground": "#7ea9a9"
       }
     },
@@ -827,13 +777,5 @@
 				"foreground": "#FFB86C"
 			}
     }
-    // {
-    //   "scope": [
-    //     "support.type.property-name"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#fff"
-    //   }
-    // }
 	]
 }

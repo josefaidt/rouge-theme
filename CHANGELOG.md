@@ -3,6 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.2] - 2018-05-26
 ## [1.4.2.2] - 2018-05-26
 ### Added
 - ProgressBar background **untested**

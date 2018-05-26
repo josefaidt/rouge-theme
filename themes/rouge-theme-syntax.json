@@ -677,9 +677,12 @@
     },
     {
       "name": "[MARKDOWN] - Emphasis Bold",
-      "scope": "markup.bold.markdown",
+      "scope": [
+        "markup.bold.markdown",
+        "markup.bold.markdown punctuation.definition.bold.markdown"
+      ],
       "settings": {
-        "foreground": "#eabe9a",
+        "foreground": "#bbb",
         "fontStyle": "bold"
       }
     },
@@ -743,6 +746,24 @@
       ],
       "settings": {
         "foreground": "#A3B09A"
+      }
+		},
+    {
+      "name": "[SQL] - Database name",
+      "scope": [
+        "constant.other.database-name.sql"
+      ],
+      "settings": {
+        "foreground": "#bbb"
+      }
+		},
+    {
+      "name": "[SQL] - Table name",
+      "scope": [
+        "constant.other.table-name.sql"
+      ],
+      "settings": {
+        "foreground": "#bbb"
       }
 		},
 		{

@@ -3,15 +3,33 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.2.2] - 2018-05-26
+### Added
+- ProgressBar background **untested**
+- list.invalidItemForeground **untested**
+- SQL
+  - database name: generic text color
+  - table name: generic text color
+
+### Changed
+- Notifications
+  - changed waffle background to match welcome page
+- input validation background (error, warning, info): #1A2335
+
+
 ## [1.4.2.1] - 2018-05-21
 ### Added
 - editor: base colors
   - contrastBorder
   - widget.shadow 
-  - descriptionForeground **untested**
+  - descriptionForeground (displays on welcome page)
   - errorForeground **untested**
 - editor: rulers
 - editor: indent guides
+
+### Changed
+- PickerGroup (command palette)
+  - changed border color to match input border
 
 ## [1.4.1] - 2018-05-06
 ### Added

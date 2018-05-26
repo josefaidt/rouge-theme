@@ -7,14 +7,16 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 ### Added
 - ProgressBar background **untested**
 - list.invalidItemForeground **untested**
-- SQL
+- SQL [trello card: 6xQyBtal](https://trello.com/c/6xQyBtal)
   - database name: generic text color
   - table name: generic text color
 
 ### Changed
-- Notifications
+- Notifications [trello card: zTdzW8lu](https://trello.com/c/zTdzW8lu)
   - changed waffle background to match welcome page
-- input validation background (error, warning, info): #1A2335
+- input validation background (error, warning, info): #1A2335 [trello card: 5KflBR0T](https://trello.com/c/5KflBR0T)
+- Markdown
+  - changed bold to flatten, #bbb [trello card: vvSdT0Wx](https://trello.com/c/vvSdT0Wx)
 
 
 ## [1.4.2.1] - 2018-05-21

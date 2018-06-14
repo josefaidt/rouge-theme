@@ -7,4 +7,4 @@ gulp.task('default', () => {
   return gulp.src('src/themes/*.json')
     .pipe(strip())
     .pipe(gulp.dest('themes/'))
-});
+})

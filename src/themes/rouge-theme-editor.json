@@ -181,7 +181,8 @@
     // 
     // buttons - welcome page
     // 
-    "welcomePage.buttonBackground": "#1A2335",
+    "welcomePage.buttonBackground": "#1D293D",
+    // "welcomePage.buttonBackground": "#1A2335",
     "welcomePage.buttonHoverBackground": "#444955",
     "walkThrough.embeddedEditorBackground": "#1F2A3F",
     // 
@@ -269,6 +270,11 @@
     // 
     "panelTitle.activeForeground": "#b8bcc6",
     "panel.background": "#172030",
+    // "panel.border": "",
+    // "panel.dropBackground": "",
+    // "panelTitle.activeBorder": "",
+    // "panelTitle.activeForegroun": "",
+    // "panelTitle.inactiveForeground": "",
     // 
     // terminal colors
     // 
@@ -276,7 +282,7 @@
     "terminal.foreground": "#b8bcc6",
     "terminalCursor.background": "#ADB9A4",
     "terminalCursor.foreground": "#ADB9A4",
-    "terminal.ansiBlack": "#172030",
+    "terminal.ansiBlack": "#293a56",
     "terminal.ansiBlue": "#6e94b9",
     "terminal.ansiCyan": "#8ab6c1",
     "terminal.ansiGreen": "#ADB9A4",
@@ -284,7 +290,8 @@
     "terminal.ansiRed": "#c6797e",
     "terminal.ansiWhite": "#e3e4e8",
     "terminal.ansiYellow": "#ece7ac",
-    "terminal.ansiBrightBlack": "#293a56",
+    "terminal.ansiBrightBlack": "#3A537A",
+    // "terminal.ansiBrightBlack": "#808799",
     "terminal.ansiBrightBlue": "#98b3cd",
     "terminal.ansiBrightCyan": "#abcbd3",
     "terminal.ansiBrightGreen": "#bec8b7",
@@ -304,10 +311,11 @@
     "gitDecoration.untrackedResourceForeground": "#ADB9A4",
     "gitDecoration.ignoredResourceForeground": "#6e94b9e6",
     "gitDecoration.conflictingResourceForeground": "#d19498",
+    // "gitDecoration.submoduleResourceForeground": "#fff",
     // 
     // text colors
     // 
-    "textBlockQuote.background": "#1A2335",
+    "textBlockQuote.background": "#1D293D",
     "textBlockQuote.border": "#c6797e",
     "textCodeBlock.background": "#172030",
     "textLink.activeForeground": "#98b3cd",

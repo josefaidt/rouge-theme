@@ -3,6 +3,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.3] - 2018-06-14
+### Changed
+- editor: terminal black and bright black were too dark to be readable, brightened
+- editor: welcome page button background color too dark, brightened
+- editor: blockquote background too dark, brightened
+
 ## [1.4.2] - 2018-05-26
 ## [1.4.2.2] - 2018-05-26
 ### Added

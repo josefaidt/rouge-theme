@@ -3,11 +3,28 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.4] - 2018-06-15
+### Added
+- editor: OverviewRuler - colors that appear in the area with the scrollbar [trello card: b7SN0H4I](https://trello.com/c/b7SN0H4I)
+  - findMatchForeground - same as highlight
+  - modifiedForeground - same as editorGutter
+  - addedForeground - same as editorGutter
+  - deletedForeground - transparent error color
+  - errorForeground - same as editorGutter
+  - infoForeground - same as info colors
+- editor: Line number active foreground - brighter color of line number foreground [trello card: UuRoc1D8](https://trello.com/c/UuRoc1D8)
+- editor: list error foreground - same color as editorGutter errors
+- editor: list warning foreground - orange color used for syntactical methods
+- editor: `editorGroup.dropBackground` - drag-n-drop color of tabs to editor panes, similar color to button hover backgrounds w/ 40% opacity
+
+### Changed
+- editorSuggestWidget.selectedBackground - changed to #7580954d from #c6797e4d [trello card: IrxvtriA](https://trello.com/c/IrxvtriA)
+
 ## [1.4.3] - 2018-06-14
 ### Changed
-- editor: terminal black and bright black were too dark to be readable, brightened
-- editor: welcome page button background color too dark, brightened
-- editor: blockquote background too dark, brightened
+- editor: terminal black and bright black were too dark to be readable, brightened [trello card: sAFF8f3t](https://trello.com/c/sAFF8f3t)
+- editor: welcome page button background color too dark, brightened [trello card: ixUQmuH2](https://trello.com/c/ixUQmuH2)
+- editor: blockquote background too dark, brightened [trello card: ixUQmuH2](https://trello.com/c/ixUQmuH2)
 
 ## [1.4.2] - 2018-05-26
 ## [1.4.2.2] - 2018-05-26

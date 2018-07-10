@@ -3,6 +3,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.5] - 2018-07-10
+### Changed
+- editor: tab border same as editor background
+- editor: notifications - dimmed borders separating each notification in notification center, previously same color as border
+- editor: notifications - made notification background same as header background to flatten
+
 ## [1.4.4] - 2018-06-15
 ### Added
 - editor: OverviewRuler - colors that appear in the area with the scrollbar [trello card: b7SN0H4I](https://trello.com/c/b7SN0H4I)

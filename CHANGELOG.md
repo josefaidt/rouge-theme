@@ -3,6 +3,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.6] - 2018-07-25
+### Changed
+- syntax: 
+  - React JS/JSX: changed variable property values to match variable color (rouge color)
+  - Global: changed support variable property color from support's existing yellow to match other properties (pink)
+
 ## [1.4.5] - 2018-07-10
 ### Changed
 - editor: tab border same as editor background

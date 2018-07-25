@@ -140,6 +140,13 @@
         "foreground": "#F7E3AF"
       }
     },
+		{
+      "name": "Support Variable Property",
+      "scope": "support.variable.property",
+      "settings": {
+        "foreground": "#DB6E8F"
+      }
+    },
     {
       "name": "Support Function",
       "scope": [
@@ -530,7 +537,7 @@
         "source.jsx meta.tag variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#a3b09a"
+        "foreground": "#C6878F"
       }
     },
     {

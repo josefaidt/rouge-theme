@@ -172,14 +172,19 @@
     "list.activeSelectionBackground": "#c6797edf",
     "list.activeSelectionForeground": "#fff",
     "list.dropBackground": "#44495580",
-    "list.focusBackground": "#75809533",
+    // "list.focusBackground": "#75809533",
+    "list.focusBackground": "#223047",
     "list.focusForeground": "#c6cad2",
-    "list.hoverBackground": "#44495580",
+    // "list.hoverBackground": "#44495580",
+    "list.hoverBackground": "#223047",
+    // "list.hoverBackground": "#283954",
     "list.hoverForeground": "#a7acb9",
-    "list.inactiveFocusBackground": "#44495580",
+    // "list.inactiveFocusBackground": "#44495580",
+    "list.inactiveFocusBackground": "#223047",
     "list.inactiveFocusForeground": "#a7acb9",
     // "list.inactiveSelectionBackground": "#c6797e80",
-    "list.inactiveSelectionBackground": "#44495580",
+    // "list.inactiveSelectionBackground": "#26354F",
+    "list.inactiveSelectionBackground": "#223047",
     "list.inactiveSelectionForeground": "#c6cad2",
     "list.invalidItemForeground": "#CC565E",
     "list.errorForeground": "#CC565E",
@@ -201,8 +206,18 @@
     // 
     "welcomePage.buttonBackground": "#1D293D",
     // "welcomePage.buttonBackground": "#1A2335",
-    "welcomePage.buttonHoverBackground": "#444955",
+    // "welcomePage.buttonHoverBackground": "#415C8966",
+    // "welcomePage.buttonHoverBackground": "#23324A",
+    "welcomePage.buttonHoverBackground": "#293A57",
+    // "welcomePage.buttonHoverBackground": "#444955",
     "walkThrough.embeddedEditorBackground": "#1F2A3F",
+    // 
+    // breadcrumbs
+    // 
+    "breadcrumbPicker.background": "#172030",
+    "breadcrumb.foreground": "#A7ACB9",
+    "breadcrumb.focusForeground": "#a7acb9",
+    "breadcrumb.activeSelectionForeground": "#c6cad2",
     // 
     // dropdown control
     // 
@@ -247,10 +262,21 @@
     // 
     // title bar
     // 
-    "titleBar.activeBackground": "#c6797edf",
+    "titleBar.activeBackground": "#1A2335",
     "titleBar.activeForeground": "#fff",
-    "titleBar.inactiveBackground": "#1A2335",
+    "titleBar.inactiveBackground": "#c6797edf",
     "titleBar.inactiveForeground": "#A7ACB9",
+    // 
+    // menu
+    // 
+    "menu.background": "#1A2335",
+    "menu.foreground": "#c6cad2",
+    // "menu.selectionBackground": "",
+    // "menu.selectionForeground": "",
+    // "menu.selectionBorder": "",
+    // "menubar.selectionBackground": "",
+    // "menubar.selectionForeground": "",
+    // "menubar.selectionBorder": "",
     // 
     // notifications
     // 

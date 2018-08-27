@@ -3,6 +3,16 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.4.7] - 2018-08-26
+### Added
+- editor:
+  - breadcrumbs
+
+### Changed
+- editor:
+  - list hover made blue
+  - list inactive made blue
+
 ## [1.4.6] - 2018-07-25
 ### Changed
 - syntax: 

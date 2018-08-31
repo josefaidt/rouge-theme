@@ -4,6 +4,9 @@
     "description": "Dark Material Theme optimized for Operator Mono",
     "version": "1.4.6",
     "publisher": "josef",
+    "scripts": {
+      "build": "gulp"
+    },
     "bugs": {
         "url": "https://github.com/josefaidt/rouge-theme/issues"
     },

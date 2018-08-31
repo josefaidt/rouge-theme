@@ -135,8 +135,9 @@
     "tab.activeForeground": "#fff",
     "tab.inactiveBackground": "#172030",
     "tab.inactiveForeground": "#A7ACB9",
-    "tab.unfocusedActiveBorder": "#1A2335",
+    // "tab.unfocusedActiveBorder": "#1A2335",
     "tab.unfocusedInactiveForeground": "#A7ACB9",
+    // "tab.unfocusedActiveBackground": "#293A57",
     "tab.unfocusedActiveForeground": "#fff",
     "tab.border": "#172030",
     // "tab.hoverBackground": "#44495580",
@@ -215,9 +216,9 @@
     // breadcrumbs
     // 
     "breadcrumbPicker.background": "#172030",
-    "breadcrumb.foreground": "#A7ACB9",
+    "breadcrumb.foreground": "#64727d",
     "breadcrumb.focusForeground": "#a7acb9",
-    "breadcrumb.activeSelectionForeground": "#c6cad2",
+    "breadcrumb.activeSelectionForeground": "#a7acb9",
     // 
     // dropdown control
     // 

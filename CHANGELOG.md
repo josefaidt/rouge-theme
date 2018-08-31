@@ -3,7 +3,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
-## [1.4.7] - 2018-08-26
+## [1.4.7] - 2018-08-31
 ### Added
 - editor:
   - breadcrumbs

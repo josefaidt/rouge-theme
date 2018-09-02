@@ -3,6 +3,35 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.5.0] - 2018-09-02
+### Added
+- editor:
+  - settings (preview) - defined colors from existing palette
+  - panel border to match palette [trello card CvzSFwiQ](https://trello.com/c/CvzSFwiQ)
+  - paneltitle border, foreground, inactive foreground to match palette
+  - editorGroup border color set to match palette
+
+### Changed
+- editor:
+  - color consolidation: #293a57 from #444955 for better contrast
+    - list hover
+    - list inactive highlight
+    - statusbar item highlight
+    - command palette highlight
+    - welcome button hover
+    - peekViewResult selection background
+  - re-enabled activitybar border, same as sidebar #1A2335
+
+### Fixed
+- syntax:
+  - [GLOBAL/JS] decimal point [trello card tB7lQr3a](https://trello.com/c/tB7lQr3a)
+  - [SCSS] comma at-rule each [trello card BQxiiU9o](https://trello.com/c/BQxiiU9o)
+- editor:
+  - Error Foreground (i.e. "No Results") made rouge [trello card KISaJIyw](https://trello.com/c/KISaJIyw)
+  - [GLOBAL/JS] colon always green [trello card FMwErbYb](https://trello.com/c/FMwErbYb)
+  - [Markdown] small issue with <> contained items [trello card 31kJCZub](https://trello.com/c/31kJCZub)
+  - [CSS/SCSS] punctuation color match green
+
 ## [1.4.7] - 2018-08-31
 ### Added
 - editor:

@@ -319,6 +319,17 @@
       }
 		},
 		{
+      "name": "[CSS] - Symbols (colons, etc)",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.class.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+				"foreground": "#D0D6B5"
+      }
+		},
+		{
       "name": "[CSS] - Constant (property values included)",
       "scope": [
         "source.css constant",
@@ -432,7 +443,16 @@
       "settings": {
 				"foreground": "#D0D6B5"
       }
-		},
+    },
+		{
+      "name": "[SCSS] - Punctuation",
+      "scope": [
+        "meta.at-rule.each.scss"
+      ],
+      "settings": {
+				"foreground": "#D0D6B5"
+      }
+    },
 		{
       "name": "[HTML] - Entity Name and doctype",
       "scope": [
@@ -619,6 +639,19 @@
 				"fontStyle": "italic"
       }
 		},
+		{
+      "name": "[JS] - Decimal Point",
+      "scope": [
+        // "constant.numeric.decimal",
+        "constant.numeric.decimal",
+        "meta.array.literal",
+        "meta.block"
+      ],
+      "settings": {
+        "foreground": "#D0D6B5"
+        // "foreground": "#bbb"
+      }
+    },
 		{
       "name": "[JSON] - Meta",
       "scope": [

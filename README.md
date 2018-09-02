@@ -72,17 +72,5 @@ In version [1.3.3](https://github.com/josefaidt/rouge-theme/releases/tag/v1.3.3)
 ```
 ![Screenshotbadges1](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_2_small.png)![Screenshotbadges2](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_3_small.png)
 
-### Supported Languages
-- C#
-- Java
-- JavaScript
-- JavaScript (React/JSX)
-- JSON
-- HTML
-- CSS, SCSS, LESS
-- XML
-- Markdown
-- PUG
-
 ### License
 [MIT License](./LICENSE)

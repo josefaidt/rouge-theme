@@ -319,6 +319,17 @@
       }
 		},
 		{
+      "name": "[CSS] - Symbols (colons, etc)",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.class.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+				"foreground": "#D0D6B5"
+      }
+		},
+		{
       "name": "[CSS] - Constant (property values included)",
       "scope": [
         "source.css constant",

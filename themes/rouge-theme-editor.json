@@ -177,7 +177,7 @@
     "pickerGroup.foreground": "#eabe9acc",
     "panel.background": "#172030",
     "panel.border": "#75809559",
-    "panelTitle.activeBorder": "#758095",
+    "panelTitle.activeBorder": "#c6797ecc",
     "panelTitle.activeForeground": "#A7ACB9",
     "panelTitle.inactiveForeground": "#808799b3",
     "terminal.background": "#172030",
@@ -218,15 +218,15 @@
     "settings.inactiveSelectedItemBorder": "#75809559",
     "settings.dropdownBackground": "#172030",
     "settings.dropdownForeground": "#A7ACB9",
-    "settings.dropdownBorder": "#75809580",
+    "settings.dropdownBorder": "#c6797e80",
     "settings.checkboxBackground": "#75809560",
     "settings.checkboxForeground": "#758095",
-    "settings.checkboxBorder": "#75809580",
+    "settings.checkboxBorder": "#c6797e80",
     "settings.textInputBackground": "#172030",
     "settings.textInputForeground": "#A7ACB9",
-    "settings.textInputBorder": "#75809580",
+    "settings.textInputBorder": "#c6797e80",
     "settings.numberInputBackground": "#172030",
     "settings.numberInputForeground": "#A7ACB9",
-    "settings.numberInputBorder": "#75809580"
+    "settings.numberInputBorder": "#c6797e80"
   }
 }

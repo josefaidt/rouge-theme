@@ -4,8 +4,8 @@
   <a href="https://github.com/josefaidt/rouge-theme">
     <img
       alt="Rouge"
-      src="https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/banner.png"
-      width="400"
+      src="https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/banner_large.png"
+      width="800"
     />
   </a>
 </p>

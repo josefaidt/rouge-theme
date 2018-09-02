@@ -5,7 +5,7 @@
     <img
       alt="Rouge"
       src="https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/banner_large.png"
-      width="800"
+      width="1000"
     />
   </a>
 </p>

@@ -1,4 +1,15 @@
 # Rouge Theme for VSCode
+
+<p align="center">
+  <a href="https://github.com/josefaidt/rouge-theme">
+    <img
+      alt="Rouge"
+      src="https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/banner.png"
+      width="400"
+    />
+  </a>
+</p>
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)![Installs](https://vsmarketplacebadge.apphb.com/installs/josef.rouge-theme.svg)
 
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font. 
@@ -27,9 +38,6 @@ Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/iss
 
 #### Markdown
 ![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-md-1_3_1.png)
-
-#### PUG
-![Markdown](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-pug-1_4.png)
 
 ### Recommended Settings
 I prefer to use the colorless version of [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) and the settings below. If you do not have Operator Mono installed, Fira Code works well also, though the italics are optimized for use with Operator Mono.

@@ -1,0 +1,100 @@
+#172030 - background
+#121321 - shadow
+#192334 widget background
+#1F2A3F peekview widget background, welcome page embedded editor background, notificationcenter header background
+#1B2638 - peekview title background
+#1A2335 - tab unfocused active border, inputvalidation background
+
+#212e45 - bracket match
+#1D293D - welcome page button background, textblock quote background
+
+#223047
+#293a57
+
+#444955 - welcome page button hover background
+#444955b3 - peekview selection background
+#44495580 - list - drop,hover,inactive focus,inactive selection background
+#444955e6 - statusbaritem - hover background (change this!!!)
+
+#758095 - button hover background
+#75809580 - button background
+#7580954d
+#75809566 - editorgroup drop background, notification border
+#75809533 - list - focus background
+
+#6e94b9 - textlink foreground
+#6e94b9e6 - gitdeco - ignored resource foreground
+#6e94b9cc - overviewruler info foreground
+#6e94b966 - merge - incoming content background
+#6e94b999 - merge - incoming header foreground, inputvalidation info border
+
+#98b3cd - textlink active foreground
+
+#A7ACB9 - description foreground
+#bbb - generic text
+#c6cad2 - label foreground
+#b8bcc6 - input option - active border (only used this once?), terminal foreground
+#808799 - input - placeholder foreground (only used this once?)
+#ccc - dropdown foreground (only used this once?)
+#fff
+#e6e6e6 - sidebar section header - foreground (only used this once?)
+
+#CC565E
+#CC565Edf - inputvalidation - error border
+#cc565ecc - gutter deleted/error foreground
+#CC565E40 - overviewruler deleted foreground
+
+#c6797e
+#c6797edf
+#c6797ecc - scrollbar hover background
+#c6797ef2 - scrollbar active background
+
+#d19498 - gitdeco - conflicting resource foreground (only used this once, but also terminal)
+
+#a06468df - dropdown border, input border
+#a06468cc - scrollbar background
+#a0646810 - scrollbar shadow (used only this once?)
+
+#F9B5ACcc - list - warning foreground
+
+#97a38f
+#97a38fe6 - statusbar debug background
+#9BBA9Acc - gutter added
+#9BBA9A80 - merge - current header background
+#9BBA9A26 - merge - current content background
+#728069B3 - extension button - prominent background
+#728069 - extension button - hover background
+
+#ADB9A4 - gitdeco - untracked resource foreground, terminal cursor
+
+#91d1bd
+#91d1bd40
+#91d1bd66
+
+#eabe9a
+#eabe9adf - inputvalidation warning border
+#eabe9a80
+#eabe9acc - gutter modified
+
+#b18bb1 - statusbaritem prominent hover background
+#b18bb1cc - statusbaritem prominent background
+#b18bb1e6 - gitdeco deleted resource foreground
+
+
+ANSI
+#293a56 - black
+#3A537A - bright black
+#6e94b9 - blue
+#98b3cd - bright blue
+#8ab6c1 - cyan
+#abcbd3 - bright cyan
+#ADB9A4 - green
+#bec8b7 - bright green
+#b18bb1 - magenta
+#ccb3cc - bright magenta
+#c6797e - red
+#d19498 - bright red
+#e3e4e8 - white
+#ffffff - bright white
+#ece7ac - yellow
+#F2EFC7 - bright yellow

@@ -256,21 +256,29 @@
     // 
     // title bar
     // 
-    "titleBar.activeBackground": "#1A2335",
-    "titleBar.activeForeground": "#fff",
+    "titleBar.activeBackground": "#172030",
+    "titleBar.activeForeground": "#A7ACB9",
     "titleBar.inactiveBackground": "#c6797edf",
-    "titleBar.inactiveForeground": "#A7ACB9",
+    "titleBar.inactiveForeground": "#fff",
     // 
     // menu
     // 
-    "menu.background": "#1A2335",
-    "menu.foreground": "#c6cad2",
+    // "menu.background": "#1A2335",
+    // "menu.foreground": "#c6cad2",
     // "menu.selectionBackground": "",
     // "menu.selectionForeground": "",
     // "menu.selectionBorder": "",
     // "menubar.selectionBackground": "",
     // "menubar.selectionForeground": "",
     // "menubar.selectionBorder": "",
+    "menu.background": "#172030",
+    "menu.foreground": "#a7acb9",
+    "menu.selectionBackground": "#293a57",
+    "menu.selectionForeground": "#c6cad2",
+    "menu.selectionBorder": null,
+    "menubar.selectionBackground": "#c6797e",
+    "menubar.selectionForeground": "#fff",
+    "menubar.selectionBorder": null,
     // 
     // notifications
     // 

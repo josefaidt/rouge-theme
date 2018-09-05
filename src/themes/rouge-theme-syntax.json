@@ -639,19 +639,19 @@
 				"fontStyle": "italic"
       }
 		},
-		{
-      "name": "[JS] - Decimal Point",
-      "scope": [
-        // "constant.numeric.decimal",
-        "constant.numeric.decimal",
-        "meta.array.literal",
-        "meta.block"
-      ],
-      "settings": {
-        "foreground": "#D0D6B5"
-        // "foreground": "#bbb"
-      }
-    },
+		// {
+    //   "name": "[JS] - Decimal Point",
+    //   "scope": [
+    //     // "constant.numeric.decimal",
+    //     "constant.numeric.decimal",
+    //     "meta.array.literal",
+    //     "meta.block"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#D0D6B5"
+    //     // "foreground": "#bbb"
+    //   }
+    // },
 		{
       "name": "[JSON] - Meta",
       "scope": [

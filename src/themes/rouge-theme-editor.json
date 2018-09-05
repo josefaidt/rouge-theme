@@ -75,7 +75,7 @@
     "editorSuggestWidget.highlightForeground": "#eabe9a",
     // "editorSuggestWidget.selectedBackground": "#91d1bd4d",
     // "editorSuggestWidget.selectedBackground": "#c6797e4d",
-    "editorSuggestWidget.selectedBackground": "#7580954d",
+    "editorSuggestWidget.selectedBackground": "#293a57",
     "editorHoverWidget.background": "#1F2A3F",
     // "editorHoverWidget.border": "#c6797e",
     "editorHoverWidget.border": "#758095",
@@ -256,21 +256,29 @@
     // 
     // title bar
     // 
-    "titleBar.activeBackground": "#1A2335",
-    "titleBar.activeForeground": "#fff",
+    "titleBar.activeBackground": "#172030",
+    "titleBar.activeForeground": "#A7ACB9",
     "titleBar.inactiveBackground": "#c6797edf",
-    "titleBar.inactiveForeground": "#A7ACB9",
+    "titleBar.inactiveForeground": "#fff",
     // 
     // menu
     // 
-    "menu.background": "#1A2335",
-    "menu.foreground": "#c6cad2",
+    // "menu.background": "#1A2335",
+    // "menu.foreground": "#c6cad2",
     // "menu.selectionBackground": "",
     // "menu.selectionForeground": "",
     // "menu.selectionBorder": "",
     // "menubar.selectionBackground": "",
     // "menubar.selectionForeground": "",
     // "menubar.selectionBorder": "",
+    "menu.background": "#172030",
+    "menu.foreground": "#a7acb9",
+    "menu.selectionBackground": "#293a57",
+    "menu.selectionForeground": "#c6cad2",
+    "menu.selectionBorder": null,
+    "menubar.selectionBackground": "#c6797e",
+    "menubar.selectionForeground": "#fff",
+    "menubar.selectionBorder": null,
     // 
     // notifications
     // 
@@ -321,7 +329,7 @@
     "terminal.foreground": "#b8bcc6",
     "terminalCursor.background": "#ADB9A4",
     "terminalCursor.foreground": "#ADB9A4",
-    "terminal.ansiBlack": "#293a56",
+    "terminal.ansiBlack": "#374E73",
     "terminal.ansiBlue": "#6e94b9",
     "terminal.ansiCyan": "#8ab6c1",
     "terminal.ansiGreen": "#ADB9A4",
@@ -329,7 +337,7 @@
     "terminal.ansiRed": "#c6797e",
     "terminal.ansiWhite": "#e3e4e8",
     "terminal.ansiYellow": "#ece7ac",
-    "terminal.ansiBrightBlack": "#3A537A",
+    "terminal.ansiBrightBlack": "#3F5A85",
     // "terminal.ansiBrightBlack": "#808799",
     "terminal.ansiBrightBlue": "#98b3cd",
     "terminal.ansiBrightCyan": "#abcbd3",

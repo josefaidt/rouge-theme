@@ -3,6 +3,18 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ## [Released]
 ---
+## [1.5.1] - 2018-09-05
+### Added
+- editor: Windows/Linux menubar, full color
+
+### Changed
+- editor: titlebar now extends to Windows/Linux, polished colors to fit palette
+- editor: terminal.ansiBrightBlack & black brightened a bit for readability
+- editor: editorSuggestWidget.selectedBackground changed to match new hover background
+
+### Fixed
+- syntax: numbers were green instead of yellow after a brief attempt to fix some punctuation coloring issues
+
 ## [1.5.0] - 2018-09-02
 ### Added
 - editor:

@@ -1,5 +1,18 @@
 # Change Log
+
 All notable changes to the "rouge-theme" extension will be documented in this file.
+
+## [Unreleased]
+
+---
+
+## [2.0.0.alpha-1] - 2019-02-24
+
+### Added
+
+- Rouge 2 beginnings
+  - will be written using JavaScript
+- custom build script using Node.js
 
 ## [Released]
 ---

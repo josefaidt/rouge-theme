@@ -5,5 +5,5 @@ module.exports = {
   name: 'Rouge 2',
   type: 'dark',
   colors,
-  tokenColors,
+  tokenColors: [...tokenColors],
 }

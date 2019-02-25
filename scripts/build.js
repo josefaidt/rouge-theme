@@ -74,11 +74,11 @@ const watch = () => {
   fs.watch(path.join(_dirname, 'src', 'rouge-2'), options, (eventType, filename) => {
     // console.log(`event type is: ${eventType}`)
     if (filename) {
-      console.log(logger(`🗄  File changed: ${filename}`))
+      console.log(logger(`📁  File changed: ${filename}`))
       write()
     } else {
       write()
-      console.log(logger(`🗄  File changed: <not provided>`))
+      console.log(logger(`📁  File changed: <not provided>`))
     }
   })
 }
@@ -86,13 +86,30 @@ const watch = () => {
 const write = () => {
   const buildMsg = logger(chalk.green('build completed in'))
   console.time(buildMsg)
+
+  // IMPORT FILES
+  const importMsg = logger(`🗄  ${chalk.yellow('collecting files')}`)
+  console.time(importMsg)
   // eslint-disable-next-line global-require
   const srcFiles = require('../src/rouge-2')
+  console.timeEnd(importMsg)
+
+  // WRITE OUT JSON
   const jsonString = JSON.stringify(srcFiles)
-  fs.writeFile(paths.out['rouge-2'], jsonString, 'utf8', err => {
+  fs.writeFile(paths.out['rouge-2'], jsonString, 'utf8', async err => {
     if (err) throw new Error(err)
     console.log(logger(`🏗  ${chalk.yellow('Building..')}`))
-    delete require.cache[require.resolve('../src/rouge-2')]
+
+    // TODO: iterate over each file to remove cache
+    const cleanupMsg = logger(`🛀🏻  ${chalk.cyan('cleaned cache')}`)
+    console.time(cleanupMsg)
+    await delete require.cache[require.resolve('../src/rouge-2')]
+    await delete require.cache[require.resolve('../src/rouge-2/theme.js')]
+    await delete require.cache[require.resolve('../src/rouge-2/editorColors')]
+    await delete require.cache[require.resolve('../src/rouge-2/tokenColors')]
+    console.timeEnd(cleanupMsg)
+
+
     console.timeEnd(buildMsg)
   })
 }
@@ -104,6 +121,7 @@ const write = () => {
 const ExitHandler = (options, exitCode) => {
   if (options.cleanup) {
     console.log('🛀🏻  Cleaning up...')
+    // TODO: misc clenaup tasks
   }
   if (exitCode || exitCode === 0) console.log(chalk.blue('\nGracefully shutting down...'))
   if (options.exit) process.exit()
@@ -121,9 +139,9 @@ switch (event) {
     console.log(logger(chalk.red('Default mode set')))
     return write()
   case 'develop':
+    console.log(logger(chalk.yellow.underline('Mode is set to development')))
     startup()
     write()
-    console.log(logger(chalk.yellow('Mode is set to development')))
     console.log(logger(`👁  Watching for changes..`))
     return watch()
   default:

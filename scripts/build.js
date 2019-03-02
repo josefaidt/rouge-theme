@@ -3,32 +3,7 @@ const path = require('path')
 const chalk = require('chalk')
 const { listDirs, clearCache } = require('./fsOps')
 const logger = require('./logger')
-
-//
-// PATHS
-//
-
-const _dirname = process.cwd()
-const paths = {
-  _dirname,
-  src: path.join(_dirname, 'src'),
-  dest: path.join(_dirname, 'themes'),
-  themes: [],
-}
-
-paths.out = {
-  'rouge-2': path.join(paths.dest, 'rouge-2.json'),
-}
-
-// TODO: async theme directory addition
-fs.readdir(paths.src, { withFileTypes: true }, (err, files) => {
-  if (err) logger(err, 'error')
-  files.forEach(f => {
-    if (f.isDirectory()) {
-      paths.themes.push(path.join(paths.src, f.name))
-    }
-  })
-})
+const paths = require('./paths')
 
 //
 // PROCESS EVENT TYPE
@@ -67,10 +42,8 @@ const watch = () => {
   const options = {
     recursive: true,
   }
-  fs.watch(
-    path.join(_dirname, 'src', 'rouge-2'),
-    options,
-    (eventType, filename) => {
+  paths.themes.forEach(d => {
+    fs.watch(d, options, (eventType, filename) => {
       // console.log(`event type is: ${eventType}`)
       if (filename) {
         console.log(logger(`📁  File changed: ${filename}`))
@@ -79,8 +52,8 @@ const watch = () => {
         write()
         console.log(logger(`📁  File changed: <not provided>`))
       }
-    }
-  )
+    })
+  })
 }
 
 const write = () => {

@@ -41,7 +41,7 @@
       {
         "label": "Rouge 2",
         "uiTheme": "vs-dark",
-        "path": "./themes/rouge-2.json"
+        "path": "./themes/rouge2.json"
       }
     ]
   },

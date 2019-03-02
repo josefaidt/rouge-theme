@@ -64,7 +64,7 @@ const write = dirChanged => {
   const theme = dirChanged
     ? paths.themes[dirChanged]
     : path.join(paths.src, 'rouge2')
-  const importMsg = logger(`🗄  ${chalk.yellow('collecting files')}`)
+  const importMsg = logger(`🗄  collecting files`)
   console.time(importMsg)
   // eslint-disable-next-line global-require
   const srcFiles = require(theme)

@@ -6,7 +6,12 @@ module.exports = [
   },
   {
     name: 'Comment',
-    scope: ['comment', 'punctuation.definition.comment', 'unused.comment', 'wildcard.comment'],
+    scope: [
+      'comment',
+      'punctuation.definition.comment',
+      'unused.comment',
+      'wildcard.comment',
+    ],
     settings: {
       fontStyle: 'italic',
       foreground: '#64727d',
@@ -165,7 +170,8 @@ module.exports = [
   },
   {
     name: '[GLOBAL] - Quotation Marks',
-    scope: 'punctuation.definition.string.begin, punctuation.definition.string.end',
+    scope:
+      'punctuation.definition.string.begin, punctuation.definition.string.end',
     settings: {
       foreground: '#D0D6B5',
     },
@@ -242,7 +248,10 @@ module.exports = [
   },
   {
     name: '[CSS] - Media Constant',
-    scope: ['source.css support.constant.media', 'source.stylus support.constant.media'],
+    scope: [
+      'source.css support.constant.media',
+      'source.stylus support.constant.media',
+    ],
     settings: {
       foreground: '#D0D6B5',
     },
@@ -279,7 +288,10 @@ module.exports = [
   },
   {
     name: '[CSS] - Units (px, em)',
-    scope: ['source.css keyword.other.unit', 'source.stylus keyword.other.unit'],
+    scope: [
+      'source.css keyword.other.unit',
+      'source.stylus keyword.other.unit',
+    ],
     settings: {
       foreground: '#A3B09A',
       fontStyle: 'regular',
@@ -320,7 +332,10 @@ module.exports = [
   },
   {
     name: '[CSS] - URLs',
-    scope: ['source.css variable.parameter.url', 'source.stylus variable.parameter.url'],
+    scope: [
+      'source.css variable.parameter.url',
+      'source.stylus variable.parameter.url',
+    ],
     settings: {
       foreground: '#A3B09A',
     },
@@ -420,7 +435,10 @@ module.exports = [
   },
   {
     name: '[PUG/JADE] - Class and ID',
-    scope: ['entity.other.attribute-name.class.jade', 'entity.other.attribute-name.id.jade'],
+    scope: [
+      'entity.other.attribute-name.class.jade',
+      'entity.other.attribute-name.id.jade',
+    ],
     settings: {
       foreground: '#eabe9a',
     },
@@ -453,14 +471,20 @@ module.exports = [
   },
   {
     name: '[JS/JSX] - React Tag Names',
-    scope: ['source.js support.class.component', 'source.jsx support.class.component'],
+    scope: [
+      'source.js support.class.component',
+      'source.jsx support.class.component',
+    ],
     settings: {
       foreground: '#DB6E8F',
     },
   },
   {
     name: '[JS/JSX] - React Tag Attributes',
-    scope: ['source.js entity.other.attribute-name', 'source.jsx entity.other.attribute-name'],
+    scope: [
+      'source.js entity.other.attribute-name',
+      'source.jsx entity.other.attribute-name',
+    ],
     settings: {
       foreground: '#F7E3AF',
       fontStyle: 'italic',
@@ -488,7 +512,10 @@ module.exports = [
   },
   {
     name: '[JS/JSX] - React Tag Property Values',
-    scope: ['punctuation.definition.tag.begin.js', 'punctuation.definition.tag.end.js'],
+    scope: [
+      'punctuation.definition.tag.begin.js',
+      'punctuation.definition.tag.end.js',
+    ],
     settings: {
       foreground: '#808080',
     },
@@ -502,7 +529,10 @@ module.exports = [
   },
   {
     name: '[JS] - `Typeof`, `Instanceof` Operator',
-    scope: ['keyword.operator.expression.typeof.js', 'keyword.operator.expression.instanceof.js'],
+    scope: [
+      'keyword.operator.expression.typeof.js',
+      'keyword.operator.expression.instanceof.js',
+    ],
     settings: {
       foreground: '#D0D6B5',
       fontStyle: 'italic',
@@ -531,7 +561,10 @@ module.exports = [
   },
   {
     name: '[JSON] - String',
-    scope: ['source.json string.json', 'source.json punctuation.definition.string.json'],
+    scope: [
+      'source.json string.json',
+      'source.json punctuation.definition.string.json',
+    ],
     settings: {
       foreground: '#A3B09A',
     },
@@ -607,7 +640,10 @@ module.exports = [
   },
   {
     name: '[MARKDOWN] - Emphasis Bold',
-    scope: ['markup.bold.markdown', 'markup.bold.markdown punctuation.definition.bold.markdown'],
+    scope: [
+      'markup.bold.markdown',
+      'markup.bold.markdown punctuation.definition.bold.markdown',
+    ],
     settings: {
       foreground: '#bbb',
       fontStyle: 'bold',
@@ -647,7 +683,10 @@ module.exports = [
   },
   {
     name: '[MARKDOWN] - Link Address',
-    scope: ['markup.underline.link.markdown', 'markup.underline.link.image.markdown'],
+    scope: [
+      'markup.underline.link.markdown',
+      'markup.underline.link.image.markdown',
+    ],
     settings: {
       foreground: '#7ea9a9',
     },

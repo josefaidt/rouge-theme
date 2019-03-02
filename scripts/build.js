@@ -1,6 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 const chalk = require('chalk')
+const { listDirs, clearCache } = require('./fsOps')
+const logger = require('./logger')
 
 //
 // PATHS
@@ -20,19 +22,13 @@ paths.out = {
 
 // TODO: async theme directory addition
 fs.readdir(paths.src, { withFileTypes: true }, (err, files) => {
-  if (err) throw new Error(err)
+  if (err) logger(err, 'error')
   files.forEach(f => {
     if (f.isDirectory()) {
       paths.themes.push(path.join(paths.src, f.name))
     }
   })
 })
-
-const logger = phrase => {
-  const d = new Date()
-  const timeStr = `[${d.toTimeString().split(' ')[0]}]`
-  return `${chalk.gray(timeStr)} ${phrase || ''}`
-}
 
 //
 // PROCESS EVENT TYPE
@@ -71,16 +67,20 @@ const watch = () => {
   const options = {
     recursive: true,
   }
-  fs.watch(path.join(_dirname, 'src', 'rouge-2'), options, (eventType, filename) => {
-    // console.log(`event type is: ${eventType}`)
-    if (filename) {
-      console.log(logger(`📁  File changed: ${filename}`))
-      write()
-    } else {
-      write()
-      console.log(logger(`📁  File changed: <not provided>`))
+  fs.watch(
+    path.join(_dirname, 'src', 'rouge-2'),
+    options,
+    (eventType, filename) => {
+      // console.log(`event type is: ${eventType}`)
+      if (filename) {
+        console.log(logger(`📁  File changed: ${filename}`))
+        write()
+      } else {
+        write()
+        console.log(logger(`📁  File changed: <not provided>`))
+      }
     }
-  })
+  )
 }
 
 const write = () => {
@@ -97,21 +97,13 @@ const write = () => {
   // WRITE OUT JSON
   const jsonString = JSON.stringify(srcFiles)
   fs.writeFile(paths.out['rouge-2'], jsonString, 'utf8', async err => {
-    if (err) throw new Error(err)
+    if (err) logger(err, 'error')
+
     console.log(logger(`🏗  ${chalk.yellow('Building..')}`))
-
-    // TODO: iterate over each file to remove cache
-    const cleanupMsg = logger(`🛀🏻  ${chalk.cyan('cleaned cache')}`)
-    console.time(cleanupMsg)
-    await delete require.cache[require.resolve('../src/rouge-2')]
-    await delete require.cache[require.resolve('../src/rouge-2/theme.js')]
-    await delete require.cache[require.resolve('../src/rouge-2/editorColors')]
-    await delete require.cache[require.resolve('../src/rouge-2/tokenColors')]
-    console.timeEnd(cleanupMsg)
-
-
-    console.timeEnd(buildMsg)
+    // clear cache of all files
+    await clearCache(listDirs(path.join(paths.src, 'rouge-2')))
   })
+  console.timeEnd(buildMsg)
 }
 
 //
@@ -123,7 +115,8 @@ const ExitHandler = (options, exitCode) => {
     console.log('🛀🏻  Cleaning up...')
     // TODO: misc clenaup tasks
   }
-  if (exitCode || exitCode === 0) console.log(chalk.blue('\nGracefully shutting down...'))
+  if (exitCode || exitCode === 0)
+    console.log(chalk.blue('\nGracefully shutting down...'))
   if (options.exit) process.exit()
 }
 // process.on('exit', () => console.log('\nExiting...'))

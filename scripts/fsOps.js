@@ -5,7 +5,7 @@ const logger = require('./logger')
 
 // const testPath = path.join(process.cwd(), 'src', 'rouge-2')
 
-const listDirs = directory => {
+const getFiles = directory => {
   const results = [directory]
   fs.readdirSync(directory, { withFileTypes: true }).forEach(f => {
     const fullPath = path.join(directory, f.name)
@@ -42,6 +42,6 @@ const clearCache = fileArray => {
 // console.log(listDirs(testPath))
 
 module.exports = {
-  listDirs,
+  getFiles,
   clearCache,
 }

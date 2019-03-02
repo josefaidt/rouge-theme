@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const chalk = require('chalk')
-const { listDirs, clearCache } = require('./fsOps')
+const { getFiles, clearCache } = require('./fsOps')
 const logger = require('./logger')
 const paths = require('./paths')
 
@@ -30,7 +30,7 @@ if (args.length) {
 //
 
 const startup = () => {
-  const startMsg = logger('start up completed in')
+  const startMsg = logger(chalk.green('startup completed in'))
   // const startupMessage = `${logger()} 🚀  ${chalk.green('Starting to build your theme')}`
   const startupMessage = logger(`🚀  Starting to build your theme`)
   console.time(startMsg)
@@ -42,42 +42,58 @@ const watch = () => {
   const options = {
     recursive: true,
   }
-  paths.themes.forEach(d => {
-    fs.watch(d, options, (eventType, filename) => {
-      // console.log(`event type is: ${eventType}`)
-      if (filename) {
-        console.log(logger(`📁  File changed: ${filename}`))
-        write()
-      } else {
-        write()
-        console.log(logger(`📁  File changed: <not provided>`))
-      }
-    })
+  const dirs = Object.values(paths.themes)
+  fs.watch(paths.src, options, (eventType, filename) => {
+    // console.log(`event type is: ${eventType}`)
+    if (filename) {
+      console.log(logger(`📁  File changed: ${filename}`))
+      // console.log(filename.split('/')[0])
+      write(filename.split('/')[0])
+    } else {
+      write()
+      console.log(logger(`📁  File changed: <not provided>`))
+    }
   })
 }
 
-const write = () => {
+const write = dirChanged => {
   const buildMsg = logger(chalk.green('build completed in'))
   console.time(buildMsg)
 
-  // IMPORT FILES
+  // IMPORT dirChanged
+  const theme = dirChanged
+    ? paths.themes[dirChanged]
+    : path.join(paths.src, 'rouge2')
   const importMsg = logger(`🗄  ${chalk.yellow('collecting files')}`)
   console.time(importMsg)
   // eslint-disable-next-line global-require
-  const srcFiles = require('../src/rouge-2')
+  const srcFiles = require(theme)
   console.timeEnd(importMsg)
 
-  // WRITE OUT JSON
   const jsonString = JSON.stringify(srcFiles)
-  fs.writeFile(paths.out['rouge-2'], jsonString, 'utf8', async err => {
-    if (err) logger(err, 'error')
+  // WRITE OUT JSON
+  console.log(
+    logger(
+      `🏗  ${chalk.yellow(
+        `Building - ${chalk.blue.bold(theme.split('/').pop())}`
+      )}`
+    )
+  )
+  fs.writeFile(
+    dirChanged ? paths.out[dirChanged] : paths.out['rouge2'],
+    jsonString,
+    'utf8',
+    async err => {
+      if (err) logger(err, 'error')
 
-    console.log(logger(`🏗  ${chalk.yellow('Building..')}`))
-    // clear cache of all files
-    await clearCache(listDirs(path.join(paths.src, 'rouge-2')))
-  })
+      // clear cache of all files
+      await clearCache(getFiles(theme))
+    }
+  )
   console.timeEnd(buildMsg)
 }
+
+// write('rouge2')
 
 //
 // HANDLE EXITS
@@ -86,10 +102,10 @@ const write = () => {
 const ExitHandler = (options, exitCode) => {
   if (options.cleanup) {
     console.log('🛀🏻  Cleaning up...')
-    // TODO: misc clenaup tasks
+    clearCache()
   }
   if (exitCode || exitCode === 0)
-    console.log(chalk.blue('\nGracefully shutting down...'))
+    console.log(`\n${logger(chalk.blue('Gracefully shutting down...'))}`)
   if (options.exit) process.exit()
 }
 // process.on('exit', () => console.log('\nExiting...'))
@@ -102,7 +118,7 @@ process.on('SIGINT', ExitHandler.bind(null, { cleanup: false, exit: true }))
 switch (event) {
   case 'default':
     startup()
-    console.log(logger(chalk.red('Default mode set')))
+    console.log(logger(chalk.red('Default build mode set')))
     return write()
   case 'develop':
     console.log(logger(chalk.yellow.underline('Mode is set to development')))

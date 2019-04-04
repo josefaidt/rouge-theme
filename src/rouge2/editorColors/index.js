@@ -1,5 +1,6 @@
 const theme = require('../theme')
 const terminalColors = require('./terminal')
+const baseColors = require('./base')
 const { augment } = theme
 
 module.exports = {
@@ -7,5 +8,6 @@ module.exports = {
   'sideBar.background': theme.bg,
   'editorGroupHeader.noTabsBackground': theme.bg,
   'tab.inactiveBackground': theme.bg,
+  ...baseColors,
   ...terminalColors,
 }

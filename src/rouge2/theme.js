@@ -1,6 +1,7 @@
 const colors = {
   rouge: '#c6797e',
-  bg: '#121A2E',
+  // bg: '#121A2E',
+  bg: '#c6797e',
   red: '#CC565E',
   yellow: '#eabe9a',
   green: '#9BBA9A',

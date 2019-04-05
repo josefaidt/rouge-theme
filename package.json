@@ -2,7 +2,7 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "publisher": "josef",
   "scripts": {
     "build": "gulp"

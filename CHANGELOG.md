@@ -6,7 +6,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
-## [1.5.2] - 2019-04-04
+## [1.5.3] - 2019-04-04
 
 ### Added
 

@@ -57,6 +57,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "chalk": "^2.4.2",
     "gulp": "^4.0.0",
     "gulp-strip-comments": "^2.5.2"
   }

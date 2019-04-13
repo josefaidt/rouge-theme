@@ -34,14 +34,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rouge",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rouge-theme-syntax.json"
-      },
-      {
         "label": "Rouge 2",
         "uiTheme": "vs-dark",
         "path": "./themes/rouge2.json"
+      },
+      {
+        "label": "Rouge",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rouge-theme-syntax.json"
       },
       {
         "label": "Rouge No Italics",

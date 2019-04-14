@@ -54,7 +54,7 @@ module.exports = [
     scope: 'keyword.operator',
     settings: {
       // foreground: theme.green_light,
-      foreground: theme.bg_lighter,
+      foreground: theme.green_light,
       fontStyle: 'regular',
     },
   },
@@ -116,10 +116,17 @@ module.exports = [
     },
   },
   {
-    name: 'Punctuation',
+    name: 'Punctuation - Definitions',
     scope: 'punctuation.definition',
     settings: {
       foreground: theme.purple,
+    },
+  },
+  {
+    name: 'Punctuation - Accessors',
+    scope: 'punctuation.accessor',
+    settings: {
+      foreground: theme.green_light,
     },
   },
   // {

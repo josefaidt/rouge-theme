@@ -53,8 +53,8 @@ module.exports = [
     name: 'Operators',
     scope: 'keyword.operator',
     settings: {
+      foreground: theme.bg_lighter,
       // foreground: theme.green_light,
-      foreground: theme.green_light,
       fontStyle: 'regular',
     },
   },
@@ -76,7 +76,14 @@ module.exports = [
     name: 'Meta',
     scope: 'meta',
     settings: {
-      foreground: theme.purple,
+      foreground: theme.purple_light,
+    },
+  },
+  {
+    name: 'Object Keys',
+    scope: 'meta.object-literal.key',
+    settings: {
+      foreground: theme.bg_lighter,
     },
   },
   {
@@ -90,24 +97,16 @@ module.exports = [
     name: 'Variable',
     scope: 'variable',
     settings: {
-      foreground: '#CC8F93',
-      // foreground: theme.rouge,
+      foreground: theme.rouge,
     },
   },
   {
     name: 'Support',
     scope: 'support',
     settings: {
-      foreground: theme.peach_light,
+      foreground: theme.peach,
     },
   },
-  // {
-  //   name: 'Meta Brace',
-  //   scope: 'meta.brace',
-  //   settings: {
-  //     foreground: '#D0D6B5',
-  //   },
-  // },
   {
     name: 'Punctuation',
     scope: 'punctuation',
@@ -116,10 +115,10 @@ module.exports = [
     },
   },
   {
-    name: 'Punctuation - Definitions',
+    name: 'Punctuation - Definitions (curly brackets)',
     scope: 'punctuation.definition',
     settings: {
-      foreground: theme.purple,
+      foreground: theme.purple_light,
     },
   },
   {
@@ -127,6 +126,27 @@ module.exports = [
     scope: 'punctuation.accessor',
     settings: {
       foreground: theme.green_light,
+    },
+  },
+  {
+    name: 'Punctuation - Terminators',
+    scope: 'punctuation.terminator',
+    settings: {
+      foreground: theme.green_light,
+    },
+  },
+  {
+    name: 'Punctuation - Separator',
+    scope: 'punctuation.separator',
+    settings: {
+      foreground: theme.green_light,
+    },
+  },
+  {
+    name: 'Source',
+    scope: 'source',
+    settings: {
+      foreground: theme.bg_lighter,
     },
   },
   // {

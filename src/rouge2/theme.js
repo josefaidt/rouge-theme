@@ -48,6 +48,16 @@ const bg2 = {
   bg_lightest: '#E8E8EA',
 }
 
+const accent = {
+  accent_darkest: '#111A1B',
+  accent_darker: '#223336',
+  accent_dark: '#334D51',
+  accent: '#39555A',
+  accent_light: '#74888C',
+  accent_lighter: '#B0BBBD',
+  accent_lightest: '#EBEEEF',
+}
+
 const purple = {
   purple_darkest: '#171724',
   purple_darker: '#2E2F48',
@@ -88,6 +98,16 @@ const green = {
   green_lightest: '#F5F5F4',
 }
 
+const blue = {
+  blue_darkest: '#091E24',
+  blue_darker: '#123B48',
+  blue_dark: '#1B596C',
+  blue: '#1E6378',
+  blue_light: '#6292A1',
+  blue_lighter: '#A5C1C9',
+  blue_lightest: '#E9EFF2',
+}
+
 const colors = {
   // rouge: '#c6797e',
   // bg: '#121A2E',
@@ -104,12 +124,14 @@ const colors = {
 
   ...rouge,
   ...bg2,
+  ...accent,
   ...peach,
   ...grapple,
   ...purple,
   ...berry,
   ...green,
   ...kindarouge,
+  ...blue,
   // ...bg_classic,
 }
 

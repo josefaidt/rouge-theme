@@ -38,7 +38,7 @@ module.exports = [
     scope: 'invalid',
     settings: {
       // foreground: '#bbb',
-      foreground: '#e41',
+      // foreground: '#e41',
     },
   },
   {
@@ -104,7 +104,14 @@ module.exports = [
     name: 'Support',
     scope: 'support',
     settings: {
-      foreground: theme.peach,
+      foreground: theme.grapple,
+    },
+  },
+  {
+    name: 'Support Functions',
+    scope: 'support.function',
+    settings: {
+      foreground: theme.peach_light,
     },
   },
   {

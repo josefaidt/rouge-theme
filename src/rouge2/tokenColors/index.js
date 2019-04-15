@@ -34,6 +34,21 @@ module.exports = [
     },
   },
   {
+    name: 'HTML Entity Attributes',
+    scope: 'entity.other.attribute-name.html',
+    settings: {
+      foreground: theme.grapple,
+      fontStyle: 'italic'
+    },
+  },
+  {
+    name: 'HTML Entity',
+    scope: 'entity.name.tag.html',
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
     name: 'Invalid',
     scope: 'invalid',
     settings: {
@@ -150,8 +165,8 @@ module.exports = [
     },
   },
   {
-    name: 'Source',
-    scope: 'source',
+    name: '[SHELL] Source',
+    scope: 'source.shell',
     settings: {
       foreground: theme.bg_lighter,
     },

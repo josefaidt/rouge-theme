@@ -2,7 +2,7 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "2.0.0",
+  "version": "2.0.0-alpha.1",
   "publisher": "josef",
   "scripts": {
     "start": "yarn develop",

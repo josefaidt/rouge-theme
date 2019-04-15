@@ -4,7 +4,7 @@ const baseColors = require('./base')
 const { augment } = theme
 
 module.exports = {
-  focusBorder: theme.bg_lightest,
+  focusBorder: theme.bg_light,
   'editor.foreground': theme.bg_lighter,
   'editor.background': theme.bg,
   'sideBar.background': theme.bg,
@@ -14,6 +14,7 @@ module.exports = {
   'editorCursor.foreground': theme.rouge_dark,
   'editorBracketMatch.background': theme.bg,
   'editorBracketMatch.border': theme.rouge_light,
+  'progressBar.background': theme.rouge_dark,
   //
   // EDITOR
   //
@@ -22,17 +23,17 @@ module.exports = {
   'editor.lineHighlightBackground': augment(theme.accent, 13),
   'editor.wordHighlightBackground': augment(theme.accent, 60),
   'editor.wordHighlightStrongBackground': augment(theme.accent, 85),
-  'editor.findMatchBackground': augment(theme.accent, 40),
-  'editor.findMatchHighlightBackground': augment(theme.accent, 30),
+  'editor.findMatchBackground': augment(theme.accent, 60),
+  'editor.findMatchHighlightBackground': augment(theme.accent, 60),
   'editor.findRangeHighlightBackground': augment(theme.accent, 30),
   'editor.hoverHighlightBackground': augment(theme.accent, 30),
   'editor.selectionBackground': augment(theme.accent, 60),
-  'editor.selectionForeground': '#91d1bdff',
+  'editor.selectionForeground': theme.accent,
   'editor.inactiveSelectionBackground': augment(theme.accent, 30),
-  'editorLink.activeForeground': '#758095',
-  'editorGroup.background': '#172030',
-  'editorWarning.foreground': '#CC565Edf',
-  'editorError.foreground': '#cc565e',
+  'editorLink.activeForeground': theme.bg_lighter,
+  'editorGroup.background': theme.bg,
+  'editorWarning.foreground': theme.peach,
+  'editorError.foreground': theme.berry,
   'editorCodeLens.foreground': '#758095',
   //
   // EDITOR GUTTER
@@ -60,6 +61,11 @@ module.exports = {
   'activityBarBadge.background': theme.rouge,
   'activityBarBadge.foreground': theme.rouge_lightest,
   'activityBar.border': theme.bg_dark,
+  //
+  // BADGES
+  //
+  'badge.background': theme.rouge,
+  'badge.foreground': theme.rouge_lightest,
   //
   // SIDEBAR
   //
@@ -100,9 +106,9 @@ module.exports = {
   'list.activeSelectionBackground': augment(theme.rouge, 85),
   'list.activeSelectionForeground': theme.rouge_lightest,
   'list.dropBackground': augment(theme.bg_light, 50),
-  'list.focusBackground': augment(theme.bg_light, 60),
+  'list.focusBackground': augment(theme.bg_light, 50),
   'list.focusForeground': theme.bg_lightest,
-  'list.hoverBackground': augment(theme.bg_light, 60),
+  'list.hoverBackground': augment(theme.bg_light, 50),
   'list.hoverForeground': theme.bg_lightest,
   'list.inactiveFocusBackground': augment(theme.bg_light, 30),
   'list.inactiveFocusForeground': theme.bg_light,
@@ -118,8 +124,8 @@ module.exports = {
   // WIDGETS
   //
   'widget.shadow': theme.bg_darker,
-  'editorWidget.background': augment(theme.bg_light, 50),
-  'editorWidget.background': augment(theme.bg_light, 20),
+  // 'editorWidget.background': augment(theme.bg_light, 50),
+  'editorWidget.background': theme.bgb_dark,
   'editorWidget.border': theme.rouge,
   'editorWidget.resizeBorder': theme.rouge,
   'editorSuggestWidget.background': augment(theme.bg, 90),
@@ -127,9 +133,10 @@ module.exports = {
   'editorSuggestWidget.foreground': theme.bg_lighter,
   'editorSuggestWidget.highlightForeground': theme.bg_lighter,
   'editorSuggestWidget.selectedBackground': augment(theme.accent, 60),
-  'editorHoverWidget.background': augment(theme.bg, 90),
-  'editorHoverWidget.border': theme.rouge_darker,
-  'selection.background': theme.accent_light,
+  // 'editorHoverWidget.background': augment(theme.bg, 90),
+  'editorHoverWidget.background': theme.bgb_dark,
+  'editorHoverWidget.border': theme.purple_dark,
+  'selection.background': augment(theme.accent, 60),
   descriptionForeground: theme.bg_light,
   errorForeground: theme.berry_dark,
   //
@@ -138,14 +145,17 @@ module.exports = {
   'input.background': theme.bg,
   'input.border': theme.rouge_dark,
   'input.foreground': theme.bg_lighter,
-  'inputOption.activeBorder': '#f3f',
-  'input.placeholderForeground': '#808799',
-  'inputValidation.errorBackground': theme.bg,
-  'inputValidation.errorBorder': '#CC565Edf',
-  'inputValidation.warningBackground': theme.bg,
-  'inputValidation.warningBorder': '#eabe9adf',
-  'inputValidation.infoBackground': theme.bg,
-  'inputValidation.infoBorder': '#6e94b999',
+  'inputOption.activeBorder': theme.rouge,
+  'input.placeholderForeground': theme.bg_light,
+  'inputValidation.errorBackground': theme.berry_darker,
+  'inputValidation.errorForeground': theme.berry_lighter,
+  // 'inputValidation.errorBorder': theme.berry_lighter,
+  'inputValidation.warningBackground': theme.peach_darker,
+  'inputValidation.warningForeground': theme.peach_lighter,
+  // 'inputValidation.warningBorder': theme.peach_lighter,
+  'inputValidation.infoBackground': theme.bgb_dark,
+  'inputValidation.infoForeground': theme.bgb_lighter,
+  // 'inputValidation.infoBorder': theme.bgb_lighter,
   //
   // SCROLLBAR
   //
@@ -154,22 +164,54 @@ module.exports = {
   'scrollbarSlider.background': augment(theme.rouge_dark, 60),
   'scrollbarSlider.hoverBackground': augment(theme.rouge, 60),
   //
+  // STATUSBAR
+  //
+  'statusBar.background': theme.bg,
+  'statusBar.foreground': theme.bg_lighter,
+  // 'statusBar.border': '',
+  'statusBar.debuggingBackground': theme.green,
+  'statusBar.debuggingForeground': theme.green_lightest,
+  'statusBarItem.activeBackground': theme.rouge,
+  'statusBarItem.activeForeground': theme.rouge_lightest,
+  'statusBarItem.hoverBackground': augment(theme.bg_light, 50),
+  'statusBarItem.prominentBackground': theme.purple,
+  'statusBarItem.prominentHoverBackground': augment(theme.purple_light, 60),
+  'statusBar.noFolderBackground': theme.rouge_dark,
+  'statusBar.noFolderForeground': theme.rouge_lightest,
+  //
+  // TITLE BAR
+  //
+  'titleBar.activeBackground': theme.bg,
+  'titleBar.activeForeground': theme.bg_lighter,
+  'titleBar.inactiveBackground': theme.rouge_dark,
+  'titleBar.inactiveForeground': theme.rouge_lighter,
+  // 'titleBar.border': '',
+  //
+  // PICKER GROUP
+  //
+  'pickerGroup.border': theme.purple_dark,
+  'pickerGroup.foreground': theme.rouge_light,
+  //
   // NOTIFICATIONS
   //
-  'notificationCenter.border': theme.rouge_darker,
+  // 'notificationCenter.border': theme.rouge_darker,
+  'notificationCenter.border': theme.purple_dark,
   'notificationCenterHeader.foreground': theme.bg_lighter,
-  'notificationCenterHeader.background': theme.bg_dark,
-  'notificationToast.border': theme.rouge_darker,
+  'notificationCenterHeader.background': theme.bgb_darker,
+  // 'notificationToast.border': theme.rouge_darker,
+  'notificationToast.border': theme.purple_dark,
   'notifications.foreground': theme.bg_lighter,
-  'notifications.background': augment(theme.bg, 90),
-  'notifications.border': theme.rouge,
+  // 'notifications.background': augment(theme.bg, 90),
+  'notifications.background': theme.bgb_dark,
+  'notifications.border': theme.rouge_darker,
+  'notifications.border': theme.purple_dark,
   'notificationLink.foreground': theme.rouge,
   //
   // BUTTONS
   //
-  'button.foreground': theme.rouge_lightest,
-  'button.background': theme.rouge_darker,
-  'button.hoverBackground': theme.rouge_dark,
+  'button.foreground': theme.purple_lightest,
+  'button.background': theme.purple,
+  'button.hoverBackground': theme.purple_light,
   //
   // TERMINAL COLORS
   //

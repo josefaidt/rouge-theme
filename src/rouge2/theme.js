@@ -48,6 +48,17 @@ const bg2 = {
   bg_lightest: '#E8E8EA',
 }
 
+// bg2 + 5 light
+const bg_bright = {
+  bgb_darkest: '#090911',
+  bgb_darker: '#111322',
+  bgb_dark: '#1A1C32',
+  bgb: '#1D1F38',
+  bgb_light: '#616274',
+  bgb_lighter: '#A5A5AF',
+  bgb_lightest: '#E8E9EB',
+}
+
 const accent = {
   accent_darkest: '#111A1B',
   accent_darker: '#223336',
@@ -124,6 +135,7 @@ const colors = {
 
   ...rouge,
   ...bg2,
+  ...bg_bright,
   ...accent,
   ...peach,
   ...grapple,

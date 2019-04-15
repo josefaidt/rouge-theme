@@ -1,5 +1,6 @@
+const theme = require('../../theme')
 module.exports = {
-  'terminal.background': '#fff',
+  'terminal.background': theme.bg,
   'terminal.foreground': '#b8bcc6',
   'terminalCursor.background': '#ADB9A4',
   'terminalCursor.foreground': '#ADB9A4',

@@ -7,3 +7,5 @@ module.exports = {
   colors,
   tokenColors: [...tokenColors],
 }
+
+// console.log(...tokenColors)

@@ -1,3 +1,5 @@
+const theme = require('../theme')
+
 module.exports = {
   focusBorder: '#fff',
   foreground: '#fff',

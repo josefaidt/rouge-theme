@@ -28,6 +28,26 @@ const berry = {
   berry_lightest: '#FCEEEF',
 }
 
+const berry2 = {
+  berry_darkest: '#42181F',
+  berry_darker: '#84303D',
+  berry_dark: '#C6485C',
+  berry: '#DC5066',
+  berry_light: '#E78594',
+  berry_lighter: '#F1B9C2',
+  berry_lightest: '#FCEEF0',
+}
+
+const berry3 = {
+  berry_darkest: '#3C1D20',
+  berry_darker: '#783A3F',
+  berry_dark: '#B4575F',
+  berry: '#C86169',
+  berry_light: '#D99096',
+  berry_lighter: '#E9C0C3',
+  berry_lightest: '#FAEFF0',
+}
+
 const bg_classic = {
   bg_darkest: '#070A0E',
   bg_darker: '#0E131D',
@@ -123,14 +143,14 @@ const colors = {
   // rouge: '#c6797e',
   // bg: '#121A2E',
   // bg: '#c6797e',
-  red: '#CC565E',
+  // red: '#CC565E',
   // purple: '#b18bb1',
-  yellow: '#eabe9a',
+  // yellow: '#eabe9a',
   // green: '#9BBA9A',
-  highlight: '#14333B',
+  // highlight: '#14333B',
 
-  grey: '#494E4E',
-  orange: '#EAAA77',
+  // grey: '#494E4E',
+  // orange: '#EAAA77',
   // green: '#DCE8BD',
 
   ...rouge,
@@ -140,7 +160,9 @@ const colors = {
   ...peach,
   ...grapple,
   ...purple,
-  ...berry,
+  // ...berry,
+  // ...berry2,
+  ...berry3,
   ...green,
   ...kindarouge,
   ...blue,

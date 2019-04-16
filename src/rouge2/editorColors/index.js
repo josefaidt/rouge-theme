@@ -9,7 +9,6 @@ module.exports = {
   'editor.background': theme.bg,
   'sideBar.background': theme.bg,
   'editorGroupHeader.noTabsBackground': theme.bg_darker,
-  'tab.inactiveBackground': theme.bg,
   'editorCursor.background': theme.rouge_dark,
   'editorCursor.foreground': theme.rouge_dark,
   'editorBracketMatch.background': theme.bg,
@@ -43,16 +42,17 @@ module.exports = {
   'editorGutter.deletedBackground': '#CC565Ecc',
   'editorGutter.modifiedBackground': '#eabe9acc',
   //
-  // EDITOR OVERVIEW RULER
+  // EDITOR OVERVIEW RULER **NEEDS TESTING**
   //
   'editorOverviewRuler.selectionHighlightForeground': '#91d1bd66',
-  'editorOverviewRuler.border': '#293a57cc',
-  'editorOverviewRuler.findMatchForeground': '#91d1bd66',
-  'editorOverviewRuler.modifiedForeground': '#eabe9acc',
-  'editorOverviewRuler.addedForeground': '#9BBA9Acc',
-  'editorOverviewRuler.deletedForeground': '#CC565E40',
-  'editorOverviewRuler.errorForeground': '#CC565Ecc',
-  'editorOverviewRuler.infoForeground': '#6e94b9cc',
+  // 'editorOverviewRuler.border': '#293a57cc',
+  'editorOverviewRuler.border': augment(theme.bg_light, 30),
+  'editorOverviewRuler.findMatchForeground': theme.accent_dark,
+  'editorOverviewRuler.modifiedForeground': theme.grapple_dark,
+  'editorOverviewRuler.addedForeground': theme.green_dark,
+  'editorOverviewRuler.deletedForeground': theme.berry_dark,
+  'editorOverviewRuler.errorForeground': theme.berry,
+  'editorOverviewRuler.infoForeground': theme.blue_light,
   //
   // ACTIVITY BAR
   //
@@ -128,11 +128,12 @@ module.exports = {
   'editorWidget.background': theme.bgb_dark,
   'editorWidget.border': theme.rouge,
   'editorWidget.resizeBorder': theme.rouge,
-  'editorSuggestWidget.background': augment(theme.bg, 90),
-  'editorSuggestWidget.border': theme.rouge_darker,
+  'editorSuggestWidget.background': theme.bgb_dark,
+  'editorSuggestWidget.border': theme.purple_dark,
+  // 'editorSuggestWidget.border': theme.rouge_darker,
   'editorSuggestWidget.foreground': theme.bg_lighter,
-  'editorSuggestWidget.highlightForeground': theme.bg_lighter,
-  'editorSuggestWidget.selectedBackground': augment(theme.accent, 60),
+  'editorSuggestWidget.highlightForeground': theme.rouge_light,
+  'editorSuggestWidget.selectedBackground': augment(theme.bg_light, 30),
   // 'editorHoverWidget.background': augment(theme.bg, 90),
   'editorHoverWidget.background': theme.bgb_dark,
   'editorHoverWidget.border': theme.purple_dark,
@@ -209,9 +210,12 @@ module.exports = {
   //
   // BUTTONS
   //
-  'button.foreground': theme.purple_lightest,
-  'button.background': theme.purple,
-  'button.hoverBackground': theme.purple_light,
+  'button.foreground': theme.purple_lighter,
+  'button.background': theme.purple_darker,
+  'button.hoverBackground': augment(theme.purple, 80),
+  // 'button.foreground': theme.rouge_darkest,
+  // 'button.background': theme.rouge_light,
+  // 'button.hoverBackground': augment(theme.rouge_light, 60),
   //
   // TERMINAL COLORS
   //

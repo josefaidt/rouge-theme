@@ -38,7 +38,7 @@ module.exports = [
     scope: 'entity.other.attribute-name.html',
     settings: {
       foreground: theme.grapple,
-      fontStyle: 'italic'
+      fontStyle: 'italic',
     },
   },
   {
@@ -119,7 +119,7 @@ module.exports = [
     name: 'Support',
     scope: 'support',
     settings: {
-      foreground: theme.grapple,
+      foreground: theme.grapple_dark,
     },
   },
   {
@@ -211,7 +211,7 @@ module.exports = [
     name: 'Params',
     scope: ['variable.parameter', 'meta.parameter'],
     settings: {
-      foreground: theme.berry_light,
+      foreground: theme.berry,
     },
   },
   // {

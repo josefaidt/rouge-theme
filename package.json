@@ -34,7 +34,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rouge 2",
+        "label": "Rouge 2 (alpha)",
         "uiTheme": "vs-dark",
         "path": "./themes/rouge2.json"
       },

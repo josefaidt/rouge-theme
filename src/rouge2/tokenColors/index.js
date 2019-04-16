@@ -126,7 +126,7 @@ module.exports = [
     name: 'Support Functions',
     scope: 'support.function',
     settings: {
-      foreground: theme.peach_light,
+      foreground: theme.rouge_light,
     },
   },
   {

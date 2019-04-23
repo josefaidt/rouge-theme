@@ -19,33 +19,13 @@ const kindarouge = {
 }
 
 const berry = {
-  berry_darkest: '#42181D',
-  berry_darker: '#84303A',
-  berry_dark: '#C64856',
-  berry: '#DC5060',
-  berry_light: '#E78590',
-  berry_lighter: '#F1B9BF',
-  berry_lightest: '#FCEEEF',
-}
-
-const berry2 = {
-  berry_darkest: '#42181F',
-  berry_darker: '#84303D',
-  berry_dark: '#C6485C',
-  berry: '#DC5066',
-  berry_light: '#E78594',
-  berry_lighter: '#F1B9C2',
-  berry_lightest: '#FCEEF0',
-}
-
-const berry3 = {
-  berry_darkest: '#3C1D20',
-  berry_darker: '#783A3F',
-  berry_dark: '#B4575F',
-  berry: '#C86169',
-  berry_light: '#D99096',
-  berry_lighter: '#E9C0C3',
-  berry_lightest: '#FAEFF0',
+  berry_lightest: '#FBEFF1',
+  berry_lighter: '#F1C1C8',
+  berry_light: '#E6929E',
+  berry: '#DB6375',
+  berry_dark: '#C55969',
+  berry_darker: '#833B46',
+  berry_darkest: '#421E23',
 }
 
 const bg_classic = {
@@ -160,9 +140,7 @@ const colors = {
   ...peach,
   ...grapple,
   ...purple,
-  // ...berry,
-  // ...berry2,
-  ...berry3,
+  ...berry,
   ...green,
   ...kindarouge,
   ...blue,

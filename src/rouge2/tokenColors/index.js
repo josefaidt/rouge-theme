@@ -68,7 +68,7 @@ module.exports = [
     name: 'Operators',
     scope: 'keyword.operator',
     settings: {
-      foreground: theme.bg_lighter,
+      foreground: theme.purple_light,
       // foreground: theme.green_light,
       fontStyle: 'regular',
     },
@@ -130,10 +130,24 @@ module.exports = [
     },
   },
   {
+    name: 'Support Variables *.length',
+    scope: 'support.variable',
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[JSON] Property Keys',
+    scope: 'support.type.property-name.json',
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
+  {
     name: 'Punctuation',
     scope: 'punctuation',
     settings: {
-      foreground: theme.purple,
+      foreground: theme.purple_light,
     },
   },
   {
@@ -147,21 +161,21 @@ module.exports = [
     name: 'Punctuation - Accessors',
     scope: 'punctuation.accessor',
     settings: {
-      foreground: theme.green_light,
+      foreground: theme.purple_light,
     },
   },
   {
     name: 'Punctuation - Terminators',
     scope: 'punctuation.terminator',
     settings: {
-      foreground: theme.green_light,
+      foreground: theme.purple_light,
     },
   },
   {
     name: 'Punctuation - Separator',
     scope: 'punctuation.separator',
     settings: {
-      foreground: theme.green_light,
+      foreground: theme.purple_light,
     },
   },
   {
@@ -212,6 +226,7 @@ module.exports = [
     scope: ['variable.parameter', 'meta.parameter'],
     settings: {
       foreground: theme.berry,
+      // foreground: theme.rouge,
     },
   },
   // {
@@ -557,64 +572,57 @@ module.exports = [
   //     fontStyle: 'italic',
   //   },
   // },
-  // {
-  //   name: '[JS/JSX] - React Tag Names',
-  //   scope: [
-  //     'source.js support.class.component',
-  //     'source.jsx support.class.component',
-  //   ],
-  //   settings: {
-  //     foreground: '#DB6E8F',
-  //   },
-  // },
-  // {
-  //   name: '[JS/JSX] - React Tag Attributes',
-  //   scope: [
-  //     'source.js entity.other.attribute-name',
-  //     'source.jsx entity.other.attribute-name',
-  //   ],
-  //   settings: {
-  //     foreground: '#F7E3AF',
-  //     fontStyle: 'italic',
-  //   },
-  // },
-  // {
-  //   name: '[JS/JSX] - React Tag Property Keys',
-  //   scope: [
-  //     'source.js meta.jsx.children meta.object-literal.key',
-  //     'source.jsx meta.jsx.children meta.object-literal.key',
-  //   ],
-  //   settings: {
-  //     foreground: '#bbb',
-  //   },
-  // },
-  // {
-  //   name: '[JS/JSX] - React Tag Property Values',
-  //   scope: [
-  //     'source.js meta.tag variable.other.readwrite',
-  //     'source.jsx meta.tag variable.other.readwrite',
-  //   ],
-  //   settings: {
-  //     foreground: '#C6878F',
-  //   },
-  // },
-  // {
-  //   name: '[JS/JSX] - React Tag Property Values',
-  //   scope: [
-  //     'punctuation.definition.tag.begin.js',
-  //     'punctuation.definition.tag.end.js',
-  //   ],
-  //   settings: {
-  //     foreground: '#808080',
-  //   },
-  // },
-  // {
-  //   name: '[JS/JSX] - React Style Tag Text',
-  //   scope: ['source.js meta.jsx.children', 'source.jsx meta.jsx.children'],
-  //   settings: {
-  //     foreground: '#bbb',
-  //   },
-  // },
+  {
+    name: '[JS/JSX] - React Tag Names',
+    scope: [
+      'source.js support.class.component',
+      'source.jsx support.class.component',
+      'source.js entity.name.tag.js',
+      'source.jsx entity.name.tag.js',
+    ],
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[JS/JSX] - React Tag Attributes',
+    scope: [
+      'source.js entity.other.attribute-name',
+      'source.jsx entity.other.attribute-name',
+    ],
+    settings: {
+      foreground: theme.grapple,
+      fontStyle: 'italic',
+    },
+  },
+  {
+    name: '[JS/JSX] - React Tag Property Keys',
+    scope: [
+      'source.js meta.jsx.children meta.object-literal.key',
+      'source.jsx meta.jsx.children meta.object-literal.key',
+    ],
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
+  {
+    name: '[JS/JSX] - React Tag Property Values',
+    scope: [
+      'source.js meta.tag variable.other.readwrite',
+      'source.jsx meta.tag variable.other.readwrite',
+    ],
+    settings: {
+      foreground: theme.rouge,
+      // foreground: '#f3f',
+    },
+  },
+  {
+    name: '[JS/JSX] - React Style Tag Text',
+    scope: ['source.js meta.jsx.children', 'source.jsx meta.jsx.children'],
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
   // {
   //   name: '[JS] - `Typeof`, `Instanceof` Operator',
   //   scope: [
@@ -676,13 +684,13 @@ module.exports = [
   //     fontStyle: 'bold',
   //   },
   // },
-  // {
-  //   name: '[MARKDOWN] - Paragraph',
-  //   scope: ['meta.paragraph.markdown'],
-  //   settings: {
-  //     foreground: '#bbb',
-  //   },
-  // },
+  {
+    name: '[MARKDOWN] - Paragraph',
+    scope: ['meta.paragraph.markdown'],
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
   // {
   //   name: '[MARKDOWN] - Brackets in Paragraphs',
   //   scope: ['meta.paragraph.markdown meta.other'],

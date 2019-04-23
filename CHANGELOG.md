@@ -6,6 +6,18 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.3] - 2019-04-23
+
+### Added
+
+- picker group
+- links, text
+- dropdowns
+- removed editor.inputValidation warning borders
+- syntax: JSX, Markdown, JSON
+- syntax: brightened param colors
+- syntax: operators changed to purple (from bright green)
+
 ## [2.0.0.alpha-1] - 2019-02-24
 
 ### Added

@@ -151,8 +151,8 @@ module.exports = {
   'inputValidation.errorBackground': theme.berry_darker,
   'inputValidation.errorForeground': theme.berry_lighter,
   // 'inputValidation.errorBorder': theme.berry_lighter,
-  'inputValidation.warningBackground': theme.peach_darker,
-  'inputValidation.warningForeground': theme.peach_lighter,
+  // 'inputValidation.warningBackground': theme.peach_darker,
+  // 'inputValidation.warningForeground': theme.peach_lighter,
   // 'inputValidation.warningBorder': theme.peach_lighter,
   'inputValidation.infoBackground': theme.bgb_dark,
   'inputValidation.infoForeground': theme.bgb_lighter,
@@ -188,9 +188,10 @@ module.exports = {
   'titleBar.inactiveForeground': theme.rouge_lighter,
   // 'titleBar.border': '',
   //
-  // PICKER GROUP
+  // PICKER GROUP (COMMAND PALETTE)
   //
-  'pickerGroup.border': theme.purple_dark,
+  'list.highlightForeground': theme.rouge_light,
+  'pickerGroup.border': theme.purple_light,
   'pickerGroup.foreground': theme.rouge_light,
   //
   // NOTIFICATIONS
@@ -216,6 +217,24 @@ module.exports = {
   // 'button.foreground': theme.rouge_darkest,
   // 'button.background': theme.rouge_light,
   // 'button.hoverBackground': augment(theme.rouge_light, 60),
+  //
+  // DROPDOWNS
+  //
+  'dropdown.background': theme.bg,
+  'dropdown.listBackground': theme.bg,
+  'dropdown.border': theme.rouge,
+  'dropdown.foreground': theme.bg_lighter,
+  //
+  // TEXT COLORS
+  //
+  // 'textLink.foreground': theme.rouge,
+  'textLink.foreground': theme.accent_light,
+  'textLink.activeForeground': theme.rouge_lighter,
+  'textBlockQuote.background': augment(theme.accent, 30),
+  'textBlockQuote.border': theme.accent,
+  'textCodeBlock.background': theme.bg_darkest,
+  'textPreformat.foreground': theme.rouge,
+  'textSeparator.foreground': '',
   //
   // TERMINAL COLORS
   //

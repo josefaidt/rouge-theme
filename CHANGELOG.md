@@ -6,6 +6,17 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.4] - 2019-04-25
+
+### Added
+
+- CSS
+  - property list
+  - property values
+  - support
+  - entity tags
+  - 
+
 ## [2.0.0-alpha.3] - 2019-04-23
 
 ### Added

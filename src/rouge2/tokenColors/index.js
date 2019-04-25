@@ -34,7 +34,7 @@ module.exports = [
     },
   },
   {
-    name: 'HTML Entity Attributes',
+    name: '[HTML] Entity Attributes',
     scope: 'entity.other.attribute-name.html',
     settings: {
       foreground: theme.grapple,
@@ -42,7 +42,7 @@ module.exports = [
     },
   },
   {
-    name: 'HTML Entity',
+    name: '[HTML] Entity',
     scope: 'entity.name.tag.html',
     settings: {
       foreground: theme.rouge,
@@ -227,6 +227,45 @@ module.exports = [
     settings: {
       foreground: theme.berry,
       // foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[CSS] Property Names',
+    scope: [
+      'support.type.property-name.css',
+      'support.type.property-name.scss',
+    ],
+    settings: {
+      foreground: theme.bg_lighter,
+      // foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[CSS] Property Values',
+    scope: [
+      'support.constant.property-value.css',
+      'meta.property-value.css',
+      'source.css support.constant',
+      'source.css keyword.other.unit',
+    ],
+    settings: {
+      foreground: theme.green,
+      fontStyle: 'none',
+      // foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[CSS] Entity',
+    scope: 'entity.name.tag.css',
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[CSS] Support',
+    scope: 'source.css support',
+    settings: {
+      foreground: theme.bg_lighter,
     },
   },
   // {

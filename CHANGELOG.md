@@ -6,6 +6,25 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.5] - 2019-04-25
+
+### Added
+
+- MARKDOWN
+  - links
+  - fenced code
+  - font flair (bold, italics)
+  - headers
+- YML
+  - keys
+- XML
+  - brackets, tags
+- HTML
+  - brackets
+- editor:
+  - no warning foreground
+  - changed button link
+
 ## [2.0.0-alpha.4] - 2019-04-25
 
 ### Added
@@ -15,7 +34,6 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
   - property values
   - support
   - entity tags
-  - 
 
 ## [2.0.0-alpha.3] - 2019-04-23
 

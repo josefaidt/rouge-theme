@@ -31,7 +31,7 @@ module.exports = {
   'editor.inactiveSelectionBackground': augment(theme.accent, 30),
   'editorLink.activeForeground': theme.bg_lighter,
   'editorGroup.background': theme.bg,
-  'editorWarning.foreground': theme.peach,
+  // 'editorWarning.foreground': theme.peach,
   'editorError.foreground': theme.berry,
   'editorCodeLens.foreground': '#758095',
   //
@@ -207,7 +207,7 @@ module.exports = {
   'notifications.background': theme.bgb_dark,
   'notifications.border': theme.rouge_darker,
   'notifications.border': theme.purple_dark,
-  'notificationLink.foreground': theme.rouge,
+  'notificationLink.foreground': theme.accent_light,
   //
   // BUTTONS
   //

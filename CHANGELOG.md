@@ -59,6 +59,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [1.5.4] - 2019-04-26
+
+### Fixed
+
+- #16 - HTML attribute italics
+
 ## [1.5.3] - 2019-04-04
 
 ### Added

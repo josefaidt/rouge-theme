@@ -10,7 +10,7 @@
   </a>
 </p>
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)[![Installs](https://vsmarketplacebadge.apphb.com/installs/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)
+[![Version](https://vsmarketplacebadge.apphb.com/version/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)[![Installs](https://vsmarketplacebadge.apphb.com/installs/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/josef.rouge-theme.svg)](https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme)
 
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font.
 Inspiration was drawn from Atom's Material Theme and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.

@@ -6,7 +6,13 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
-## [2.0.0-alpha.6] - 2019-04-27
+## [2.0.0-alpha.7] - 2019-04-27
+
+### Fixed
+
+- JSX brackets, broader scope
+
+## [2.0.0-alpha.6] - 2019-04-26
 
 ### Added
 

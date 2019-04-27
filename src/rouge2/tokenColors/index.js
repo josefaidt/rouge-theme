@@ -325,6 +325,8 @@ module.exports = [
       'source.js punctuation.definition.tag.end',
       'source.jsx punctuation.definition.tag.begin',
       'source.jsx punctuation.definition.tag.end',
+      'punctuation.definition.tag.begin.js',
+      'punctuation.definition.tag.end.js',
     ],
     settings: {
       foreground: theme.bg_light,

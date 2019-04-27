@@ -11,6 +11,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 ### Fixed
 
 - JSX brackets, broader scope
+- JSX props
 
 ## [2.0.0-alpha.6] - 2019-04-26
 

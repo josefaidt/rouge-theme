@@ -338,6 +338,7 @@ module.exports = [
       'source.js entity.other.attribute-name',
       'source.jsx entity.other.attribute-name',
       'entity.other.attribute-name.js meta.tag.attributes.js',
+      'entity.other.attribute-name.js',
     ],
     settings: {
       foreground: theme.grapple,

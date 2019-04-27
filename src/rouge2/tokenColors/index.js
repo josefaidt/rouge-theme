@@ -35,21 +35,6 @@ module.exports = [
     },
   },
   {
-    name: '[HTML] Entity Attributes',
-    scope: 'entity.other.attribute-name.html',
-    settings: {
-      foreground: theme.grapple,
-      fontStyle: 'italic',
-    },
-  },
-  {
-    name: '[HTML] Entity',
-    scope: 'entity.name.tag.html',
-    settings: {
-      foreground: theme.rouge,
-    },
-  },
-  {
     name: 'Invalid',
     scope: 'invalid',
     settings: {
@@ -86,13 +71,6 @@ module.exports = [
     scope: 'variable.language.this',
     settings: {
       fontStyle: 'italic',
-    },
-  },
-  {
-    name: 'Meta',
-    scope: 'meta',
-    settings: {
-      foreground: theme.purple_light,
     },
   },
   {
@@ -138,13 +116,6 @@ module.exports = [
     },
   },
   {
-    name: '[JSON] Property Keys',
-    scope: 'support.type.property-name.json',
-    settings: {
-      foreground: theme.bg_lighter,
-    },
-  },
-  {
     name: 'Punctuation',
     scope: 'punctuation',
     settings: {
@@ -177,6 +148,35 @@ module.exports = [
     scope: 'punctuation.separator',
     settings: {
       foreground: theme.purple_light,
+    },
+  },
+  {
+    name: '[HTML] Entity Attributes',
+    scope: 'entity.other.attribute-name.html',
+    settings: {
+      foreground: theme.grapple,
+      fontStyle: 'italic',
+    },
+  },
+  {
+    name: '[HTML] Entity',
+    scope: 'entity.name.tag.html',
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[HTML/SVG] - Metadata',
+    scope: ['text.html meta.element.metadata.svg'],
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
+  {
+    name: '[JSON] Property Keys',
+    scope: 'support.type.property-name.json',
+    settings: {
+      foreground: theme.bg_lighter,
     },
   },
   {
@@ -289,9 +289,20 @@ module.exports = [
   },
   {
     name: '[XML] - Attributes',
-    scope: 'entity.other.attribute-name.localname.xml',
+    scope: [
+      'entity.other.attribute-name.localname.xml',
+      'text.xml entity.other',
+    ],
     settings: {
       fontStyle: 'italic',
+      foreground: theme.grapple,
+    },
+  },
+  {
+    name: '[XML] - Entity',
+    scope: ['text.xml entity.name'],
+    settings: {
+      foreground: theme.rouge,
     },
   },
   {
@@ -301,6 +312,7 @@ module.exports = [
       'source.jsx support.class.component',
       'source.js entity.name.tag.js',
       'source.jsx entity.name.tag.js',
+      'entity.name.tag.js support.class.component.js',
     ],
     settings: {
       foreground: theme.rouge,
@@ -323,6 +335,7 @@ module.exports = [
     scope: [
       'source.js entity.other.attribute-name',
       'source.jsx entity.other.attribute-name',
+      'entity.other.attribute-name.js meta.tag.attributes.js',
     ],
     settings: {
       foreground: theme.grapple,
@@ -415,7 +428,7 @@ module.exports = [
       'string.other.link.description.title.markdown',
     ],
     settings: {
-      foreground: theme.rouge,
+      foreground: theme.rouge_light,
     },
   },
   {
@@ -426,6 +439,13 @@ module.exports = [
     ],
     settings: {
       foreground: theme.accent_light,
+    },
+  },
+  {
+    name: '[MARKDOWN] - Meta Chars in Paragraphs',
+    scope: ['meta.paragraph.markdown meta.other'],
+    settings: {
+      foreground: theme.bg_lighter,
     },
   },
   {

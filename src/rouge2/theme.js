@@ -45,6 +45,7 @@ const bg2 = {
   bg: '#17182B',
   bg_light: '#5D5D6B',
   bg_lighter: '#A2A3AA',
+  '100': '#C5C7CB',
   bg_lightest: '#E8E8EA',
 }
 

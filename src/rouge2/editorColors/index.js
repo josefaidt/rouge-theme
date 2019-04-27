@@ -31,8 +31,9 @@ module.exports = {
   'editor.inactiveSelectionBackground': augment(theme.accent, 30),
   'editorLink.activeForeground': theme.bg_lighter,
   'editorGroup.background': theme.bg,
-  // 'editorWarning.foreground': theme.peach,
-  'editorError.foreground': theme.berry,
+  // 'editorWarning.background': theme.berry,
+  'editorWarning.foreground': augment(theme.berry, 90),
+  'editorError.foreground': augment(theme.berry, 90),
   'editorCodeLens.foreground': '#758095',
   //
   // EDITOR GUTTER
@@ -184,7 +185,7 @@ module.exports = {
   //
   'titleBar.activeBackground': theme.bg,
   'titleBar.activeForeground': theme.bg_lighter,
-  'titleBar.inactiveBackground': theme.rouge_dark,
+  'titleBar.inactiveBackground': augment(theme.rouge_dark, 85),
   'titleBar.inactiveForeground': theme.rouge_lighter,
   // 'titleBar.border': '',
   //
@@ -211,12 +212,9 @@ module.exports = {
   //
   // BUTTONS
   //
-  'button.foreground': theme.purple_lighter,
-  'button.background': theme.purple_darker,
-  'button.hoverBackground': augment(theme.purple, 80),
-  // 'button.foreground': theme.rouge_darkest,
-  // 'button.background': theme.rouge_light,
-  // 'button.hoverBackground': augment(theme.rouge_light, 60),
+  'button.foreground': theme.accent_lightest,
+  'button.background': theme.accent,
+  'button.hoverBackground': augment(theme.rouge_lighter, 50),
   //
   // DROPDOWNS
   //
@@ -234,7 +232,44 @@ module.exports = {
   'textBlockQuote.border': theme.accent,
   'textCodeBlock.background': theme.bg_darkest,
   'textPreformat.foreground': theme.rouge,
-  'textSeparator.foreground': '',
+  // 'textSeparator.foreground': '',
+  //
+  // MENU BAR
+  //
+  // 'menubar.selectionForeground': '',
+  // 'menubar.selectionBackground': '',
+  // 'menubar.selectionBorder': '',
+  // 'menu.foreground': '',
+  // 'menu.background': '',
+  // 'menu.selectionForeground': '',
+  // 'menu.selectionBackground': '',
+  // 'menu.selectionBorder': '',
+  // 'menu.separatorBackground': '',
+  //
+  // WELCOME PAGE
+  //
+  'welcomePage.background': theme.bg,
+  'welcomePage.buttonBackground': augment(theme.accent, 30),
+  'welcomePage.buttonHoverBackground': augment(theme.rouge_lighter, 20),
+  'walkThrough.embeddedEditorBackground': theme.bg_dark,
+  //
+  // SETTINGS
+  //
+  // 'settings.headerForeground': theme.bg['100'],
+  'settings.modifiedItemForeground': theme.rouge,
+  // 'settings.inactiveSelectedItemBorder': '#75809559',
+  // 'settings.dropdownBackground': '#172030',
+  // 'settings.dropdownForeground': '#A7ACB9',
+  // 'settings.dropdownBorder': '#c6797e80',
+  // 'settings.checkboxBackground': '#75809560',
+  // 'settings.checkboxForeground': '#758095',
+  // 'settings.checkboxBorder': '#c6797e80',
+  // 'settings.textInputBackground': '#172030',
+  // 'settings.textInputForeground': '#A7ACB9',
+  // 'settings.textInputBorder': '#c6797e80',
+  // 'settings.numberInputBackground': '#172030',
+  // 'settings.numberInputForeground': '#A7ACB9',
+  // 'settings.numberInputBorder': '#c6797e80',
   //
   // TERMINAL COLORS
   //

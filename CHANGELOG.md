@@ -6,6 +6,29 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.6] - 2019-04-27
+
+### Added
+
+- XML
+  - better tags
+  - attribute italics and color
+- HTML
+  - SVG metadata
+- MARKDOWN
+  - Meta chars in paragraphs
+- editor welcome page
+- MDX
+  - JSX fenced code tags and attributes
+- editor
+  - button color to accent
+  - inactive titlebar match tabs
+  - warning squiggles match error
+
+### Changed
+
+- button colors to accent
+
 ## [2.0.0-alpha.5] - 2019-04-25
 
 ### Added

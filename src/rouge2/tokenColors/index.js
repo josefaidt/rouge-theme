@@ -250,6 +250,14 @@ module.exports = [
     },
   },
   {
+    name: '[CSS] Entity, Attribute',
+    scope: 'entity.other.attribute-name.class.css',
+    settings: {
+      foreground: theme.grapple,
+      fontStyle: 'none',
+    },
+  },
+  {
     name: '[CSS] Support',
     scope: 'source.css support',
     settings: {
@@ -313,6 +321,7 @@ module.exports = [
       'source.js entity.name.tag.js',
       'source.jsx entity.name.tag.js',
       'entity.name.tag.js support.class.component.js',
+      'entity.name.tag.js',
     ],
     settings: {
       foreground: theme.rouge,

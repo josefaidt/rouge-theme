@@ -6,6 +6,13 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.8] - 2019-04-27
+
+### Fixed
+
+- CSS ID and Class selector colors
+- JSX entity tags
+
 ## [2.0.0-alpha.7] - 2019-04-27
 
 ### Fixed

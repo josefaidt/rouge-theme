@@ -160,7 +160,10 @@ module.exports = [
   },
   {
     name: '[HTML] Entity',
-    scope: 'entity.name.tag.html',
+    scope: [
+      'entity.name.tag.html',
+      'entity.name.tag.other.html'
+    ],
     settings: {
       foreground: theme.rouge,
     },
@@ -380,6 +383,15 @@ module.exports = [
     scope: ['source.js meta.jsx.children', 'source.jsx meta.jsx.children'],
     settings: {
       foreground: theme.bg_lighter,
+    },
+  },
+  {
+    name: '[Svelte] Entity',
+    scope: [
+      'source.svelte entity.name.tag',
+    ],
+    settings: {
+      foreground: theme.rouge,
     },
   },
   {

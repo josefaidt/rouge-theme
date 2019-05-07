@@ -6,6 +6,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.9] - 2019-05-07
+
+### Added
+
+- Svelte tag support
+
 ## [2.0.0-alpha.8] - 2019-04-27
 
 ### Fixed

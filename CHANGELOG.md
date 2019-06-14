@@ -6,6 +6,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.10] - 2019-06-13
+
+### Changed
+
+- Darkened background for better contrast
+
 ## [2.0.0-alpha.9] - 2019-05-07
 
 ### Added

@@ -6,12 +6,12 @@ const { augment } = theme
 module.exports = {
   focusBorder: theme.bg_light,
   'editor.foreground': theme.bg_lighter,
-  'editor.background': theme.bg,
-  'sideBar.background': theme.bg,
+  'editor.background': theme.bg_dark,
+  'sideBar.background': theme.bg_dark,
   'editorGroupHeader.noTabsBackground': theme.bg_darker,
   'editorCursor.background': theme.rouge_dark,
   'editorCursor.foreground': theme.rouge_dark,
-  'editorBracketMatch.background': theme.bg,
+  'editorBracketMatch.background': theme.bg_dark,
   'editorBracketMatch.border': theme.rouge_light,
   'progressBar.background': theme.rouge_dark,
   //
@@ -30,7 +30,7 @@ module.exports = {
   'editor.selectionForeground': theme.accent,
   'editor.inactiveSelectionBackground': augment(theme.accent, 30),
   'editorLink.activeForeground': theme.bg_lighter,
-  'editorGroup.background': theme.bg,
+  'editorGroup.background': theme.bg_dark,
   // 'editorWarning.background': theme.berry,
   'editorWarning.foreground': augment(theme.berry, 90),
   'editorError.foreground': augment(theme.berry, 90),
@@ -38,7 +38,7 @@ module.exports = {
   //
   // EDITOR GUTTER
   //
-  'editorGutter.background': theme.bg,
+  'editorGutter.background': theme.bg_dark,
   'editorGutter.addedBackground': '#9BBA9Acc',
   'editorGutter.deletedBackground': '#CC565Ecc',
   'editorGutter.modifiedBackground': '#eabe9acc',
@@ -57,7 +57,7 @@ module.exports = {
   //
   // ACTIVITY BAR
   //
-  'activityBar.background': theme.bg,
+  'activityBar.background': theme.bg_dark,
   'activityBar.foreground': theme.bg_lighter,
   'activityBarBadge.background': theme.rouge,
   'activityBarBadge.foreground': theme.rouge_lightest,
@@ -70,20 +70,20 @@ module.exports = {
   //
   // SIDEBAR
   //
-  'sideBar.background': theme.bg,
+  'sideBar.background': theme.bg_dark,
   'sideBar.border': theme.bg_dark,
   'sideBar.dropBackground': theme.rouge,
   'sideBar.foreground': theme.bg_lighter,
-  'sideBarSectionHeader.background': theme.bg,
+  'sideBarSectionHeader.background': theme.bg_dark,
   'sideBarSectionHeader.foreground': theme.bg_lightest,
   //
   // TABS
   //
-  'editorGroupHeader.noTabsBackground': theme.bg,
-  'editorGroupHeader.tabsBackground': theme.bg,
+  'editorGroupHeader.noTabsBackground': theme.bg_dark,
+  'editorGroupHeader.tabsBackground': theme.bg_dark,
   'tab.activeBackground': augment(theme.rouge_dark, 85),
   'tab.activeForeground': theme.bg_lightest,
-  'tab.inactiveBackground': theme.bg,
+  'tab.inactiveBackground': theme.bg_dark,
   'tab.inactiveForeground': theme.bg_lighter,
   'tab.border': theme.bg_dark,
   // 'tab.activeBorder': augment(theme.rouge, 85),
@@ -118,7 +118,7 @@ module.exports = {
   'list.invalidItemForeground': theme.berry_dark,
   'list.errorForeground': theme.berry_dark,
   'list.warningForeground': augment(theme.berry, 80),
-  'listFilterWidget.background': theme.bg,
+  'listFilterWidget.background': theme.bg_dark,
   'listFilterWidget.outline': theme.rouge,
   'listFilterWidget.noMatchesOutline': theme.rouge_darker,
   //
@@ -144,7 +144,7 @@ module.exports = {
   //
   // INPUT
   //
-  'input.background': theme.bg,
+  'input.background': theme.bg_dark,
   'input.border': theme.rouge_dark,
   'input.foreground': theme.bg_lighter,
   'inputOption.activeBorder': theme.rouge,
@@ -168,7 +168,7 @@ module.exports = {
   //
   // STATUSBAR
   //
-  'statusBar.background': theme.bg,
+  'statusBar.background': theme.bg_dark,
   'statusBar.foreground': theme.bg_lighter,
   // 'statusBar.border': '',
   'statusBar.debuggingBackground': theme.green,
@@ -218,7 +218,7 @@ module.exports = {
   //
   // DROPDOWNS
   //
-  'dropdown.background': theme.bg,
+  'dropdown.background': theme.bg_dark,
   'dropdown.listBackground': theme.bg,
   'dropdown.border': theme.rouge,
   'dropdown.foreground': theme.bg_lighter,
@@ -248,7 +248,7 @@ module.exports = {
   //
   // WELCOME PAGE
   //
-  'welcomePage.background': theme.bg,
+  'welcomePage.background': theme.bg_dark,
   'welcomePage.buttonBackground': augment(theme.accent, 30),
   'welcomePage.buttonHoverBackground': augment(theme.rouge_lighter, 20),
   'walkThrough.embeddedEditorBackground': theme.bg_dark,

@@ -101,6 +101,14 @@ module.exports = {
   // 'tab.unfocusedActiveModifiedBorder': theme.rouge_lightest,
   // 'tab.unfocusedInactiveModifiedBorder': theme.rouge_lightest,
   'editorPane.background': '#f3f',
+  // 
+  // BREADCRUMBS
+  // 
+  // 'breadcrumb.foreground': ,
+  // 'breadcrumb.background': ,
+  // 'breadcrumb.focusForeground': ,
+  // 'breadcrumb.activeSelectionForeground': ,
+  // 'breadcrumbPicker.background': ,
   //
   // LIST
   //
@@ -171,7 +179,7 @@ module.exports = {
   'statusBar.background': theme.bg_dark,
   'statusBar.foreground': theme.bg_lighter,
   // 'statusBar.border': '',
-  'statusBar.debuggingBackground': theme.green,
+  'statusBar.debuggingBackground': theme.green_dark,
   'statusBar.debuggingForeground': theme.green_lightest,
   'statusBarItem.activeBackground': theme.rouge,
   'statusBarItem.activeForeground': theme.rouge_lightest,
@@ -214,7 +222,14 @@ module.exports = {
   //
   'button.foreground': theme.accent_lightest,
   'button.background': theme.accent,
-  'button.hoverBackground': augment(theme.rouge_lighter, 50),
+  // 'button.hoverBackground': augment(theme.rouge_lighter, 50),
+  'button.hoverBackground': theme.accent_light,
+  // 
+  // EXTENSION BUTTONS
+  // 
+  'extensionButton.prominentForeground': theme.accent_lightest,
+  'extensionButton.prominentBackground': theme.accent,
+  'extensionButton.prominentHoverBackground': theme.accent_light,
   //
   // DROPDOWNS
   //
@@ -249,8 +264,8 @@ module.exports = {
   // WELCOME PAGE
   //
   'welcomePage.background': theme.bg_dark,
-  'welcomePage.buttonBackground': augment(theme.accent, 30),
-  'welcomePage.buttonHoverBackground': augment(theme.rouge_lighter, 20),
+  'welcomePage.buttonBackground': theme.bg_dark,
+  'welcomePage.buttonHoverBackground': augment(theme.accent, 30),
   'walkThrough.embeddedEditorBackground': theme.bg_dark,
   //
   // SETTINGS

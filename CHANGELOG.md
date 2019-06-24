@@ -6,6 +6,14 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.11] - 2019-06-24
+
+### Changed
+
+- rolled back alpha.10
+- button modifications (welcome screen, extension, etc.)
+- Darkened debug status bar
+
 ## [2.0.0-alpha.10] - 2019-06-13
 
 ### Changed

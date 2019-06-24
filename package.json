@@ -2,12 +2,13 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "2.0.0-alpha.10",
+  "version": "2.0.0-alpha.11",
   "publisher": "josef",
   "scripts": {
     "start": "yarn develop",
     "develop": "node scripts/build.js develop",
     "build": "node scripts/build.js",
+    "pkg": "yarn build; vsce package",
     "legacy:build": "gulp --gulpfile ./scripts/gulpfile.js",
     "legacy:dev": "gulp --gulpfile ./scripts/gulpfile.js watch"
   },
@@ -59,6 +60,7 @@
   "devDependencies": {
     "chalk": "^2.4.2",
     "gulp": "^4.0.0",
-    "gulp-strip-comments": "^2.5.2"
+    "gulp-strip-comments": "^2.5.2",
+    "vsce": "^1.64.0"
   }
 }

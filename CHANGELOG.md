@@ -6,6 +6,26 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.12] - 2019-06-27
+
+### Added
+
+- meta.brace for all braces (other than punctuation)
+
+## [2.0.0-alpha.11] - 2019-06-24
+
+### Changed
+
+- rolled back alpha.10
+- button modifications (welcome screen, extension, etc.)
+- Darkened debug status bar
+
+## [2.0.0-alpha.10] - 2019-06-13
+
+### Changed
+
+- Darkened background for better contrast
+
 ## [2.0.0-alpha.9] - 2019-05-07
 
 ### Added

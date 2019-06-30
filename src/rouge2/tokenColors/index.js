@@ -130,6 +130,13 @@ module.exports = [
     },
   },
   {
+    name: 'Meta Punctuation',
+    scope: 'meta.brace',
+    settings: {
+      foreground: theme.purple_light,
+    },
+  },
+  {
     name: 'Punctuation - Accessors',
     scope: 'punctuation.accessor',
     settings: {

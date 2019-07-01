@@ -116,6 +116,13 @@ module.exports = [
     },
   },
   {
+    name: 'Support Objects *.length',
+    scope: 'support.variable',
+    settings: {
+      foreground: theme.grapple,
+    },
+  },
+  {
     name: 'Punctuation',
     scope: 'punctuation',
     settings: {
@@ -167,10 +174,7 @@ module.exports = [
   },
   {
     name: '[HTML] Entity',
-    scope: [
-      'entity.name.tag.html',
-      'entity.name.tag.other.html'
-    ],
+    scope: ['entity.name.tag.html', 'entity.name.tag.other.html'],
     settings: {
       foreground: theme.rouge,
     },
@@ -394,9 +398,7 @@ module.exports = [
   },
   {
     name: '[Svelte] Entity',
-    scope: [
-      'source.svelte entity.name.tag',
-    ],
+    scope: ['source.svelte entity.name.tag'],
     settings: {
       foreground: theme.rouge,
     },

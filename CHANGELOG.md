@@ -6,6 +6,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.13] - 2019-06-30
+
+### Added
+
+- editor: git decorations
+
 ## [2.0.0-alpha.12] - 2019-06-27
 
 ### Added

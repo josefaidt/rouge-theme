@@ -71,7 +71,7 @@ module.exports = {
   // SIDEBAR
   //
   'sideBar.background': theme.bg,
-  'sideBar.border': theme.bg_dark,
+  'sideBar.border': augment(theme.bg_light, 20),
   'sideBar.dropBackground': theme.rouge,
   'sideBar.foreground': theme.bg_lighter,
   'sideBarSectionHeader.background': theme.bg,
@@ -288,9 +288,9 @@ module.exports = {
   //
   // GIT DECORATIONS
   //
-  'gitDecoration.modifiedResourceForeground': theme.grapple,
+  'gitDecoration.modifiedResourceForeground': theme.grapple_dark,
   'gitDecoration.deletedResourceForeground': theme.berry_dark,
-  'gitDecoration.untrackedResourceForeground': theme.green,
+  'gitDecoration.untrackedResourceForeground': theme.green_dark,
   'gitDecoration.ignoredResourceForeground': theme.bg_light,
   'gitDecoration.conflictingResourceForeground': theme.purple,
   // 'gitDecoration.submoduleResourceForeground': ,

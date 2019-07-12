@@ -104,11 +104,16 @@ module.exports = {
   //
   // BREADCRUMBS
   //
-  // 'breadcrumb.foreground': ,
-  // 'breadcrumb.background': ,
-  // 'breadcrumb.focusForeground': ,
-  // 'breadcrumb.activeSelectionForeground': ,
-  // 'breadcrumbPicker.background': ,
+  'textLink.foreground': theme.accent_light,
+  'textLink.activeForeground': theme.rouge_lighter,
+  // 'breadcrumb.foreground': theme.bg_light,
+  'breadcrumb.foreground': theme.accent_light,
+  'breadcrumb.background': theme.bg,
+  // 'breadcrumb.focusForeground': theme.bg_lightest,
+  'breadcrumb.focusForeground': theme.rouge_lighter,
+  // 'breadcrumb.activeSelectionForeground': theme.rouge,
+  'breadcrumb.activeSelectionForeground': theme.rouge,
+  'breadcrumbPicker.background': theme.bg_dark,
   //
   // LIST
   //
@@ -129,22 +134,26 @@ module.exports = {
   'listFilterWidget.background': theme.bg,
   'listFilterWidget.outline': theme.rouge,
   'listFilterWidget.noMatchesOutline': theme.rouge_darker,
+  'tree.indentGuidesStroke': augment(theme.bg_light, 50),
   //
   // WIDGETS
   //
   'widget.shadow': theme.bg_darker,
   // 'editorWidget.background': augment(theme.bg_light, 50),
-  'editorWidget.background': theme.bgb_dark,
+  // 'editorWidget.background': theme.bgb_dark,
+  'editorWidget.background': theme.bg_dark,
   'editorWidget.border': theme.rouge,
   'editorWidget.resizeBorder': theme.rouge,
-  'editorSuggestWidget.background': theme.bgb_dark,
+  // 'editorSuggestWidget.background': theme.bgb_dark,
+  'editorSuggestWidget.background': theme.bg_dark,
   'editorSuggestWidget.border': theme.purple_dark,
   // 'editorSuggestWidget.border': theme.rouge_darker,
   'editorSuggestWidget.foreground': theme.bg_lighter,
   'editorSuggestWidget.highlightForeground': theme.rouge_light,
   'editorSuggestWidget.selectedBackground': augment(theme.bg_light, 30),
   // 'editorHoverWidget.background': augment(theme.bg, 90),
-  'editorHoverWidget.background': theme.bgb_dark,
+  // 'editorHoverWidget.background': theme.bgb_dark,
+  'editorHoverWidget.background': theme.bg_dark,
   'editorHoverWidget.border': theme.purple_dark,
   'selection.background': augment(theme.accent, 60),
   descriptionForeground: theme.bg_light,

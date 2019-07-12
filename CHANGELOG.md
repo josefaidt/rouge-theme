@@ -6,6 +6,17 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.15] - 2019-07-12
+
+### Added
+
+- editor: new tree strokes
+- editor: breadcrumbs
+
+### Changed
+
+- editor: editor widgets background from bgb_dark -> bg_dark
+
 ## [2.0.0-alpha.14] - 2019-06-30
 
 ### Changed

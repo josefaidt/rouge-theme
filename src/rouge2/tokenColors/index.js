@@ -98,7 +98,7 @@ module.exports = [
     name: 'Support',
     scope: 'support',
     settings: {
-      foreground: theme.grapple_dark,
+      foreground: theme.grapple,
     },
   },
   {
@@ -330,15 +330,24 @@ module.exports = [
   {
     name: '[JS/JSX] - React Tag Names',
     scope: [
-      'source.js support.class.component',
-      'source.jsx support.class.component',
       'source.js entity.name.tag.js',
       'source.jsx entity.name.tag.js',
-      'entity.name.tag.js support.class.component.js',
       'entity.name.tag.js',
     ],
     settings: {
       foreground: theme.rouge,
+    },
+  },
+  {
+    name: '[JS/JSX] - Custom React Tag Names',
+    scope: [
+      'source.js support.class.component',
+      'source.jsx support.class.component',
+      'support.class.component.js',
+    ],
+    settings: {
+      // foreground: theme.rouge,
+      foreground: theme.rouge_light,
     },
   },
   {

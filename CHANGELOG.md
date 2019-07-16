@@ -6,6 +6,14 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.16] - 2019-07-14
+
+### Changed
+
+- token: custom react components made same as functions
+- token: support brighten
+- token: support function back to yellow
+
 ## [2.0.0-alpha.15] - 2019-07-12
 
 ### Added

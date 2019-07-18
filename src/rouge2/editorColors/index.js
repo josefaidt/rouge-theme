@@ -91,7 +91,7 @@ module.exports = {
   // 'tab.inactiveBackground': augment(theme.bg_light, 30),
   'tab.inactiveBackground': theme.bg,
   'tab.inactiveForeground': theme.bg_lighter,
-  'tab.border': theme.bg,
+  'tab.border': augment(theme.purple_dark, 40),
   // 'tab.border': augment(theme.bg_light, 20),
   // 'tab.activeBorder': augment(theme.rouge, 85),
   // 'tab.activeBorderTop': theme.rouge,

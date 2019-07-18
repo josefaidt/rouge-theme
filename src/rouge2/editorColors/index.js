@@ -39,13 +39,14 @@ module.exports = {
   // EDITOR GUTTER
   //
   'editorGutter.background': theme.bg,
-  'editorGutter.addedBackground': '#9BBA9Acc',
-  'editorGutter.deletedBackground': '#CC565Ecc',
-  'editorGutter.modifiedBackground': '#eabe9acc',
+  'editorGutter.addedBackground': augment(theme.green, 80),
+  'editorGutter.deletedBackground': augment(theme.berry, 80),
+  'editorGutter.modifiedBackground': augment(theme.grapple, 80),
   //
   // EDITOR OVERVIEW RULER **NEEDS TESTING**
   //
-  'editorOverviewRuler.selectionHighlightForeground': '#91d1bd66',
+  // 'editorOverviewRuler.selectionHighlightForeground': '#91d1bd66',
+  'editorOverviewRuler.selectionHighlightForeground': augment(theme.accent, 40),
   // 'editorOverviewRuler.border': '#293a57cc',
   'editorOverviewRuler.border': augment(theme.bg_light, 30),
   'editorOverviewRuler.findMatchForeground': theme.accent_dark,
@@ -71,7 +72,8 @@ module.exports = {
   // SIDEBAR
   //
   'sideBar.background': theme.bg,
-  'sideBar.border': augment(theme.bg_light, 20),
+  // 'sideBar.border': augment(theme.bg_light, 20),
+  'sideBar.border': augment(theme.purple_dark, 40),
   'sideBar.dropBackground': theme.rouge,
   'sideBar.foreground': theme.bg_lighter,
   'sideBarSectionHeader.background': theme.bg,
@@ -80,20 +82,25 @@ module.exports = {
   // TABS
   //
   'editorGroupHeader.noTabsBackground': theme.bg,
+  // 'editorGroupHeader.noTabsBackground': augment(theme.bg_light, 30),
   'editorGroupHeader.tabsBackground': theme.bg,
-  'tab.activeBackground': augment(theme.rouge_dark, 85),
+  // 'editorGroupHeader.tabsBackground': augment(theme.bg_light, 30),
+  // 'tab.activeBackground': augment(theme.rouge_dark, 85),
+  'tab.activeBackground': augment(theme.bg_light, 30),
   'tab.activeForeground': theme.bg_lightest,
+  // 'tab.inactiveBackground': augment(theme.bg_light, 30),
   'tab.inactiveBackground': theme.bg,
   'tab.inactiveForeground': theme.bg_lighter,
-  'tab.border': theme.bg_dark,
+  'tab.border': theme.bg_darker,
+  // 'tab.border': augment(theme.bg_light, 20),
   // 'tab.activeBorder': augment(theme.rouge, 85),
   // 'tab.activeBorderTop': theme.rouge,
-  // 'tab.hoverBackground': augment(theme.bg_light, 10),
+  // 'tab.hoverBackground': augment(theme.bg_light, 40),
   // 'tab.hoverBorder': theme.rouge_darker,
   // 'tab.activeModifiedBorder': theme.rouge_lightest,
   // 'tab.inactiveModifiedBorder': theme.rouge_lightest,
   'tab.unfocusedInactiveForeground': theme.bg_light,
-  'tab.unfocusedActiveForeground': augment(theme.bg_lightest, 70),
+  'tab.unfocusedActiveForeground': augment(theme.bg_lightest, 50),
   // 'tab.unfocusedActiveBorder': theme.rouge_darker,
   // 'tab.unfocusedActiveBorderTop': theme.rouge_darker,
   // 'tab.unfocusedHoverBackground': augment(theme.bg_light, 10),
@@ -107,7 +114,7 @@ module.exports = {
   'textLink.foreground': theme.accent_light,
   'textLink.activeForeground': theme.rouge_lighter,
   // 'breadcrumb.foreground': theme.bg_light,
-  'breadcrumb.foreground': theme.accent_light,
+  'breadcrumb.foreground': theme.bg_light,
   'breadcrumb.background': theme.bg,
   // 'breadcrumb.focusForeground': theme.bg_lightest,
   'breadcrumb.focusForeground': theme.rouge_lighter,
@@ -134,7 +141,8 @@ module.exports = {
   'listFilterWidget.background': theme.bg,
   'listFilterWidget.outline': theme.rouge,
   'listFilterWidget.noMatchesOutline': theme.rouge_darker,
-  'tree.indentGuidesStroke': augment(theme.bg_light, 50),
+  // 'tree.indentGuidesStroke': augment(theme.bg_light, 50),
+  'tree.indentGuidesStroke': theme.purple_dark,
   //
   // WIDGETS
   //
@@ -301,8 +309,17 @@ module.exports = {
   'gitDecoration.deletedResourceForeground': theme.berry_dark,
   'gitDecoration.untrackedResourceForeground': theme.green_dark,
   'gitDecoration.ignoredResourceForeground': theme.bg_light,
-  'gitDecoration.conflictingResourceForeground': theme.purple,
+  'gitDecoration.conflictingResourceForeground': theme.purple_dark,
   // 'gitDecoration.submoduleResourceForeground': ,
+  // 
+  // PANELS
+  // 
+  'panel.background': theme.bg,
+  'panel.border': augment(theme.purple_dark, 40),
+  'panel.dropBackground': augment(theme.bg_light, 30),
+  // 'panelTitle.activeBorder': ,
+  // 'panelTitle.activeForeground': ,
+  // 'panelTitle.inactiveForeground': ,
   //
   // TERMINAL COLORS
   //

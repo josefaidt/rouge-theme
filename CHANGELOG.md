@@ -6,6 +6,21 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.17] - 2019-07-18
+
+### Added
+
+- editor: panel colors
+- editor: terminal colors modified to use theme colors
+
+### Changed
+
+- editor: conflicting resource made darker (purple)
+- editor: borders - sidebar, panels
+- editor: breadcrumb changes (darkened link color)
+- editor: tab changes
+- editor: overview ruler highlight changed to use theme color
+
 ## [2.0.0-alpha.16] - 2019-07-14
 
 ### Changed

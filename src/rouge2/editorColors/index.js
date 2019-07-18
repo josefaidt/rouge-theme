@@ -114,7 +114,7 @@ module.exports = {
   'textLink.foreground': theme.accent_light,
   'textLink.activeForeground': theme.rouge_lighter,
   // 'breadcrumb.foreground': theme.bg_light,
-  'breadcrumb.foreground': theme.bg_light,
+  'breadcrumb.foreground': theme.bg_lighter,
   'breadcrumb.background': theme.bg,
   // 'breadcrumb.focusForeground': theme.bg_lightest,
   'breadcrumb.focusForeground': theme.rouge_lighter,
@@ -324,4 +324,8 @@ module.exports = {
   // TERMINAL COLORS
   //
   ...terminalColors,
+
+  // CONTRAST TESTING
+  // 'terminal.background': theme.bg_dark,
+  // 'panel.background': theme.bg_dark,
 }

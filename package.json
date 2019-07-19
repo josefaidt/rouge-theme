@@ -38,6 +38,11 @@
         "label": "Rouge No Italics",
         "uiTheme": "vs-dark",
         "path": "./themes/rouge-no-italics.json"
+      },
+      {
+        "label": "Rouge Quiet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rouge-quiet.json"
       }
     ]
   },

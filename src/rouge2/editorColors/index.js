@@ -13,8 +13,9 @@ module.exports = {
   'editorCursor.background': theme.green,
   // 'editorCursor.foreground': theme.rouge_dark,
   'editorCursor.foreground': theme.green,
-  'editorBracketMatch.background': theme.bg,
-  'editorBracketMatch.border': theme.berry_light,
+  'editorBracketMatch.background': augment(theme.bg_light, 20),
+  // 'editorBracketMatch.border': theme.berry_light,
+  'editorBracketMatch.border': theme.green_darker,
   'progressBar.background': theme.rouge_dark,
   //
   // EDITOR
@@ -313,9 +314,9 @@ module.exports = {
   'gitDecoration.ignoredResourceForeground': theme.bg_light,
   'gitDecoration.conflictingResourceForeground': theme.purple_dark,
   // 'gitDecoration.submoduleResourceForeground': ,
-  // 
+  //
   // PANELS
-  // 
+  //
   'panel.background': theme.bg,
   'panel.border': augment(theme.purple_dark, 40),
   'panel.dropBackground': augment(theme.bg_light, 30),

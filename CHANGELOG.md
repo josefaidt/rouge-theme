@@ -11,6 +11,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 ### Changed
 
 - editor: cursor color changed from rouge -> green
+- editor: bracket match changed from berry -> green dark
 
 ## [2.0.0-alpha.17] - 2019-07-18
 

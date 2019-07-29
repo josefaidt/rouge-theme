@@ -9,10 +9,12 @@ module.exports = {
   'editor.background': theme.bg,
   'sideBar.background': theme.bg,
   'editorGroupHeader.noTabsBackground': theme.bg_darker,
-  'editorCursor.background': theme.rouge_dark,
-  'editorCursor.foreground': theme.rouge_dark,
+  // 'editorCursor.background': theme.rouge_dark,
+  'editorCursor.background': theme.green,
+  // 'editorCursor.foreground': theme.rouge_dark,
+  'editorCursor.foreground': theme.green,
   'editorBracketMatch.background': theme.bg,
-  'editorBracketMatch.border': theme.rouge_light,
+  'editorBracketMatch.border': theme.berry_light,
   'progressBar.background': theme.rouge_dark,
   //
   // EDITOR

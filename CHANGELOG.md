@@ -6,6 +6,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.18] - 2019-07-29
+
+### Changed
+
+- editor: cursor color changed from rouge -> green
+
 ## [2.0.0-alpha.17] - 2019-07-18
 
 ### Added

@@ -166,7 +166,7 @@ module.exports = [
   },
   {
     name: '[HTML] Entity Attributes',
-    scope: 'entity.other.attribute-name.html',
+    scope: 'entity.other.attribute-name',
     settings: {
       foreground: theme.grapple,
       fontStyle: 'italic',
@@ -174,7 +174,7 @@ module.exports = [
   },
   {
     name: '[HTML] Entity',
-    scope: ['entity.name.tag.html', 'entity.name.tag.other.html'],
+    scope: ['entity.name.tag', 'entity.name.tag.other.html'],
     settings: {
       foreground: theme.rouge,
     },

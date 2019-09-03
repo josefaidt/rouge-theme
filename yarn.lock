@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@josefaidt/prettier-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@josefaidt/prettier-config/-/prettier-config-0.0.2.tgz#7b6ae7b08fb927a6f2342fa17dd93fb31693a08b"
+  integrity sha512-M0hSg7yYWkxtwnSwOy1XG7u+pJFz7py/MMOTCIqp3eVvOW+dytZcFGsVQXlbmTHXgBd4d43XpK3FbL9+ujLG6g==
+
 "@types/node@*":
   version "12.0.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.10.tgz#51babf9c7deadd5343620055fc8aff7995c8b031"
@@ -2007,6 +2012,11 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
+
+prettier@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
+  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
 
 pretty-hrtime@^1.0.0:
   version "1.0.3"

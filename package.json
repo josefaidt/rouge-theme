@@ -2,7 +2,7 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "2.0.0-alpha.18",
+  "version": "2.0.0-alpha.19",
   "publisher": "josef",
   "scripts": {
     "start": "yarn develop",
@@ -56,11 +56,13 @@
     "type": "git",
     "url": "https://github.com/josefaidt/rouge-theme.git"
   },
-  "dependencies": {},
+  "prettier": "@josefaidt/prettier-config",
   "devDependencies": {
+    "@josefaidt/prettier-config": "^0.0.2",
     "chalk": "^2.4.2",
     "gulp": "^4.0.0",
     "gulp-strip-comments": "^2.5.2",
+    "prettier": "^1.18.2",
     "vsce": "^1.64.0"
   }
 }

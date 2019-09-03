@@ -6,6 +6,12 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ---
 
+## [2.0.0-alpha.19] - 2019-09-03
+
+### Changed
+
+- tokens: html tags and attribute names, removed trailing .html for Vue support
+
 ## [2.0.0-alpha.18] - 2019-07-29
 
 ### Changed

@@ -257,6 +257,15 @@ module.exports = [
     },
   },
   {
+    name: '[CSS] Property Values Constant Punctuation',
+    scope: ['punctuation.definition.constant.css'],
+    settings: {
+      foreground: theme.green,
+      fontStyle: 'none',
+      // foreground: theme.rouge,
+    },
+  },
+  {
     name: '[CSS] Entity',
     scope: 'entity.name.tag.css',
     settings: {

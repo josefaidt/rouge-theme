@@ -6,7 +6,7 @@ const { augment } = theme
 module.exports = {
   focusBorder: theme.bg_light,
   'editor.foreground': theme.bg_lighter,
-  'editor.background': theme.bg,
+  'editor.background': theme.bg_dark,
   'sideBar.background': theme.bg,
   'editorGroupHeader.noTabsBackground': theme.bg_darker,
   // 'editorCursor.background': theme.rouge_dark,
@@ -41,7 +41,7 @@ module.exports = {
   //
   // EDITOR GUTTER
   //
-  'editorGutter.background': theme.bg,
+  'editorGutter.background': theme.bg_dark,
   'editorGutter.addedBackground': augment(theme.green, 80),
   'editorGutter.deletedBackground': augment(theme.berry, 80),
   'editorGutter.modifiedBackground': augment(theme.grapple, 80),
@@ -84,9 +84,10 @@ module.exports = {
   //
   // TABS
   //
-  'editorGroupHeader.noTabsBackground': theme.bg,
+  'editorGroupHeader.noTabsBackground': theme.bg_dark,
   // 'editorGroupHeader.noTabsBackground': augment(theme.bg_light, 30),
-  'editorGroupHeader.tabsBackground': theme.bg,
+  'editorGroupHeader.tabsBackground': theme.bg_dark,
+  'editorGroupHeader.tabsBorder': augment(theme.purple_dark, 60),
   // 'editorGroupHeader.tabsBackground': augment(theme.bg_light, 30),
   // 'tab.activeBackground': augment(theme.rouge_dark, 85),
   'tab.activeBackground': augment(theme.bg_light, 30),
@@ -118,7 +119,7 @@ module.exports = {
   'textLink.activeForeground': theme.rouge_lighter,
   // 'breadcrumb.foreground': theme.bg_light,
   'breadcrumb.foreground': theme.bg_lighter,
-  'breadcrumb.background': theme.bg,
+  'breadcrumb.background': theme.bg_dark,
   // 'breadcrumb.focusForeground': theme.bg_lightest,
   'breadcrumb.focusForeground': theme.rouge_lighter,
   // 'breadcrumb.activeSelectionForeground': theme.rouge,
@@ -152,11 +153,11 @@ module.exports = {
   'widget.shadow': theme.bg_darker,
   // 'editorWidget.background': augment(theme.bg_light, 50),
   // 'editorWidget.background': theme.bgb_dark,
-  'editorWidget.background': theme.bg_dark,
+  'editorWidget.background': theme.bg,
   'editorWidget.border': theme.rouge,
   'editorWidget.resizeBorder': theme.rouge,
   // 'editorSuggestWidget.background': theme.bgb_dark,
-  'editorSuggestWidget.background': theme.bg_dark,
+  'editorSuggestWidget.background': theme.bg,
   'editorSuggestWidget.border': theme.purple_dark,
   // 'editorSuggestWidget.border': theme.rouge_darker,
   'editorSuggestWidget.foreground': theme.bg_lighter,
@@ -290,21 +291,21 @@ module.exports = {
   //
   // SETTINGS
   //
-  // 'settings.headerForeground': theme.bg['100'],
-  'settings.modifiedItemForeground': theme.rouge,
-  // 'settings.inactiveSelectedItemBorder': '#75809559',
-  // 'settings.dropdownBackground': '#172030',
-  // 'settings.dropdownForeground': '#A7ACB9',
-  // 'settings.dropdownBorder': '#c6797e80',
-  // 'settings.checkboxBackground': '#75809560',
-  // 'settings.checkboxForeground': '#758095',
-  // 'settings.checkboxBorder': '#c6797e80',
-  // 'settings.textInputBackground': '#172030',
-  // 'settings.textInputForeground': '#A7ACB9',
-  // 'settings.textInputBorder': '#c6797e80',
-  // 'settings.numberInputBackground': '#172030',
-  // 'settings.numberInputForeground': '#A7ACB9',
-  // 'settings.numberInputBorder': '#c6797e80',
+  'settings.headerForeground': theme.bg_lighter,
+  'settings.modifiedItemIndicator': theme.rouge,
+  'settings.inactiveSelectedItemBorder': augment(theme.purple_dark, 60),
+  'settings.dropdownBackground': theme.bg,
+  'settings.dropdownForeground': theme.bg_lighter,
+  'settings.dropdownBorder': augment(theme.purple_dark, 90),
+  'settings.checkboxBackground': theme.bg,
+  'settings.checkboxForeground': theme.bg_lighter,
+  'settings.checkboxBorder': augment(theme.purple_dark, 90),
+  'settings.textInputBackground': theme.bg,
+  'settings.textInputForeground': theme.bg_lighter,
+  'settings.textInputBorder': augment(theme.purple_dark, 90),
+  'settings.numberInputBackground': theme.bg,
+  'settings.numberInputForeground': theme.bg_lighter,
+  'settings.numberInputBorder': augment(theme.purple_dark, 90),
   //
   // GIT DECORATIONS
   //
@@ -323,6 +324,13 @@ module.exports = {
   // 'panelTitle.activeBorder': ,
   // 'panelTitle.activeForeground': ,
   // 'panelTitle.inactiveForeground': ,
+  //
+  // DEBUG
+  //
+  'debugExceptionWidget.background': theme.bg,
+  'debugExceptionWidget.border': augment(theme.rouge_dark, 40),
+  'debugToolBar.background': theme.bg,
+  'debugToolBar.border': augment(theme.green, 60),
   //
   // TERMINAL COLORS
   //

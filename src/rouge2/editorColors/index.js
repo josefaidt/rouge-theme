@@ -84,9 +84,9 @@ module.exports = {
   //
   // TABS
   //
-  'editorGroupHeader.noTabsBackground': theme.bg_dark,
+  'editorGroupHeader.noTabsBackground': theme.bg,
   // 'editorGroupHeader.noTabsBackground': augment(theme.bg_light, 30),
-  'editorGroupHeader.tabsBackground': theme.bg_dark,
+  'editorGroupHeader.tabsBackground': theme.bg,
   'editorGroupHeader.tabsBorder': augment(theme.purple_dark, 60),
   // 'editorGroupHeader.tabsBackground': augment(theme.bg_light, 30),
   // 'tab.activeBackground': augment(theme.rouge_dark, 85),
@@ -212,7 +212,7 @@ module.exports = {
   //
   // TITLE BAR
   //
-  'titleBar.activeBackground': theme.bg,
+  'titleBar.activeBackground': theme.bg_dark,
   'titleBar.activeForeground': theme.bg_lighter,
   'titleBar.inactiveBackground': augment(theme.rouge_dark, 85),
   'titleBar.inactiveForeground': theme.rouge_lighter,
@@ -313,7 +313,7 @@ module.exports = {
   'gitDecoration.deletedResourceForeground': theme.berry_dark,
   'gitDecoration.untrackedResourceForeground': theme.green_dark,
   'gitDecoration.ignoredResourceForeground': theme.bg_light,
-  'gitDecoration.conflictingResourceForeground': theme.purple_dark,
+  'gitDecoration.conflictingResourceForeground': theme.purple,
   // 'gitDecoration.submoduleResourceForeground': ,
   //
   // PANELS

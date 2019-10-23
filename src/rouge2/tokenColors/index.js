@@ -8,12 +8,7 @@ module.exports = [
   },
   {
     name: 'Comment',
-    scope: [
-      'comment',
-      'punctuation.definition.comment',
-      'unused.comment',
-      'wildcard.comment',
-    ],
+    scope: ['comment', 'punctuation.definition.comment', 'unused.comment', 'wildcard.comment'],
     settings: {
       fontStyle: 'italic',
       // foreground: '#64727d',
@@ -233,10 +228,7 @@ module.exports = [
   },
   {
     name: '[CSS] Property Names',
-    scope: [
-      'support.type.property-name.css',
-      'support.type.property-name.scss',
-    ],
+    scope: ['support.type.property-name.css', 'support.type.property-name.scss'],
     settings: {
       foreground: theme.bg_lighter,
       // foreground: theme.rouge,
@@ -320,10 +312,7 @@ module.exports = [
   },
   {
     name: '[XML] - Attributes',
-    scope: [
-      'entity.other.attribute-name.localname.xml',
-      'text.xml entity.other',
-    ],
+    scope: ['entity.other.attribute-name.localname.xml', 'text.xml entity.other'],
     settings: {
       fontStyle: 'italic',
       foreground: theme.grapple,
@@ -338,11 +327,7 @@ module.exports = [
   },
   {
     name: '[JS/JSX] - React Tag Names',
-    scope: [
-      'source.js entity.name.tag.js',
-      'source.jsx entity.name.tag.js',
-      'entity.name.tag.js',
-    ],
+    scope: ['source.js entity.name.tag.js', 'source.jsx entity.name.tag.js', 'entity.name.tag.js'],
     settings: {
       foreground: theme.rouge,
     },
@@ -456,10 +441,7 @@ module.exports = [
   },
   {
     name: '[MARKDOWN] - Emphasis Bold',
-    scope: [
-      'markup.bold.markdown',
-      'markup.bold.markdown punctuation.definition.bold.markdown',
-    ],
+    scope: ['markup.bold.markdown', 'markup.bold.markdown punctuation.definition.bold.markdown'],
     settings: {
       fontStyle: 'bold',
     },
@@ -484,10 +466,7 @@ module.exports = [
   },
   {
     name: '[MARKDOWN] - Link Address',
-    scope: [
-      'markup.underline.link.markdown',
-      'markup.underline.link.image.markdown',
-    ],
+    scope: ['markup.underline.link.markdown', 'markup.underline.link.image.markdown'],
     settings: {
       foreground: theme.accent_light,
     },

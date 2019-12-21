@@ -1,7 +1,7 @@
 const theme = require('../theme')
 const terminalColors = require('./terminal')
 const baseColors = require('./base')
-const { augment } = theme
+const { opac } = theme
 
 module.exports = {
   focusBorder: theme.bg_light,
@@ -13,45 +13,45 @@ module.exports = {
   'editorCursor.background': theme.green,
   // 'editorCursor.foreground': theme.rouge_dark,
   'editorCursor.foreground': theme.green,
-  'editorBracketMatch.background': augment(theme.bg_light, 20),
+  'editorBracketMatch.background': opac(theme.bg_light, 20),
   // 'editorBracketMatch.border': theme.berry_light,
   'editorBracketMatch.border': theme.green_darker,
   'progressBar.background': theme.rouge_dark,
   //
   // EDITOR
   //
-  'editorLineNumber.foreground': augment(theme.bg_light, 70),
+  'editorLineNumber.foreground': opac(theme.bg_light, 70),
   'editorLineNumber.activeForeground': theme.bg_lighter,
-  'editor.lineHighlightBackground': augment(theme.accent, 13),
-  'editor.wordHighlightBackground': augment(theme.accent, 60),
-  'editor.wordHighlightStrongBackground': augment(theme.accent, 85),
-  'editor.findMatchBackground': augment(theme.accent, 60),
-  'editor.findMatchHighlightBackground': augment(theme.accent, 60),
-  'editor.findRangeHighlightBackground': augment(theme.accent, 30),
-  'editor.hoverHighlightBackground': augment(theme.accent, 30),
-  'editor.selectionBackground': augment(theme.accent, 60),
+  'editor.lineHighlightBackground': opac(theme.accent, 13),
+  'editor.wordHighlightBackground': opac(theme.accent, 60),
+  'editor.wordHighlightStrongBackground': opac(theme.accent, 85),
+  'editor.findMatchBackground': opac(theme.accent, 60),
+  'editor.findMatchHighlightBackground': opac(theme.accent, 60),
+  'editor.findRangeHighlightBackground': opac(theme.accent, 30),
+  'editor.hoverHighlightBackground': opac(theme.accent, 30),
+  'editor.selectionBackground': opac(theme.accent, 60),
   'editor.selectionForeground': theme.accent,
-  'editor.inactiveSelectionBackground': augment(theme.accent, 30),
+  'editor.inactiveSelectionBackground': opac(theme.accent, 30),
   'editorLink.activeForeground': theme.bg_lighter,
   'editorGroup.background': theme.bg,
   // 'editorWarning.background': theme.berry,
-  'editorWarning.foreground': augment(theme.berry, 90),
-  'editorError.foreground': augment(theme.berry, 90),
+  'editorWarning.foreground': opac(theme.berry, 90),
+  'editorError.foreground': opac(theme.berry, 90),
   'editorCodeLens.foreground': '#758095',
   //
   // EDITOR GUTTER
   //
   'editorGutter.background': theme.bg_dark,
-  'editorGutter.addedBackground': augment(theme.green, 80),
-  'editorGutter.deletedBackground': augment(theme.berry, 80),
-  'editorGutter.modifiedBackground': augment(theme.grapple, 80),
+  'editorGutter.addedBackground': opac(theme.green, 80),
+  'editorGutter.deletedBackground': opac(theme.berry, 80),
+  'editorGutter.modifiedBackground': opac(theme.grapple, 80),
   //
   // EDITOR OVERVIEW RULER **NEEDS TESTING**
   //
   // 'editorOverviewRuler.selectionHighlightForeground': '#91d1bd66',
-  'editorOverviewRuler.selectionHighlightForeground': augment(theme.accent, 40),
+  'editorOverviewRuler.selectionHighlightForeground': opac(theme.accent, 40),
   // 'editorOverviewRuler.border': '#293a57cc',
-  'editorOverviewRuler.border': augment(theme.bg_light, 30),
+  'editorOverviewRuler.border': opac(theme.bg_light, 30),
   'editorOverviewRuler.findMatchForeground': theme.accent_dark,
   'editorOverviewRuler.modifiedForeground': theme.grapple_dark,
   'editorOverviewRuler.addedForeground': theme.green_dark,
@@ -75,8 +75,8 @@ module.exports = {
   // SIDEBAR
   //
   'sideBar.background': theme.bg,
-  // 'sideBar.border': augment(theme.bg_light, 20),
-  'sideBar.border': augment(theme.purple_dark, 40),
+  // 'sideBar.border': opac(theme.bg_light, 20),
+  'sideBar.border': opac(theme.purple_dark, 40),
   'sideBar.dropBackground': theme.rouge,
   'sideBar.foreground': theme.bg_lighter,
   'sideBarSectionHeader.background': theme.bg,
@@ -85,29 +85,29 @@ module.exports = {
   // TABS
   //
   'editorGroupHeader.noTabsBackground': theme.bg,
-  // 'editorGroupHeader.noTabsBackground': augment(theme.bg_light, 30),
+  // 'editorGroupHeader.noTabsBackground': opac(theme.bg_light, 30),
   'editorGroupHeader.tabsBackground': theme.bg,
-  'editorGroupHeader.tabsBorder': augment(theme.purple_dark, 60),
-  // 'editorGroupHeader.tabsBackground': augment(theme.bg_light, 30),
-  // 'tab.activeBackground': augment(theme.rouge_dark, 85),
-  'tab.activeBackground': augment(theme.bg_light, 30),
+  'editorGroupHeader.tabsBorder': opac(theme.purple_dark, 60),
+  // 'editorGroupHeader.tabsBackground': opac(theme.bg_light, 30),
+  // 'tab.activeBackground': opac(theme.rouge_dark, 85),
+  'tab.activeBackground': opac(theme.bg_light, 30),
   'tab.activeForeground': theme.bg_lightest,
-  // 'tab.inactiveBackground': augment(theme.bg_light, 30),
+  // 'tab.inactiveBackground': opac(theme.bg_light, 30),
   'tab.inactiveBackground': theme.bg,
   'tab.inactiveForeground': theme.bg_lighter,
-  'tab.border': augment(theme.purple_dark, 40),
-  // 'tab.border': augment(theme.bg_light, 20),
-  // 'tab.activeBorder': augment(theme.rouge, 85),
+  'tab.border': opac(theme.purple_dark, 40),
+  // 'tab.border': opac(theme.bg_light, 20),
+  // 'tab.activeBorder': opac(theme.rouge, 85),
   // 'tab.activeBorderTop': theme.rouge,
-  // 'tab.hoverBackground': augment(theme.bg_light, 40),
+  // 'tab.hoverBackground': opac(theme.bg_light, 40),
   // 'tab.hoverBorder': theme.rouge_darker,
   // 'tab.activeModifiedBorder': theme.rouge_lightest,
   // 'tab.inactiveModifiedBorder': theme.rouge_lightest,
   'tab.unfocusedInactiveForeground': theme.bg_light,
-  'tab.unfocusedActiveForeground': augment(theme.bg_lightest, 50),
+  'tab.unfocusedActiveForeground': opac(theme.bg_lightest, 50),
   // 'tab.unfocusedActiveBorder': theme.rouge_darker,
   // 'tab.unfocusedActiveBorderTop': theme.rouge_darker,
-  // 'tab.unfocusedHoverBackground': augment(theme.bg_light, 10),
+  // 'tab.unfocusedHoverBackground': opac(theme.bg_light, 10),
   // 'tab.unfocusedHoverBorder': theme.rouge_darker,
   // 'tab.unfocusedActiveModifiedBorder': theme.rouge_lightest,
   // 'tab.unfocusedInactiveModifiedBorder': theme.rouge_lightest,
@@ -128,30 +128,30 @@ module.exports = {
   //
   // LIST
   //
-  'list.activeSelectionBackground': augment(theme.rouge, 85),
+  'list.activeSelectionBackground': opac(theme.rouge, 85),
   'list.activeSelectionForeground': theme.rouge_lightest,
-  'list.dropBackground': augment(theme.bg_light, 30),
-  'list.focusBackground': augment(theme.bg_light, 50),
+  'list.dropBackground': opac(theme.bg_light, 30),
+  'list.focusBackground': opac(theme.bg_light, 50),
   'list.focusForeground': theme.bg_lightest,
-  'list.hoverBackground': augment(theme.bg_light, 30),
+  'list.hoverBackground': opac(theme.bg_light, 30),
   'list.hoverForeground': theme.bg_lightest,
-  'list.inactiveFocusBackground': augment(theme.bg_light, 15),
+  'list.inactiveFocusBackground': opac(theme.bg_light, 15),
   'list.inactiveFocusForeground': theme.bg_light,
-  'list.inactiveSelectionBackground': augment(theme.bg_light, 30),
-  'list.inactiveSelectionForeground': augment(theme.bg_lightest, 90),
+  'list.inactiveSelectionBackground': opac(theme.bg_light, 30),
+  'list.inactiveSelectionForeground': opac(theme.bg_lightest, 90),
   'list.invalidItemForeground': theme.berry_dark,
   'list.errorForeground': theme.berry_dark,
-  'list.warningForeground': augment(theme.berry, 80),
+  'list.warningForeground': opac(theme.berry, 80),
   'listFilterWidget.background': theme.bg,
   'listFilterWidget.outline': theme.rouge,
   'listFilterWidget.noMatchesOutline': theme.rouge_darker,
-  // 'tree.indentGuidesStroke': augment(theme.bg_light, 50),
+  // 'tree.indentGuidesStroke': opac(theme.bg_light, 50),
   'tree.indentGuidesStroke': theme.purple_dark,
   //
   // WIDGETS
   //
   'widget.shadow': theme.bg_darker,
-  // 'editorWidget.background': augment(theme.bg_light, 50),
+  // 'editorWidget.background': opac(theme.bg_light, 50),
   // 'editorWidget.background': theme.bgb_dark,
   'editorWidget.background': theme.bg,
   'editorWidget.border': theme.rouge,
@@ -162,12 +162,12 @@ module.exports = {
   // 'editorSuggestWidget.border': theme.rouge_darker,
   'editorSuggestWidget.foreground': theme.bg_lighter,
   'editorSuggestWidget.highlightForeground': theme.rouge_light,
-  'editorSuggestWidget.selectedBackground': augment(theme.bg_light, 30),
-  // 'editorHoverWidget.background': augment(theme.bg, 90),
+  'editorSuggestWidget.selectedBackground': opac(theme.bg_light, 30),
+  // 'editorHoverWidget.background': opac(theme.bg, 90),
   // 'editorHoverWidget.background': theme.bgb_dark,
   'editorHoverWidget.background': theme.bg_dark,
   'editorHoverWidget.border': theme.purple_dark,
-  'selection.background': augment(theme.accent, 60),
+  'selection.background': opac(theme.accent, 60),
   descriptionForeground: theme.bg_light,
   errorForeground: theme.berry_dark,
   //
@@ -190,10 +190,10 @@ module.exports = {
   //
   // SCROLLBAR
   //
-  'scrollbar.shadow': augment(theme.rouge_darker, 10),
-  'scrollbarSlider.activeBackground': augment(theme.rouge, 75),
-  'scrollbarSlider.background': augment(theme.rouge_dark, 60),
-  'scrollbarSlider.hoverBackground': augment(theme.rouge, 60),
+  'scrollbar.shadow': opac(theme.rouge_darker, 10),
+  'scrollbarSlider.activeBackground': opac(theme.rouge, 75),
+  'scrollbarSlider.background': opac(theme.rouge_dark, 60),
+  'scrollbarSlider.hoverBackground': opac(theme.rouge, 60),
   //
   // STATUSBAR
   //
@@ -204,17 +204,17 @@ module.exports = {
   'statusBar.debuggingForeground': theme.green_lightest,
   'statusBarItem.activeBackground': theme.rouge,
   'statusBarItem.activeForeground': theme.rouge_lightest,
-  'statusBarItem.hoverBackground': augment(theme.bg_light, 50),
+  'statusBarItem.hoverBackground': opac(theme.bg_light, 50),
   'statusBarItem.prominentBackground': theme.purple,
-  'statusBarItem.prominentHoverBackground': augment(theme.purple_light, 60),
+  'statusBarItem.prominentHoverBackground': opac(theme.purple_light, 60),
   'statusBar.noFolderBackground': theme.rouge_dark,
   'statusBar.noFolderForeground': theme.rouge_lightest,
   //
   // TITLE BAR
   //
-  'titleBar.activeBackground': theme.bg_dark,
+  'titleBar.activeBackground': theme.bg,
   'titleBar.activeForeground': theme.bg_lighter,
-  'titleBar.inactiveBackground': augment(theme.rouge_dark, 85),
+  'titleBar.inactiveBackground': opac(theme.rouge_dark, 85),
   'titleBar.inactiveForeground': theme.rouge_lighter,
   // 'titleBar.border': '',
   //
@@ -233,7 +233,7 @@ module.exports = {
   // 'notificationToast.border': theme.rouge_darker,
   'notificationToast.border': theme.purple_dark,
   'notifications.foreground': theme.bg_lighter,
-  // 'notifications.background': augment(theme.bg, 90),
+  // 'notifications.background': opac(theme.bg, 90),
   'notifications.background': theme.bgb_dark,
   'notifications.border': theme.rouge_darker,
   'notifications.border': theme.purple_dark,
@@ -243,7 +243,7 @@ module.exports = {
   //
   'button.foreground': theme.accent_lightest,
   'button.background': theme.accent,
-  // 'button.hoverBackground': augment(theme.rouge_lighter, 50),
+  // 'button.hoverBackground': opac(theme.rouge_lighter, 50),
   'button.hoverBackground': theme.accent_light,
   //
   // EXTENSION BUTTONS
@@ -264,7 +264,7 @@ module.exports = {
   // 'textLink.foreground': theme.rouge,
   'textLink.foreground': theme.accent_light,
   'textLink.activeForeground': theme.rouge_lighter,
-  'textBlockQuote.background': augment(theme.accent, 30),
+  'textBlockQuote.background': opac(theme.accent, 30),
   'textBlockQuote.border': theme.accent,
   'textCodeBlock.background': theme.bg_darkest,
   'textPreformat.foreground': theme.rouge,
@@ -286,26 +286,26 @@ module.exports = {
   //
   'welcomePage.background': theme.bg_dark,
   'welcomePage.buttonBackground': theme.bg_dark,
-  'welcomePage.buttonHoverBackground': augment(theme.accent, 30),
+  'welcomePage.buttonHoverBackground': opac(theme.accent, 30),
   'walkThrough.embeddedEditorBackground': theme.bg_dark,
   //
   // SETTINGS
   //
   'settings.headerForeground': theme.bg_lighter,
   'settings.modifiedItemIndicator': theme.rouge,
-  'settings.inactiveSelectedItemBorder': augment(theme.purple_dark, 60),
+  'settings.inactiveSelectedItemBorder': opac(theme.purple_dark, 60),
   'settings.dropdownBackground': theme.bg,
   'settings.dropdownForeground': theme.bg_lighter,
-  'settings.dropdownBorder': augment(theme.purple_dark, 90),
+  'settings.dropdownBorder': opac(theme.purple_dark, 90),
   'settings.checkboxBackground': theme.bg,
   'settings.checkboxForeground': theme.bg_lighter,
-  'settings.checkboxBorder': augment(theme.purple_dark, 90),
+  'settings.checkboxBorder': opac(theme.purple_dark, 90),
   'settings.textInputBackground': theme.bg,
   'settings.textInputForeground': theme.bg_lighter,
-  'settings.textInputBorder': augment(theme.purple_dark, 90),
+  'settings.textInputBorder': opac(theme.purple_dark, 90),
   'settings.numberInputBackground': theme.bg,
   'settings.numberInputForeground': theme.bg_lighter,
-  'settings.numberInputBorder': augment(theme.purple_dark, 90),
+  'settings.numberInputBorder': opac(theme.purple_dark, 90),
   //
   // GIT DECORATIONS
   //
@@ -313,14 +313,14 @@ module.exports = {
   'gitDecoration.deletedResourceForeground': theme.berry_dark,
   'gitDecoration.untrackedResourceForeground': theme.green_dark,
   'gitDecoration.ignoredResourceForeground': theme.bg_light,
-  'gitDecoration.conflictingResourceForeground': theme.purple,
+  'gitDecoration.conflictingResourceForeground': theme.purple_light,
   // 'gitDecoration.submoduleResourceForeground': ,
   //
   // PANELS
   //
   'panel.background': theme.bg,
-  'panel.border': augment(theme.purple_dark, 40),
-  'panel.dropBackground': augment(theme.bg_light, 30),
+  'panel.border': opac(theme.purple_dark, 40),
+  'panel.dropBackground': opac(theme.bg_light, 30),
   // 'panelTitle.activeBorder': ,
   // 'panelTitle.activeForeground': ,
   // 'panelTitle.inactiveForeground': ,
@@ -328,9 +328,9 @@ module.exports = {
   // DEBUG
   //
   'debugExceptionWidget.background': theme.bg,
-  'debugExceptionWidget.border': augment(theme.rouge_dark, 40),
+  'debugExceptionWidget.border': opac(theme.rouge_dark, 40),
   'debugToolBar.background': theme.bg,
-  'debugToolBar.border': augment(theme.green, 60),
+  'debugToolBar.border': opac(theme.green, 60),
   //
   // TERMINAL COLORS
   //

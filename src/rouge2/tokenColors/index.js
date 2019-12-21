@@ -1,5 +1,5 @@
 const theme = require('../theme')
-const { augment } = theme
+const { opac } = theme
 module.exports = [
   {
     settings: {
@@ -481,7 +481,7 @@ module.exports = [
   {
     scope: ['markup.error'],
     settings: {
-      foreground: augment(theme.berry_dark, 85),
+      foreground: opac(theme.berry_dark, 85),
     },
   },
   {
@@ -493,7 +493,7 @@ module.exports = [
   {
     scope: ['markup.deleted'],
     settings: {
-      foreground: augment(theme.berry_dark, 85),
+      foreground: opac(theme.berry_dark, 85),
     },
   },
   {

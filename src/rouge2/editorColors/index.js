@@ -321,9 +321,9 @@ module.exports = {
   'panel.background': theme.bg,
   'panel.border': opac(theme.purple_dark, 40),
   'panel.dropBackground': opac(theme.bg_light, 30),
-  // 'panelTitle.activeBorder': ,
-  // 'panelTitle.activeForeground': ,
-  // 'panelTitle.inactiveForeground': ,
+  'panelTitle.activeBorder': theme.purple_light,
+  'panelTitle.activeForeground': theme.bg_lighter,
+  'panelTitle.inactiveForeground': theme.bg_light,
   //
   // DEBUG
   //
@@ -331,6 +331,41 @@ module.exports = {
   'debugExceptionWidget.border': opac(theme.rouge_dark, 40),
   'debugToolBar.background': theme.bg,
   'debugToolBar.border': opac(theme.green, 60),
+  //
+  // DIFF
+  //
+  'diffEditor.insertedTextBackground': opac(theme.green_dark, 60),
+  // 'diffEditor.insertedTextBorder': theme.green_dark,
+  'diffEditor.removedTextBackground': opac(theme.berry_dark, 60),
+  // 'diffEditor.removedTextBorder': theme.berry_dark,
+  'diffEditor.border': opac(theme.bg_light, 30),
+  //
+  // PEEK VIEW
+  //
+  'peekView.border': theme.purple_dark,
+  'peekViewEditor.background': theme.bg,
+  'peekViewEditorGutter.background': theme.bg_dark,
+  // 'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
+  'peekViewEditor.matchHighlightBorder': opac(theme.accent, 80),
+  'peekViewResult.background': theme.bg,
+  // 'peekViewResult.fileForeground': '#f3f',
+  // 'peekViewResult.lineForeground': '',
+  'peekViewResult.matchHighlightBackground': opac(theme.accent, 60),
+  'peekViewResult.selectionBackground': opac(theme.bg_light, 20),
+  'peekViewResult.selectionForeground': theme.bg_lightest,
+  'peekViewTitle.background': theme.bg_darker,
+  'peekViewTitleDescription.foreground': theme.bg_lighter,
+  'peekViewTitleLabel.foreground': theme.bg_lightest,
+  //
+  // MERGE
+  //
+  'merge.currentHeaderBackground': theme.green_dark,
+  'merge.currentContentBackground': opac(theme.accent, 30),
+  'merge.incomingHeaderBackground': theme.blue_dark,
+  'merge.incomingContentBackground': opac(theme.blue_dark, 50),
+  // 'merge.border': ,
+  'merge.commonContentBackground': opac(theme.bg_light, 20),
+  'merge.commonHeaderBackground': opac(theme.bg_light, 30),
   //
   // TERMINAL COLORS
   //

@@ -148,7 +148,7 @@ const colors = {
   // ...bg_classic,
 }
 
-const augment = (color, opacityPercentage) => {
+const opac = (color, opacityPercentage) => {
   let c = ''
   if (typeof color === 'string' && color[0] === '#') {
     c = color
@@ -160,6 +160,6 @@ const augment = (color, opacityPercentage) => {
 }
 
 module.exports = {
-  augment,
+  opac,
   ...colors,
 }

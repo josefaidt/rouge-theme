@@ -128,7 +128,7 @@ module.exports = {
   //
   // LIST
   //
-  'list.activeSelectionBackground': opac(theme.rouge, 85),
+  'list.activeSelectionBackground': opac(theme.rouge, 75),
   'list.activeSelectionForeground': theme.rouge_lightest,
   'list.dropBackground': opac(theme.bg_light, 30),
   'list.focusBackground': opac(theme.bg_light, 50),

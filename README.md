@@ -15,9 +15,7 @@
 VSCode theme created for a dark, material feel with a flushed color palette, optimized for use with Operator Mono font.
 Inspiration was drawn from Atom's Material Theme and [loved-syntax](https://github.com/DanielPintilei/atom-loved-syntax) for Atom.
 
-### Issues or Concerns
-
-Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
+**Version 2** is even more flushed, darker, and real cozy.
 
 ### Screenshots
 
@@ -80,6 +78,10 @@ In version [1.3.3](https://github.com/josefaidt/rouge-theme/releases/tag/v1.3.3)
 ```
 
 ![Screenshotbadges1](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_2_small.png)![Screenshotbadges2](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-ed-badges-1_3_3_small.png)
+
+### Issues or Concerns
+
+Create an issue on the [repository](https://github.com/josefaidt/rouge-theme/issues).
 
 ### Changelog
 

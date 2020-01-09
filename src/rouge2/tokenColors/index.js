@@ -93,7 +93,7 @@ module.exports = [
     name: 'Support',
     scope: 'support',
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
     },
   },
   {
@@ -114,7 +114,7 @@ module.exports = [
     name: 'Support Objects *.length',
     scope: 'support.variable',
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
     },
   },
   {
@@ -163,7 +163,7 @@ module.exports = [
     name: '[HTML] Entity Attributes',
     scope: 'entity.other.attribute-name',
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
       fontStyle: 'italic',
     },
   },
@@ -268,7 +268,7 @@ module.exports = [
     name: '[CSS] Entity, Attribute',
     scope: 'entity.other.attribute-name.class.css',
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
       fontStyle: 'none',
     },
   },
@@ -315,7 +315,7 @@ module.exports = [
     scope: ['entity.other.attribute-name.localname.xml', 'text.xml entity.other'],
     settings: {
       fontStyle: 'italic',
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
     },
   },
   {
@@ -367,7 +367,7 @@ module.exports = [
       'entity.other.attribute-name.js',
     ],
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
       fontStyle: 'italic',
     },
   },
@@ -499,7 +499,7 @@ module.exports = [
   {
     scope: ['markup.changed'],
     settings: {
-      foreground: theme.grapple,
+      foreground: opac(theme.grapple, 90),
     },
   },
 ]

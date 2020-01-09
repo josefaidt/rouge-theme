@@ -111,7 +111,7 @@ module.exports = {
   // 'tab.unfocusedHoverBorder': theme.rouge_darker,
   // 'tab.unfocusedActiveModifiedBorder': theme.rouge_lightest,
   // 'tab.unfocusedInactiveModifiedBorder': theme.rouge_lightest,
-  'editorPane.background': '#f3f',
+  // 'editorPane.background': '#f3f',
   //
   // BREADCRUMBS
   //
@@ -334,9 +334,9 @@ module.exports = {
   //
   // DIFF
   //
-  'diffEditor.insertedTextBackground': opac(theme.green_dark, 60),
+  'diffEditor.insertedTextBackground': opac(theme.green_dark, 20),
   // 'diffEditor.insertedTextBorder': theme.green_dark,
-  'diffEditor.removedTextBackground': opac(theme.berry_dark, 60),
+  'diffEditor.removedTextBackground': opac(theme.berry_dark, 20),
   // 'diffEditor.removedTextBorder': theme.berry_dark,
   'diffEditor.border': opac(theme.bg_light, 30),
   //
@@ -366,6 +366,32 @@ module.exports = {
   // 'merge.border': ,
   'merge.commonContentBackground': opac(theme.bg_light, 20),
   'merge.commonHeaderBackground': opac(theme.bg_light, 30),
+  //
+  // DEBUG ICONS
+  //
+  'debugIcon.breakpointForeground': theme.berry,
+  'debugIcon.breakpointDisabledForeground': theme.berry_darker,
+  'debugIcon.breakpointUnverifiedForeground': theme.grapple_dark,
+  'debugIcon.breakpointCurrentStackframeForeground': theme.grapple_dark,
+  'debugIcon.startForeground': theme.green,
+  'debugIcon.pauseForeground': theme.purple,
+  'debugIcon.stopForeground': theme.berry,
+  'debugIcon.disconnectForeground': theme.accent,
+  'debugIcon.stepOverForeground': theme.accent,
+  'debugIcon.stepIntoForeground': theme.accent,
+  'debugIcon.stepOutForeground': theme.accent,
+  'debugIcon.continueForeground': theme.accent,
+  'debugIcon.stepBackForeground': theme.accent,
+  //
+  // MINIMAP
+  //
+  'minimap.findMatchHighlight': theme.accent,
+  'minimap.selectionHighlight': theme.bg_light,
+  'minimap.errorHighlight': theme.green_dark,
+  'minimap.warningHighlight': theme.grapple,
+  'minimapGutter.addedBackground': theme.green_dark,
+  'minimapGutter.modifiedBackground': opac(theme.grapple_dark, 80),
+  'minimapGutter.deletedBackground': theme.berry_dark,
   //
   // TERMINAL COLORS
   //

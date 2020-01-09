@@ -2,6 +2,181 @@
 
 All notable changes to the "rouge-theme" extension will be documented in this file.
 
+## [Unreleased]
+
+---
+
+## [2.0.0-alpha.19] - 2019-09-03
+
+### Changed
+
+- tokens: html tags and attribute names, removed trailing .html for Vue support
+
+## [2.0.0-alpha.18] - 2019-07-29
+
+### Changed
+
+- editor: cursor color changed from rouge -> green
+- editor: bracket match changed from berry -> green dark
+
+## [2.0.0-alpha.17] - 2019-07-18
+
+### Added
+
+- editor: panel colors
+- editor: terminal colors modified to use theme colors
+
+### Changed
+
+- editor: conflicting resource made darker (purple)
+- editor: borders - sidebar, panels
+- editor: breadcrumb changes (darkened link color)
+- editor: tab changes
+- editor: overview ruler highlight changed to use theme color
+
+## [2.0.0-alpha.16] - 2019-07-14
+
+### Changed
+
+- token: custom react components made same as functions
+- token: support brighten
+- token: support function back to yellow
+
+## [2.0.0-alpha.15] - 2019-07-12
+
+### Added
+
+- editor: new tree strokes
+- editor: breadcrumbs
+
+### Changed
+
+- editor: editor widgets background from bgb_dark -> bg_dark
+
+## [2.0.0-alpha.14] - 2019-06-30
+
+### Changed
+
+- editor: brightened sidebar border
+
+## [2.0.0-alpha.13] - 2019-06-30
+
+### Added
+
+- editor: git decorations
+
+## [2.0.0-alpha.12] - 2019-06-27
+
+### Added
+
+- meta.brace for all braces (other than punctuation)
+
+## [2.0.0-alpha.11] - 2019-06-24
+
+### Changed
+
+- rolled back alpha.10
+- button modifications (welcome screen, extension, etc.)
+- Darkened debug status bar
+
+## [2.0.0-alpha.10] - 2019-06-13
+
+### Changed
+
+- Darkened background for better contrast
+
+## [2.0.0-alpha.9] - 2019-05-07
+
+### Added
+
+- Svelte tag support
+
+## [2.0.0-alpha.8] - 2019-04-27
+
+### Fixed
+
+- CSS ID and Class selector colors
+- JSX entity tags
+
+## [2.0.0-alpha.7] - 2019-04-27
+
+### Fixed
+
+- JSX brackets, broader scope
+- JSX props
+
+## [2.0.0-alpha.6] - 2019-04-26
+
+### Added
+
+- XML
+  - better tags
+  - attribute italics and color
+- HTML
+  - SVG metadata
+- MARKDOWN
+  - Meta chars in paragraphs
+- editor welcome page
+- MDX
+  - JSX fenced code tags and attributes
+- editor
+  - button color to accent
+  - inactive titlebar match tabs
+  - warning squiggles match error
+
+### Changed
+
+- button colors to accent
+
+## [2.0.0-alpha.5] - 2019-04-25
+
+### Added
+
+- MARKDOWN
+  - links
+  - fenced code
+  - font flair (bold, italics)
+  - headers
+- YML
+  - keys
+- XML
+  - brackets, tags
+- HTML
+  - brackets
+- editor:
+  - no warning foreground
+  - changed button link
+
+## [2.0.0-alpha.4] - 2019-04-25
+
+### Added
+
+- CSS
+  - property list
+  - property values
+  - support
+  - entity tags
+
+## [2.0.0-alpha.3] - 2019-04-23
+
+### Added
+
+- picker group
+- links, text
+- dropdowns
+- removed editor.inputValidation warning borders
+- syntax: JSX, Markdown, JSON
+- syntax: brightened param colors
+- syntax: operators changed to purple (from bright green)
+
+## [2.0.0.alpha-1] - 2019-02-24
+
+### Added
+
+- Rouge 2 beginnings
+  - will be written using JavaScript
+- custom build script using Node.js
+
 ## [Released]
 
 ---

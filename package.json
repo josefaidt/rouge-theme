@@ -2,10 +2,15 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "1.5.4",
+  "version": "2.0.0",
   "publisher": "josef",
   "scripts": {
-    "build": "gulp"
+    "start": "yarn develop",
+    "develop": "node scripts/build.js develop",
+    "build": "node scripts/build.js",
+    "pkg": "yarn build; vsce package",
+    "legacy:build": "gulp --gulpfile ./scripts/gulpfile.js",
+    "legacy:dev": "gulp --gulpfile ./scripts/gulpfile.js watch"
   },
   "bugs": {
     "url": "https://github.com/josefaidt/rouge-theme/issues"
@@ -30,6 +35,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Rouge 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rouge2.json"
+      },
+      {
         "label": "Rouge",
         "uiTheme": "vs-dark",
         "path": "./themes/rouge-theme-syntax.json"
@@ -46,9 +56,17 @@
     "type": "git",
     "url": "https://github.com/josefaidt/rouge-theme.git"
   },
-  "dependencies": {},
+  "prettier": "@josefaidt/prettier-config",
   "devDependencies": {
+    "@josefaidt/prettier-config": "^0.0.2",
+    "chalk": "^2.4.2",
     "gulp": "^4.0.0",
-    "gulp-strip-comments": "^2.5.2"
+    "gulp-strip-comments": "^2.5.2",
+    "prettier": "^1.18.2",
+    "vsce": "^1.64.0"
+  },
+  "dependencies": {
+    "@josefaidt/eslint-config": "^0.1.9",
+    "eslint": "^6.5.1"
   }
 }

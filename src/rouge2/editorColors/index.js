@@ -320,7 +320,7 @@ module.exports = {
   //
   'panel.background': theme.bg,
   'panel.border': opac(theme.purple_dark, 40),
-  'panel.dropBackground': opac(theme.bg_light, 30),
+  'panel.dropBackground': opac(theme.bg_light, 10),
   'panelTitle.activeBorder': theme.purple_light,
   'panelTitle.activeForeground': theme.bg_lighter,
   'panelTitle.inactiveForeground': theme.bg_light,

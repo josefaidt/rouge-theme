@@ -10,9 +10,9 @@ module.exports = {
   'terminal.ansiCyan': '#8ab6c1',
   'terminal.ansiGreen': theme.green,
   'terminal.ansiMagenta': theme.purple,
-  'terminal.ansiRed': theme.rouge_darker,
+  'terminal.ansiRed': theme.rouge_dark,
   'terminal.ansiWhite': theme.bg_lightest,
-  'terminal.ansiYellow': opac(theme.grapple, 90),
+  'terminal.ansiYellow': theme.grapple,
   'terminal.ansiBrightBlack': theme.bgb_light,
   'terminal.ansiBrightBlue': '#98b3cd',
   'terminal.ansiBrightCyan': '#abcbd3',
@@ -20,5 +20,5 @@ module.exports = {
   'terminal.ansiBrightMagenta': theme.purple_light,
   'terminal.ansiBrightRed': theme.rouge,
   'terminal.ansiBrightWhite': theme.bg_lightest,
-  'terminal.ansiBrightYellow': theme.grapple,
+  'terminal.ansiBrightYellow': theme.grapple_light,
 }

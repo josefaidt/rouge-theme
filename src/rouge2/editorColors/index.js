@@ -374,7 +374,7 @@ module.exports = {
   'debugIcon.breakpointUnverifiedForeground': theme.grapple_dark,
   'debugIcon.breakpointCurrentStackframeForeground': theme.grapple_dark,
   'debugIcon.startForeground': theme.green_dark,
-  'debugIcon.pauseForeground': theme.purple_light,
+  'debugIcon.pauseForeground': theme.purple_lighter,
   'debugIcon.stopForeground': theme.berry_dark,
   'debugIcon.disconnectForeground': theme.accent,
   'debugIcon.stepOverForeground': theme.accent,

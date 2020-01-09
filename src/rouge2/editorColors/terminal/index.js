@@ -10,7 +10,7 @@ module.exports = {
   'terminal.ansiCyan': '#8ab6c1',
   'terminal.ansiGreen': theme.green,
   'terminal.ansiMagenta': theme.purple,
-  'terminal.ansiRed': theme.rouge_dark,
+  'terminal.ansiRed': theme.rouge,
   'terminal.ansiWhite': theme.bg_lightest,
   'terminal.ansiYellow': theme.grapple,
   'terminal.ansiBrightBlack': theme.bgb_light,

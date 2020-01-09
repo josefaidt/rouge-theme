@@ -2,7 +2,7 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
-  "version": "2.0.0-alpha.24",
+  "version": "2.0.0",
   "publisher": "josef",
   "scripts": {
     "start": "yarn develop",
@@ -35,7 +35,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rouge 2 (alpha)",
+        "label": "Rouge 2",
         "uiTheme": "vs-dark",
         "path": "./themes/rouge2.json"
       },

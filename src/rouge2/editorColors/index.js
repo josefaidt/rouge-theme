@@ -359,10 +359,10 @@ module.exports = {
   //
   // MERGE
   //
-  'merge.currentHeaderBackground': theme.green_dark,
-  'merge.currentContentBackground': opac(theme.accent, 30),
-  'merge.incomingHeaderBackground': theme.blue_dark,
-  'merge.incomingContentBackground': opac(theme.blue_dark, 50),
+  'merge.currentHeaderBackground': theme.green_darker,
+  'merge.currentContentBackground': opac(theme.accent, 40),
+  'merge.incomingHeaderBackground': theme.blue_darker,
+  'merge.incomingContentBackground': opac(theme.blue_darker, 40),
   // 'merge.border': ,
   'merge.commonContentBackground': opac(theme.bg_light, 20),
   'merge.commonHeaderBackground': opac(theme.bg_light, 30),

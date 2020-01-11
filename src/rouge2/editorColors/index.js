@@ -334,9 +334,9 @@ module.exports = {
   //
   // DIFF
   //
-  'diffEditor.insertedTextBackground': opac(theme.green_dark, 20),
+  'diffEditor.insertedTextBackground': opac(theme.green_dark, 30),
   // 'diffEditor.insertedTextBorder': theme.green_dark,
-  'diffEditor.removedTextBackground': opac(theme.berry_dark, 20),
+  'diffEditor.removedTextBackground': opac(theme.berry_dark, 30),
   // 'diffEditor.removedTextBorder': theme.berry_dark,
   'diffEditor.border': opac(theme.bg_light, 30),
   //

@@ -17,6 +17,12 @@ Inspiration was drawn from Atom's Material Theme and [loved-syntax](https://gith
 
 **Version 2** is even more flushed, darker, and real cozy.
 
+**WARNING**: this theme has not yet been updated to support semantic highlighting, to disable add this line to your `settings.json`
+
+  ```json
+  "editor.semanticHighlighting.enabled": false,
+  ```
+
 ### Screenshots
 
 ![Desktop](https://raw.githubusercontent.com/josefaidt/rouge-theme/master/img/rouge-desktop-1_4.png)

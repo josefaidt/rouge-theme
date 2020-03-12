@@ -23,8 +23,22 @@ module.exports = [
     },
   },
   {
-    name: 'Entity',
-    scope: 'entity',
+    name: 'Entity & Function',
+    scope: ['entity', 'entity.name.function'],
+    settings: {
+      foreground: theme.rouge_light,
+    },
+  },
+  {
+    name: 'Entity Name',
+    scope: ['entity.name'],
+    settings: {
+      foreground: theme.rouge,
+    },
+  },
+  {
+    name: 'Entity Name Type',
+    scope: ['entity.name.type'],
     settings: {
       foreground: theme.rouge_light,
     },
@@ -70,7 +84,7 @@ module.exports = [
   },
   {
     name: 'Object Keys',
-    scope: 'meta.object-literal.key',
+    scope: ['meta.object-literal.key'],
     settings: {
       foreground: theme.bg_lighter,
     },

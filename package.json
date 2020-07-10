@@ -1,70 +1,37 @@
 {
-  "name": "rouge-theme",
+  "name": "@rouge/root",
+  "private": true,
   "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
   "version": "2.0.4",
   "publisher": "josef",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "start": "yarn develop",
     "develop": "node scripts/build.js develop",
     "build": "node scripts/build.js",
     "pkg": "yarn build; vsce package",
     "legacy:build": "gulp --gulpfile ./scripts/gulpfile.js",
-    "legacy:dev": "gulp --gulpfile ./scripts/gulpfile.js watch"
-  },
-  "bugs": {
-    "url": "https://github.com/josefaidt/rouge-theme/issues"
-  },
-  "engines": {
-    "vscode": "^1.15.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "rouge",
-    "dark",
-    "theme",
-    "color-theme"
-  ],
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#172030",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Rouge 2",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rouge2.json"
-      },
-      {
-        "label": "Rouge",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rouge-theme-syntax.json"
-      },
-      {
-        "label": "Rouge No Italics",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rouge-no-italics.json"
-      }
-    ]
+    "legacy:dev": "gulp --gulpfile ./scripts/gulpfile.js watch",
+    "theme": "yarn workspace @rouge/theme run"
   },
   "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/josefaidt/rouge-theme.git"
   },
+  "eslintOptions": {
+    "extends": "@josefaidt/eslint-config"
+  },
   "prettier": "@josefaidt/prettier-config",
   "devDependencies": {
     "@josefaidt/prettier-config": "^0.0.2",
-    "chalk": "^2.4.2",
-    "gulp": "^4.0.0",
-    "gulp-strip-comments": "^2.5.2",
-    "prettier": "^1.18.2",
-    "vsce": "^1.64.0",
-    "@josefaidt/eslint-config": "^0.1.9",
-    "eslint": "^6.5.1"
+    "chalk": "^4.1.0",
+    "prettier": "^2.0.5",
+    "vsce": "^1.77.0",
+    "@josefaidt/eslint-config": "^0.1.14",
+    "eslint": "^7.4.0"
   }
 }

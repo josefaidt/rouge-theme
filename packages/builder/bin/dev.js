@@ -10,19 +10,15 @@ module.exports = async function dev(entry, options) {
   const themes = await fs.readdir(themeDir)
   for (const theme of themes) {
     const _write = async () => await write(path.join(themeDir, theme), outDir)
-    if (!init) {
-      await _write()
-      init = true
-    }
+    await _write()
+
     watch(path.join(themeDir, theme), { recursive: true }, async (eventType, filename) => {
       // console.log(`event type is: ${eventType}`)
       if (filename) {
         console.log(`📁  File changed: ${filename}`)
         await _write()
-      } else {
-        console.log(`📁  File changed: <not provided>`)
-        await _write()
       }
     })
+
   }
 }

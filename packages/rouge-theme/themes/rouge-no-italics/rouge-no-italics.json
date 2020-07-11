@@ -1,5 +1,5 @@
 {
-  "name": "Rouge",
+  "name": "Rouge No Italics",
   "type": "dark",
   "colors": {
     "focusBorder": "#758095",
@@ -245,7 +245,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment", "unused.comment", "wildcard.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#64727d"
       }
     },
@@ -274,8 +273,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#b18bb1",
-        "fontStyle": "italic"
+        "foreground": "#b18bb1"
       }
     },
     {
@@ -284,21 +282,6 @@
       "settings": {
         "foreground": "#D0D6B5",
         "fontStyle": "regular"
-      }
-    },
-    {
-      "name": "`New` Operator",
-      "scope": "keyword.operator.new",
-      "settings": {
-        "foreground": "#D0D6B5",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "`This` Variable",
-      "scope": "variable.language.this",
-      "settings": {
-        "fontStyle": "italic"
       }
     },
     {
@@ -339,8 +322,7 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#b18bb1",
-        "fontStyle": "italic"
+        "foreground": "#b18bb1"
       }
     },
     {
@@ -610,9 +592,8 @@
     },
     {
       "name": "[HTML] - Entity Other",
-      "scope": ["text.html entity.other", "entity.other.attribute-name.html"],
+      "scope": "text.html.basic entity.other",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#F7E3AF"
       }
     },
@@ -649,13 +630,6 @@
       }
     },
     {
-      "name": "[PUG/JADE] - Attributes",
-      "scope": "entity.other.attribute-name.tag.jade",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "[PUG/JADE] - Class and ID",
       "scope": ["entity.other.attribute-name.class.jade", "entity.other.attribute-name.id.jade"],
       "settings": {
@@ -682,13 +656,6 @@
       }
     },
     {
-      "name": "[XML] - Attributes",
-      "scope": "entity.other.attribute-name.localname.xml",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "[JS/JSX] - React Tag Names",
       "scope": ["source.js support.class.component", "source.jsx support.class.component"],
       "settings": {
@@ -699,8 +666,7 @@
       "name": "[JS/JSX] - React Tag Attributes",
       "scope": ["source.js entity.other.attribute-name", "source.jsx entity.other.attribute-name"],
       "settings": {
-        "foreground": "#F7E3AF",
-        "fontStyle": "italic"
+        "foreground": "#F7E3AF"
       }
     },
     {
@@ -744,8 +710,7 @@
         "keyword.operator.expression.instanceof.js"
       ],
       "settings": {
-        "foreground": "#D0D6B5",
-        "fontStyle": "italic"
+        "foreground": "#D0D6B5"
       }
     },
     {
@@ -820,7 +785,6 @@
       "name": "[MARKDOWN] - Quote Paragraph",
       "scope": "markup.quote.markdown meta.paragraph.markdown",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#A3B09A"
       }
     },

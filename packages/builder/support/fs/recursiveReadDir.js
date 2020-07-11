@@ -15,11 +15,21 @@ module.exports = async function recursiveReadDir(basePath, options = initial) {
     for (const file of files) {
       const _path = path.join(filePath, file.name)
       if (file.isDirectory()) await crawl(_path)
-      else if (options.only.some(o => file.name.endsWith(o)) && options.not.some(r => !r.test(file.name))) {
-        if (options.fullPath) {
-          result.push(_path)
+      else if (options.only.some(o => file.name.endsWith(o))) {
+        if (options.not.length) {
+          if (options.not.some(r => !r.test(file.name))) {
+            if (options.fullPath) {
+              result.push(_path)
+            } else {
+              result.push(path.basename(_path).replace(basePath, ''))
+            }
+          }
         } else {
-          result.push(path.basename(_path).replace(basePath, ''))
+          if (options.fullPath) {
+            result.push(_path)
+          } else {
+            result.push(path.basename(_path).replace(basePath, ''))
+          }
         }
       }
     }

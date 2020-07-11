@@ -77,7 +77,6 @@ async function init() {
 async function main(command, args) {
   const commands = await loadCommands();
   // start!
-  // clear();
   log(c.blue(`bd CLI ${JSON.parse(await fs.readFile(path.join(__dirname, 'package.json'))).version}`));
 
   // get project details
@@ -101,7 +100,6 @@ async function main(command, args) {
   if (!entry) throw new Error('Must define an entry point as package.main or passed to command');
   // execute command
   try {
-
     await commands.find(cmd => cmd.name === command)(entry, argHash);
   } catch (error) {
     log(c.red(`Unable to execute ${command}\n${error}`))

@@ -4,7 +4,8 @@
   "version": "2.0.4",
   "license": "MIT",
   "scripts": {
-    "dev": "bd dev"
+    "dev": "bd dev",
+    "build": "bd build"
   },
   "devDependencies": {
     "@rouge/builder": "*"

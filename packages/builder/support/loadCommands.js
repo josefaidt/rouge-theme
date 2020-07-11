@@ -14,7 +14,7 @@ module.exports = async function loadCommands(dir = path.join(__dirname, '../bin'
     }
   }
   if (exists(dir)) {
-    const binFiles = await recursiveReadDir(dir, { fullPath: true })
+    const binFiles = await recursiveReadDir(dir, { fullPath: true, not: [/^_[A-z].*\.js$/] })
     if (binFiles.length) {
       for (let bin of binFiles) {
         let mod

@@ -4,6 +4,7 @@ const path = require('path')
 const initial = {
   only: ['js'],
   fullPath: false,
+  not: []
 }
 module.exports = async function recursiveReadDir(basePath, options = initial) {
   if (!options || !Object.keys(options).length) options = initial
@@ -14,7 +15,7 @@ module.exports = async function recursiveReadDir(basePath, options = initial) {
     for (const file of files) {
       const _path = path.join(filePath, file.name)
       if (file.isDirectory()) await crawl(_path)
-      else if (options.only.some(o => file.name.endsWith(o))) {
+      else if (options.only.some(o => file.name.endsWith(o)) && options.not.some(r => !r.test(file.name))) {
         if (options.fullPath) {
           result.push(_path)
         } else {

@@ -1,26 +1,16 @@
 {
   "name": "@rouge/root",
+  "author": "Josef Aidt <josef.aidt@gmail.com>",
   "private": true,
-  "displayName": "Rouge Theme",
   "description": "Dark Material Theme optimized for Operator Mono",
   "version": "2.0.4",
-  "publisher": "josef",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn develop",
-    "develop": "node scripts/build.js develop",
-    "build": "node scripts/build.js",
-    "pkg": "yarn build; vsce package",
-    "legacy:build": "gulp --gulpfile ./scripts/gulpfile.js",
-    "legacy:dev": "gulp --gulpfile ./scripts/gulpfile.js watch",
-    "theme": "yarn workspace @rouge/theme run"
-  },
-  "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/josefaidt/rouge-theme.git"
+    "theme": "yarn workspace @rouge/theme run",
+    "build": "yarn theme build",
+    "dev": "yarn theme dev"
   },
   "eslintConfig": {
     "extends": "@josefaidt/eslint-config"

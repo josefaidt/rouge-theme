@@ -7,13 +7,13 @@
       "label": "develop",
       "type": "shell",
       "command": "yarn",
-      "args": ["develop"]
+      "args": ["theme", "dev"]
     },
     {
       "label": "build",
       "type": "shell",
       "command": "yarn",
-      "args": ["build"]
+      "args": ["theme", "build"]
     }
   ]
 }

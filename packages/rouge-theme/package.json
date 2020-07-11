@@ -1,11 +1,19 @@
 {
   "name": "@rouge/theme",
   "displayName": "Rouge Theme",
+  "publisher": "josef",
+  "description": "Dark Material Theme optimized for Operator Mono",
   "version": "2.0.4",
+  "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josefaidt/rouge-theme.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "bd dev",
-    "build": "bd build"
+    "build": "bd build",
+    "pkg": "yarn build; vsce package"
   },
   "devDependencies": {
     "@rouge/builder": "*"
@@ -37,7 +45,7 @@
       {
         "label": "Rouge",
         "uiTheme": "vs-dark",
-        "path": "./out/rouge-theme-syntax.json"
+        "path": "./out/rouge-theme.json"
       },
       {
         "label": "Rouge No Italics",

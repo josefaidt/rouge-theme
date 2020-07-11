@@ -8,7 +8,7 @@
       "request": "launch",
       "runtimeExecutable": "${execPath}",
       "args": ["--extensionDevelopmentPath=${workspaceRoot}"],
-      "preLaunchTask": "build"
+      "preLaunchTask": "build",
     }
   ]
 }

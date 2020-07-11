@@ -22,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/josefaidt/rouge-theme.git"
   },
-  "eslintOptions": {
+  "eslintConfig": {
     "extends": "@josefaidt/eslint-config"
   },
   "prettier": "@josefaidt/prettier-config",

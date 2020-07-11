@@ -21,7 +21,7 @@ module.exports = async function loadCommands(dir = path.join(__dirname, '../bin'
         try {
           mod = await import(bin)
         } catch (error) {
-          throw new Error('Unable to import command', bin)
+          throw new Error('Unable to import command', bin, error)
         }
         if (mod.default) commands.push(mod.default)
         else commands.push(mod)

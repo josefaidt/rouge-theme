@@ -69,7 +69,7 @@ async function init() {
   const packageFile = JSON.parse(await fs.readFile(packageFilePath, 'utf8'));
   return {
     entry:
-      (packageFile.main && path.resolve(packageFile.main)) || (packageFile.entry && path.resolve(packageFile.entry)),
+      (packageFile.main && path.resolve(packageFile.main)) || (packageFile.entry && path.resolve(packageFile.entry)) || path.dirname(packageFilePath),
     name: packageFile.name,
   };
 }

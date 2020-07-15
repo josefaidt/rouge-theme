@@ -350,7 +350,7 @@ module.exports = {
   'peekViewResult.background': theme.bg,
   // 'peekViewResult.fileForeground': '#f3f',
   // 'peekViewResult.lineForeground': '',
-  'peekViewResult.matchHighlightBackground': opac(theme.accent, 60),
+  'peekViewResult.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewResult.selectionBackground': opac(theme.bg_light, 20),
   'peekViewResult.selectionForeground': theme.bg_lightest,
   'peekViewTitle.background': theme.bg_darker,

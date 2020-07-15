@@ -2,9 +2,12 @@
 
 All notable changes to the "rouge-theme" extension will be documented in this file.
 
-## [Unreleased]
+## [2.1.0] - UNRELEASED
 
----
+### Added
+
+- editor warning color foreground, ref #24
+- peek view highlight color, set accent highlight
 
 ## [2.0.0-alpha.19] - 2019-09-03
 

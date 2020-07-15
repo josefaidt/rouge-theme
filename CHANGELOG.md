@@ -6,8 +6,13 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ### Added
 
+- @rouge/builder - refactored and reimagined theme builder
 - editor warning color foreground, ref #24
 - peek view highlight color, set accent highlight
+
+### Changed
+
+- rouge - mute colors, inactive title bar, ref #18
 
 ## [2.0.0-alpha.19] - 2019-09-03
 

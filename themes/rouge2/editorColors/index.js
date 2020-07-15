@@ -35,7 +35,7 @@ module.exports = {
   'editorLink.activeForeground': theme.bg_lighter,
   'editorGroup.background': theme.bg,
   // 'editorWarning.background': theme.berry,
-  'editorWarning.foreground': opac(theme.berry, 90),
+  'editorWarning.foreground': opac(theme.peach, 90),
   'editorError.foreground': opac(theme.berry, 90),
   'editorCodeLens.foreground': '#758095',
   //
@@ -345,7 +345,7 @@ module.exports = {
   'peekView.border': theme.purple_dark,
   'peekViewEditor.background': theme.bg,
   'peekViewEditorGutter.background': theme.bg_dark,
-  // 'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
+  'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewEditor.matchHighlightBorder': opac(theme.accent, 80),
   'peekViewResult.background': theme.bg,
   // 'peekViewResult.fileForeground': '#f3f',

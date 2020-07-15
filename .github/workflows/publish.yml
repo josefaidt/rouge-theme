@@ -1,0 +1,16 @@
+name: Publish Rouge Theme
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn install
+      - uses: lannonbr/vsce-action@master
+        with:
+          args: "publish --yarn --pat $VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}

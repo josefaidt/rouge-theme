@@ -22,7 +22,12 @@ module.exports = async function write(themePath, outDir) {
   console.timeEnd(importMsg)
   if (source) {
     console.info(`✅ Successfully imported theme`, c.bold(themeName))
-    const jsonString = JSON.stringify(source)
+    let jsonString
+    try {
+      jsonString = JSON.stringify(source.default)
+    } catch(error) {
+      jsonString = JSON.stringify(source)
+    }
     // WRITE OUT JSON
     console.log(
       `🏗  ${c.yellow(

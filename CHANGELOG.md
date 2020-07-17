@@ -12,6 +12,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 
 ### Changed
 
+- style: brighter function expression, ref #26
 - rouge - mute colors, inactive title bar, ref #18
 
 ## [2.0.0-alpha.19] - 2019-09-03

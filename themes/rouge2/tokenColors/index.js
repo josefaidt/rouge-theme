@@ -93,7 +93,7 @@ module.exports = [
     name: 'Meta',
     scope: 'meta.function.expression',
     settings: {
-      foreground: theme.purple,
+      foreground: theme.purple_light,
     },
   },
   {

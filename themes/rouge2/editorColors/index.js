@@ -58,6 +58,13 @@ module.exports = {
   'editorOverviewRuler.deletedForeground': theme.berry_dark,
   'editorOverviewRuler.errorForeground': theme.berry,
   'editorOverviewRuler.infoForeground': theme.blue_light,
+  // 
+  // MARKER NAVI
+  // 
+  'editorMarkerNavigation.background': theme.bg,
+  'editorMarkerNavigationError.background': opac(theme.berry, 40),
+  'editorMarkerNavigationWarning.background': opac(theme.peach, 40),
+  'editorMarkerNavigationInfo.background': opac(theme.purple, 40),
   //
   // ACTIVITY BAR
   //
@@ -331,6 +338,10 @@ module.exports = {
   'debugExceptionWidget.border': opac(theme.rouge_dark, 40),
   'debugToolBar.background': theme.bg,
   'debugToolBar.border': opac(theme.green, 60),
+  'debugConsole.infoForeground': theme.blue,
+  'debugConsole.warningForeground': theme.peach,
+  'debugConsole.errorForeground': theme.berry,
+  'debugConsole.sourceForeground': theme.bg_lighter,
   //
   // DIFF
   //
@@ -339,6 +350,7 @@ module.exports = {
   'diffEditor.removedTextBackground': opac(theme.berry_dark, 30),
   // 'diffEditor.removedTextBorder': theme.berry_dark,
   'diffEditor.border': opac(theme.bg_light, 30),
+  'diffEditor.diagonalFill': opac(theme.bg_light, 30),
   //
   // PEEK VIEW
   //
@@ -392,6 +404,8 @@ module.exports = {
   'minimapGutter.addedBackground': theme.green_dark,
   'minimapGutter.modifiedBackground': opac(theme.grapple_dark, 80),
   'minimapGutter.deletedBackground': theme.berry_dark,
+
+  "editorUnnecessaryCode.border": opac(theme.purple_light, 40),
   //
   // TERMINAL COLORS
   //

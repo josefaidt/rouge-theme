@@ -9,6 +9,7 @@ All notable changes to the "rouge-theme" extension will be documented in this fi
 - @rouge/builder - refactored and reimagined theme builder
 - editor warning color foreground, ref #24
 - peek view highlight color, set accent highlight
+- feat: add marker navigation colors
 
 ### Changed
 

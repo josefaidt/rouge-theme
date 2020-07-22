@@ -1,5 +1,5 @@
 {
-  "name": "@rouge/theme",
+  "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "author": "Josef Aidt <josef.aidt@gmail.com>",
   "description": "Dark Material Theme optimized for Operator Mono",

@@ -2,7 +2,7 @@
 
 All notable changes to the "rouge-theme" extension will be documented in this file.
 
-## [2.1.0] - UNRELEASED
+## [2.1.0] - 2020-07-22
 
 ### Added
 

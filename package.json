@@ -17,8 +17,7 @@
   "scripts": {
     "dev": "bd dev",
     "build": "bd build",
-    "pkg": "yarn build; vsce package",
-    "vscode:prepublish": "yarn build"
+    "pkg": "yarn build; vsce package"
   },
   "eslintConfig": {
     "extends": "@josefaidt/eslint-config"

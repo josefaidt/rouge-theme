@@ -13,6 +13,6 @@ jobs:
       - name: Build themes
         run: yarn build
       - name: Publish theme
-        run: yarn vsce publish --p $VSCE_TOKEN"
+        run: yarn vsce publish -p $VSCE_TOKEN"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}

@@ -4,7 +4,7 @@
   "author": "Josef Aidt <josef.aidt@gmail.com>",
   "description": "Dark Material Theme optimized for Operator Mono",
   "private": true,
-  "version": "2.0.4",
+  "version": "2.1.0",
   "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rouge 2 - TEST",
+        "label": "Rouge 2",
         "uiTheme": "vs-dark",
         "path": "./out/rouge2/rouge2.json"
       },

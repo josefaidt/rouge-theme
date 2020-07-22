@@ -35,7 +35,7 @@ module.exports = {
   'editorLink.activeForeground': theme.bg_lighter,
   'editorGroup.background': theme.bg,
   // 'editorWarning.background': theme.berry,
-  'editorWarning.foreground': opac(theme.berry, 90),
+  'editorWarning.foreground': opac(theme.peach, 90),
   'editorError.foreground': opac(theme.berry, 90),
   'editorCodeLens.foreground': '#758095',
   //
@@ -58,6 +58,13 @@ module.exports = {
   'editorOverviewRuler.deletedForeground': theme.berry_dark,
   'editorOverviewRuler.errorForeground': theme.berry,
   'editorOverviewRuler.infoForeground': theme.blue_light,
+  // 
+  // MARKER NAVI
+  // 
+  'editorMarkerNavigation.background': theme.bg,
+  'editorMarkerNavigationError.background': opac(theme.berry, 40),
+  'editorMarkerNavigationWarning.background': opac(theme.peach, 40),
+  'editorMarkerNavigationInfo.background': opac(theme.purple, 40),
   //
   // ACTIVITY BAR
   //
@@ -331,6 +338,10 @@ module.exports = {
   'debugExceptionWidget.border': opac(theme.rouge_dark, 40),
   'debugToolBar.background': theme.bg,
   'debugToolBar.border': opac(theme.green, 60),
+  'debugConsole.infoForeground': theme.blue,
+  'debugConsole.warningForeground': theme.peach,
+  'debugConsole.errorForeground': theme.berry,
+  'debugConsole.sourceForeground': theme.bg_lighter,
   //
   // DIFF
   //
@@ -339,18 +350,19 @@ module.exports = {
   'diffEditor.removedTextBackground': opac(theme.berry_dark, 30),
   // 'diffEditor.removedTextBorder': theme.berry_dark,
   'diffEditor.border': opac(theme.bg_light, 30),
+  'diffEditor.diagonalFill': opac(theme.bg_light, 30),
   //
   // PEEK VIEW
   //
   'peekView.border': theme.purple_dark,
   'peekViewEditor.background': theme.bg,
   'peekViewEditorGutter.background': theme.bg_dark,
-  // 'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
+  'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewEditor.matchHighlightBorder': opac(theme.accent, 80),
   'peekViewResult.background': theme.bg,
   // 'peekViewResult.fileForeground': '#f3f',
   // 'peekViewResult.lineForeground': '',
-  'peekViewResult.matchHighlightBackground': opac(theme.accent, 60),
+  'peekViewResult.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewResult.selectionBackground': opac(theme.bg_light, 20),
   'peekViewResult.selectionForeground': theme.bg_lightest,
   'peekViewTitle.background': theme.bg_darker,
@@ -392,6 +404,8 @@ module.exports = {
   'minimapGutter.addedBackground': theme.green_dark,
   'minimapGutter.modifiedBackground': opac(theme.grapple_dark, 80),
   'minimapGutter.deletedBackground': theme.berry_dark,
+
+  "editorUnnecessaryCode.border": opac(theme.purple_light, 40),
   //
   // TERMINAL COLORS
   //

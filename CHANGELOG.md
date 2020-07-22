@@ -2,9 +2,19 @@
 
 All notable changes to the "rouge-theme" extension will be documented in this file.
 
-## [Unreleased]
+## [2.1.0] - 2020-07-22
 
----
+### Added
+
+- @rouge/builder - refactored and reimagined theme builder
+- editor warning color foreground, ref #24
+- peek view highlight color, set accent highlight
+- feat: add marker navigation colors
+
+### Changed
+
+- style: brighter function expression, ref #26
+- rouge - mute colors, inactive title bar, ref #18
 
 ## [2.0.0-alpha.19] - 2019-09-03
 

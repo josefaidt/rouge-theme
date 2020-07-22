@@ -8,9 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: yarn install && yarn build
-      - uses: lannonbr/vsce-action@master
-        with:
-          args: "publish --yarn --pat $VSCE_TOKEN"
+      - name: Install dependencies
+        run: yarn install
+      - name: Build themes
+        run: yarn build
+      - name: Publish theme
+        run: yarn vsce publish --p $VSCE_TOKEN"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}

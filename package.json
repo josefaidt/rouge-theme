@@ -3,6 +3,7 @@
   "displayName": "Rouge Theme",
   "author": "Josef Aidt <josef.aidt@gmail.com>",
   "description": "Dark Material Theme optimized for Operator Mono",
+  "publisher": "josef",
   "private": true,
   "version": "2.1.0",
   "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",

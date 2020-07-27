@@ -405,7 +405,7 @@ module.exports = {
   'minimapGutter.modifiedBackground': opac(theme.grapple_dark, 80),
   'minimapGutter.deletedBackground': theme.berry_dark,
 
-  "editorUnnecessaryCode.border": opac(theme.purple_light, 40),
+  // "editorUnnecessaryCode.border": opac(theme.purple_light, 40),
   //
   // TERMINAL COLORS
   //

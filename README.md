@@ -19,9 +19,9 @@ Inspiration was drawn from Atom's Material Theme and [loved-syntax](https://gith
 
 **WARNING**: this theme has not yet been updated to support semantic highlighting, to disable add this line to your `settings.json`
 
-  ```json
-  "editor.semanticHighlighting.enabled": false,
-  ```
+```json
+"editor.semanticHighlighting.enabled": false,
+```
 
 ### Screenshots
 

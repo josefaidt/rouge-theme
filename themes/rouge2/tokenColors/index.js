@@ -421,6 +421,16 @@ module.exports = [
     },
   },
   {
+    name: '[Svelte] - Component Tag Names',
+    scope: [
+      'support.class.component.svelte',
+    ],
+    settings: {
+      // foreground: theme.rouge,
+      foreground: theme.rouge_light,
+    },
+  },
+  {
     name: '[MARKDOWN] - Heading Name Section',
     scope: [
       'entity.name.section.markdown',

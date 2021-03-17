@@ -1,11 +1,14 @@
 const colors = require('./editorColors')
 const tokenColors = require('./tokenColors')
+const semanticTokenColors = require('./tokenColors/semantic')
 
 module.exports = {
+  "$schema": "vscode://schemas/color-theme",
   name: 'Rouge 2',
   type: 'dark',
   colors,
-  tokenColors: [...tokenColors],
+  tokenColors,
+  semanticClass: 'theme.rouge',
+  semanticHighlighting: false,
+  semanticTokenColors,
 }
-
-// console.log(...tokenColors)

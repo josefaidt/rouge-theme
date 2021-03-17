@@ -8,11 +8,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies
-        run: yarn install
+      - run: yarn --frozen-lockfile
       - name: Build themes
         run: yarn build
       - name: Publish theme
         run: yarn vsce publish -p $VSCE_TOKEN
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+      - name: Update VSIX
+        run: |
+          changed=$(git status --porcelain)
+          if [[ -n "$changed" ]]; then
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email 'josefaidt@users.noreply.github.com'
+            if [[ ! `git diff --quiet HEAD -- *.vsix` ]]; then
+              git add *.vsix
+              git commit -m "[automated] update package"
+            fi
+            git push
+          fi

@@ -25,6 +25,7 @@ module.exports = {
   'editor.lineHighlightBackground': opac(theme.accent, 13),
   'editor.wordHighlightBackground': opac(theme.accent, 60),
   'editor.wordHighlightStrongBackground': opac(theme.accent, 85),
+  'editor.symbolHighlightBackground': opac(theme.accent, 60),
   'editor.findMatchBackground': opac(theme.accent, 60),
   'editor.findMatchHighlightBackground': opac(theme.accent, 60),
   'editor.findRangeHighlightBackground': opac(theme.accent, 30),
@@ -58,6 +59,13 @@ module.exports = {
   'editorOverviewRuler.deletedForeground': theme.berry_dark,
   'editorOverviewRuler.errorForeground': theme.berry,
   'editorOverviewRuler.infoForeground': theme.blue_light,
+  // 
+  // 
+  // 
+  'editorLightBulbAutoFix.background': theme.peach,
+  // 'editorGutter.commentRangeForeground':  // Editor gutter decoration color for commenting ranges.
+  // 'editorGutter.foldingControlForeground': // Color of the folding control in the editor gutter.
+  'sash.hoverBorder': theme.rouge,
   // 
   // MARKER NAVI
   // 
@@ -153,7 +161,9 @@ module.exports = {
   'listFilterWidget.outline': theme.rouge,
   'listFilterWidget.noMatchesOutline': theme.rouge_darker,
   // 'tree.indentGuidesStroke': opac(theme.bg_light, 50),
+  'list.filterMatchBackground': opac(theme.bg_light, 50),
   'tree.indentGuidesStroke': theme.purple_dark,
+  'list.highlightForeground': theme.rouge_light,
   //
   // WIDGETS
   //
@@ -227,9 +237,12 @@ module.exports = {
   //
   // PICKER GROUP (COMMAND PALETTE)
   //
-  'list.highlightForeground': theme.rouge_light,
   'pickerGroup.border': theme.purple_light,
   'pickerGroup.foreground': theme.rouge_light,
+  // 'quickInput.background': opac(theme.bg_light, 50),
+  // 'quickInput.foreground': 
+  // 'quickInputTitle.background': 
+  'quickInput.list.focusBackground': opac(theme.bg_light, 50),
   //
   // NOTIFICATIONS
   //
@@ -359,10 +372,11 @@ module.exports = {
   'peekViewEditorGutter.background': theme.bg_dark,
   'peekViewEditor.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewEditor.matchHighlightBorder': opac(theme.accent, 80),
+  'peekViewResult.matchHighlightBackground': opac(theme.accent, 70),
+  'peekViewResult.matchHighlightBorder': opac(theme.accent, 90),
   'peekViewResult.background': theme.bg,
   // 'peekViewResult.fileForeground': '#f3f',
   // 'peekViewResult.lineForeground': '',
-  'peekViewResult.matchHighlightBackground': opac(theme.accent, 50),
   'peekViewResult.selectionBackground': opac(theme.bg_light, 20),
   'peekViewResult.selectionForeground': theme.bg_lightest,
   'peekViewTitle.background': theme.bg_darker,
@@ -378,6 +392,9 @@ module.exports = {
   // 'merge.border': ,
   'merge.commonContentBackground': opac(theme.bg_light, 20),
   'merge.commonHeaderBackground': opac(theme.bg_light, 30),
+  'editorOverviewRuler.currentContentForeground': theme.bg_lighter,
+  'editorOverviewRuler.incomingContentForeground': theme.bg_lighter,
+  // 'editorOverviewRuler.commonContentForeground':
   //
   // DEBUG ICONS
   //

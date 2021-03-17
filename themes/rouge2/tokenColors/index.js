@@ -2,11 +2,6 @@ const theme = require('../theme')
 const { opac } = theme
 module.exports = [
   {
-    settings: {
-      foreground: '#f3f',
-    },
-  },
-  {
     name: 'Comment',
     scope: ['comment', 'punctuation.definition.comment', 'unused.comment', 'wildcard.comment'],
     settings: {
@@ -340,6 +335,15 @@ module.exports = [
     },
   },
   {
+    name: '[JS/JSX] - Properties',
+    scope: [
+      'meta.object-literal.key',
+    ],
+    settings: {
+      foreground: theme.bg_lighter,
+    },
+  },
+  {
     name: '[JS/JSX] - React Tag Names',
     scope: ['source.js entity.name.tag.js', 'source.jsx entity.name.tag.js', 'entity.name.tag.js'],
     settings: {
@@ -403,7 +407,6 @@ module.exports = [
     ],
     settings: {
       foreground: theme.rouge,
-      // foreground: '#f3f',
     },
   },
   {

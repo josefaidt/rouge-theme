@@ -2,10 +2,10 @@
   "name": "rouge-theme",
   "displayName": "Rouge Theme",
   "author": "Josef Aidt <josef.aidt@gmail.com>",
-  "description": "Dark Material Theme optimized for Operator Mono",
+  "description": "Warm and cozy dark theme for VSCode",
   "publisher": "josef",
   "private": true,
-  "version": "2.1.5",
+  "version": "2.1.6",
   "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
   "repository": {
     "type": "git",

@@ -1,73 +1,23 @@
 {
-  "name": "rouge-theme",
-  "displayName": "Rouge Theme",
-  "author": "Josef Aidt <josef.aidt@gmail.com>",
-  "description": "Warm and cozy dark theme for VSCode",
-  "publisher": "josef",
+  "name": "rouge-theme-monorepo",
   "private": true,
-  "version": "2.1.6",
-  "homepage": "https://github.com/josefaidt/rouge-theme/readme.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/josefaidt/rouge-theme.git"
-  },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "dev": "bd dev",
-    "build": "bd build",
-    "pkg": "yarn build; vsce package"
+    "build": "bun run --filter 'rouge-theme' build",
+    "pkg": "bun run --filter 'rouge-theme' pkg",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
-  "eslintConfig": {
-    "extends": "@josefaidt/eslint-config"
-  },
-  "prettier": "@josefaidt/prettier-config",
   "devDependencies": {
-    "@josefaidt/eslint-config": "^0.1.14",
-    "@josefaidt/prettier-config": "^0.0.2",
-    "eslint": "^7.4.0",
-    "prettier": "^2.0.5",
-    "vsce": "^1.77.0",
-    "@rouge/builder": "*"
+    "@types/node": "^24.0.10",
+    "oxfmt": "^0.57.0",
+    "oxlint": "^1.72.0",
+    "rolldown": "^1.1.3",
+    "typescript": "^6.0.3"
   },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Rouge 2",
-        "uiTheme": "vs-dark",
-        "path": "./out/rouge2/rouge2.json"
-      },
-      {
-        "label": "Rouge",
-        "uiTheme": "vs-dark",
-        "path": "./out/rouge/rouge-theme.json"
-      },
-      {
-        "label": "Rouge No Italics",
-        "uiTheme": "vs-dark",
-        "path": "./out/rouge-no-italics/rouge-no-italics.json"
-      }
-    ]
-  },
-  "engines": {
-    "vscode": "^1.22.0"
-  },
-  "bugs": {
-    "url": "https://github.com/josefaidt/rouge-theme/issues"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "rouge",
-    "dark",
-    "theme",
-    "color-theme"
-  ],
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#172030",
-    "theme": "dark"
-  }
+  "packageManager": "bun@1.3.14"
 }

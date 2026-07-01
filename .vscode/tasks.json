@@ -4,16 +4,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "dev",
-      "type": "shell",
-      "command": "yarn",
-      "args": ["dev"]
-    },
-    {
       "label": "build",
       "type": "shell",
-      "command": "yarn",
-      "args": ["build"]
+      "command": "bun",
+      "args": ["run", "build"]
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "name": "@rouge/rouge-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "rolldown -c rolldown.config.ts && bun run ../../scripts/emit-theme-json.ts dist/index.mjs dist/rouge-2.json"
+  },
+  "devDependencies": {
+    "rolldown": "^1.1.3",
+    "typescript": "^6.0.3"
+  }
+}

@@ -8,23 +8,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: yarn --frozen-lockfile
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.14
+      - run: bun install --frozen-lockfile
       - name: Build themes
-        run: yarn build
+        run: bun run build
       - name: Publish theme
-        run: yarn vsce publish -p $VSCE_TOKEN
+        run: bunx vsce publish -p $VSCE_TOKEN
+        working-directory: packages/vscode-theme
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       - name: Update VSIX
+        working-directory: packages/vscode-theme
         run: |
-          git mv *.vsix .archive/
-          yarn vsce package
+          mv ../../*.vsix ../../.archive/ 2>/dev/null || true
+          bunx vsce package -o ../../
+          cd ../..
           changed=$(git status --porcelain)
           if [[ -n "$changed" ]]; then
             git config --global user.name 'GitHub Actions'
             git config --global user.email 'josefaidt@users.noreply.github.com'
             if [[ ! `git diff --quiet HEAD -- *.vsix` ]]; then
-              git add *.vsix
+              git add *.vsix .archive
               git commit -m "[automated] update package"
             fi
             git push

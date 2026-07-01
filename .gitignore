@@ -1,11 +1,3 @@
-.DS_Store
-node_modules/
-
-*.log
-**/*.log
-
-copy.sh
-img/admin
-notes.md
-
-out
+node_modules
+dist
+packages/vscode-theme/themes

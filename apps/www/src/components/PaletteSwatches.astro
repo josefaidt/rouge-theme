@@ -1,0 +1,29 @@
+---
+interface Props {
+  title: string
+  families: Record<string, Record<string, string>>
+}
+
+const { title, families } = Astro.props
+---
+
+<section class="mb-16">
+  <h2 class="mb-4 text-2xl font-semibold text-white">{title}</h2>
+  <div class="flex flex-col gap-3">
+    {
+      Object.entries(families).map(([name, shades]) => (
+        <div class="flex items-center gap-4">
+          <span class="w-28 shrink-0 font-mono text-sm text-white/70">{name}</span>
+          <div class="flex gap-1.5">
+            {Object.entries(shades).map(([shade, hex]) => (
+              <div class="flex flex-col items-center gap-1" title={`${name}.${shade}`}>
+                <div class="h-10 w-10 rounded border border-white/10" style={`background-color:${hex}`} />
+                <span class="font-mono text-[10px] text-white/50">{hex}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./palette": "./src/palette.ts"
   },
   "scripts": {
     "build": "rolldown -c rolldown.config.ts && bun run ../../scripts/emit-theme-json.ts dist/index.mjs dist/rouge-2.json"

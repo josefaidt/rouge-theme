@@ -1,3 +1,4 @@
 node_modules
 dist
 packages/vscode-theme/themes
+.astro

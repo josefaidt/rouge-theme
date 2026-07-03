@@ -1,0 +1,43 @@
+---
+import { palette } from '@rouge/rouge-3/palette'
+import legacyPalette from '@rouge/rouge-2/palette'
+import PaletteSwatches from '../components/PaletteSwatches.astro'
+import Sample from '../content/sample.mdx'
+import { groupLegacyPalette } from '../lib/group-legacy-palette'
+import '../styles/global.css'
+
+const rouge2Families = groupLegacyPalette(legacyPalette)
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rouge palette</title>
+  </head>
+  <body class="mx-auto max-w-4xl px-6 py-12">
+    <h1 class="mb-2 text-4xl font-bold text-white">Rouge</h1>
+    <p class="mb-12 text-white/60">A preview of the Rouge palette family, past and present.</p>
+
+    <PaletteSwatches title="Rouge 3 — palette" families={palette} />
+
+    <section class="mb-16">
+      <h2 class="mb-4 text-2xl font-semibold text-white">In use</h2>
+      <p class="mb-4 text-white/60">
+        Rendered with <a class="underline" href="https://expressive-code.com/">Expressive Code</a> — use the
+        switcher above the code block to compare Rouge, Rouge 2, and Rouge 3.
+      </p>
+      <Sample />
+    </section>
+
+    <PaletteSwatches title="Rouge 2 — palette (legacy)" families={rouge2Families} />
+
+    <section class="mb-16">
+      <h2 class="mb-4 text-2xl font-semibold text-white">Rouge (legacy v1)</h2>
+      <p class="text-white/60">
+        The original Rouge theme has no structured palette of its own — colors are inlined directly throughout its
+        theme JSON. See it above in the code sample's theme switcher.
+      </p>
+    </section>
+  </body>
+</html>

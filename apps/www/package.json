@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.2",
+    "@rouge/palette": "workspace:*",
     "@rouge/rouge-1": "workspace:*",
     "@rouge/rouge-2": "workspace:*",
     "@rouge/rouge-3": "workspace:*",
@@ -21,6 +22,6 @@
     "@astrojs/check": "^0.9.9",
     "@tailwindcss/vite": "^4.3.2",
     "tailwindcss": "^4.3.2",
-    "typescript": "^6.0.3"
+    "typescript": "catalog:"
   }
 }

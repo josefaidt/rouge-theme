@@ -4,6 +4,7 @@
     "moduleResolution": "bundler",
     "module": "preserve",
     "lib": ["esnext", "dom"],
+    "types": ["node", "bun"],
     "target": "esnext",
     "noImplicitAny": true,
     "noImplicitReturns": true,

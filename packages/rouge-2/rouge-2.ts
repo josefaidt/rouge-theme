@@ -1,6 +1,8 @@
-import colors from "./editorColors"
-import tokenColors from "./tokenColors"
-import semanticTokenColors from "./tokenColors/semantic"
+import colors from "./lib/editorColors"
+import tokenColors from "./lib/tokenColors"
+import semanticTokenColors from "./lib/tokenColors/semantic"
+
+export { default as palette } from "./lib/palette"
 
 export default {
   $schema: "vscode://schemas/color-theme",

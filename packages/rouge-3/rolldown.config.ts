@@ -1,10 +1,6 @@
-import { defineConfig } from "rolldown"
+import { defineThemeConfig } from "@rouge/builder"
 
-export default defineConfig({
-  input: "src/index.ts",
-  output: {
-    dir: "dist",
-    format: "esm",
-    entryFileNames: "[name].mjs",
-  },
+export default defineThemeConfig({
+  entries: { "rouge-3": "rouge-3.ts" },
+  outputs: [{ entry: "rouge-3", json: "rouge-3.json" }],
 })

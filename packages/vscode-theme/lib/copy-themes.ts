@@ -8,8 +8,8 @@ import * as path from "node:path"
  * than referenced by path. Run from packages/vscode-theme.
  */
 const COPIES: Array<[from: string, to: string]> = [
-  ["../rouge-1/dist/rouge.json", "themes/rouge.json"],
-  ["../rouge-1/dist/rouge-no-italics.json", "themes/rouge-no-italics.json"],
+  ["../rouge-1/dist/rouge-1.json", "themes/rouge.json"],
+  ["../rouge-1/dist/rouge-1-no-italics.json", "themes/rouge-no-italics.json"],
   ["../rouge-2/dist/rouge-2.json", "themes/rouge2.json"],
   ["../rouge-3/dist/rouge-3.json", "themes/rouge3.json"],
 ]

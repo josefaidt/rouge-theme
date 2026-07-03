@@ -1,13 +1,9 @@
-import { defineConfig } from "rolldown"
+import { defineThemeConfig } from "@rouge/builder"
 
-export default defineConfig({
-  input: {
-    index: "src/index.ts",
-    "no-italics": "src/no-italics.ts",
-  },
-  output: {
-    dir: "dist",
-    format: "esm",
-    entryFileNames: "[name].mjs",
-  },
+export default defineThemeConfig({
+  entries: { "rouge-1": "rouge-1.ts", "no-italics": "no-italics.ts" },
+  outputs: [
+    { entry: "rouge-1", json: "rouge-1.json" },
+    { entry: "no-italics", json: "rouge-1-no-italics.json" },
+  ],
 })

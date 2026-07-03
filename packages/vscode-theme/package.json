@@ -26,7 +26,7 @@
   "scripts": {
     "build": "bun run build:themes && bun run build:copy",
     "build:themes": "bun run --filter '@rouge/rouge-*' build",
-    "build:copy": "bun run ../../scripts/copy-themes.ts",
+    "build:copy": "bun run lib/copy-themes.ts",
     "vscode:prepublish": "bun run build",
     "pkg": "bun run build && vsce package"
   },

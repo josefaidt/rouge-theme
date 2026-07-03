@@ -1,6 +1,4 @@
-import { palette, withAlpha } from "./palette"
-
-export { palette } from "./palette"
+import { palette, withAlpha } from "@rouge/palette"
 
 export default {
   name: "Rouge 3",

@@ -1,6 +1,6 @@
 ```ts
 // a small sample to compare keyword, entity, string, and comment colors
-import { palette } from "@rouge/rouge-3/palette"
+import { palette } from "@rouge/palette"
 
 export function swatch(name: string, shade: keyof typeof palette.red) {
   const hex = palette[name as keyof typeof palette][shade]

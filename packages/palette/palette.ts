@@ -73,9 +73,9 @@ const ANSI_BASE: Record<
   black: { h: 238, s: 30, l: 13 }, // bg
   red: { h: 353, s: 45, l: 58 }, // rouge + berry merged (same hue, ~356/~351)
   green: { h: 100, s: 6, l: 60 }, // sage
-  yellow: { h: 37, s: 65, l: 57 }, // marigold, replaces the too-yellow grapple (h=42)
+  yellow: { h: 39, s: 46, l: 70 }, // pastel gold - same warm hue family as the old marigold, softened
   blue: { h: 220, s: 45, l: 55 }, // no rouge2 source, picked to fill the set
-  magenta: { h: 297, s: 25, l: 45 }, // shifted from purple's h=237 (genuinely blue) to a true magenta hue
+  magenta: { h: 238, s: 22, l: 38 }, // matches rouge2's purple anchor almost exactly (keyword color)
   cyan: { h: 189, s: 22, l: 29 }, // accent/teal
   white: { h: 240, s: 5, l: 91 }, // bg, light end
 }

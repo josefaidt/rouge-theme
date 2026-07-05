@@ -1,4 +1,4 @@
-import { palette, withAlpha } from "@rouge/palette"
+import { mutedGrey, palette, withAlpha } from "@rouge/palette"
 
 export default {
   name: "Rouge 3",
@@ -134,7 +134,7 @@ export default {
       scope: ["comment", "punctuation.definition.comment", "unused.comment", "wildcard.comment"],
       settings: {
         fontStyle: "italic",
-        foreground: palette.black.light,
+        foreground: mutedGrey,
       },
     },
     {

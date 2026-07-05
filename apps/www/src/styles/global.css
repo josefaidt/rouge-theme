@@ -1,6 +1,41 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Damion";
+  src: url("/fonts/Damion-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  background-color: #111014;
-  color: #e8e8ea;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.wordmark {
+  font-family: "Damion", cursive;
+  font-size: clamp(4.5rem, 14vw, 9rem);
+  color: var(--accent);
+}
+
+.heading {
+  color: var(--fg);
+}
+
+.muted {
+  color: var(--fg);
+}
+
+.link {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--linkHover);
+}
+
+.swatch {
+  border: 1px solid var(--border);
 }

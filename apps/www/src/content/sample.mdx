@@ -1,3 +1,11 @@
+<div class="grid gap-4 sm:grid-cols-3">
+
+<div>
+
+<p class="mb-2 font-mono text-xs muted">Rouge</p>
+
+<div data-theme="Rouge">
+
 ```ts
 // a small sample to compare keyword, entity, string, and comment colors
 import { palette } from "@rouge/palette"
@@ -8,4 +16,136 @@ export function swatch(name: string, shade: keyof typeof palette.red) {
 }
 
 const label = swatch("yellow", "base")
+```
+
+</div>
+
+</div>
+
+<div>
+
+<p class="mb-2 font-mono text-xs muted">Rouge 2</p>
+
+<div data-theme="Rouge 2">
+
+```ts
+// a small sample to compare keyword, entity, string, and comment colors
+import { palette } from "@rouge/palette"
+
+export function swatch(name: string, shade: keyof typeof palette.red) {
+  const hex = palette[name as keyof typeof palette][shade]
+  return `${name}.${shade} -> ${hex}`
+}
+
+const label = swatch("yellow", "base")
+```
+
+</div>
+
+</div>
+
+<div>
+
+<p class="mb-2 font-mono text-xs muted">Rouge 3</p>
+
+<div data-theme="Rouge 3">
+
+```ts
+// a small sample to compare keyword, entity, string, and comment colors
+import { palette } from "@rouge/palette"
+
+export function swatch(name: string, shade: keyof typeof palette.red) {
+  const hex = palette[name as keyof typeof palette][shade]
+  return `${name}.${shade} -> ${hex}`
+}
+
+const label = swatch("yellow", "base")
+```
+
+</div>
+
+</div>
+
+</div>
+
+```html
+<!-- landing page markup -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rouge palette</title>
+  </head>
+  <body class="theme-dark" data-count="3">
+    <h1>Hello, Rouge</h1>
+    <p>A pastel palette for <strong>syntax highlighting</strong>.</p>
+  </body>
+</html>
+```
+
+```css
+/* card component */
+.card {
+  --radius: 12px;
+  display: flex;
+  padding: 1.5rem 2rem;
+  background-color: #17182b;
+  border-radius: var(--radius);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+```
+
+```rust
+// compute the nth fibonacci number
+fn fibonacci(n: u32) -> u64 {
+    match n {
+        0 => 0,
+        1 => 1,
+        _ => fibonacci(n - 1) + fibonacci(n - 2),
+    }
+}
+
+fn main() {
+    let label = "fibonacci(10)";
+    println!("{label} = {}", fibonacci(10));
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+// Greeter returns a friendly greeting for name.
+func Greeter(name string) string {
+	if name == "" {
+		name = "world"
+	}
+	return fmt.Sprintf("Hello, %s!", name)
+}
+
+func main() {
+	fmt.Println(Greeter("Rouge"))
+}
+```
+
+```python
+# simple palette lookup
+from dataclasses import dataclass
+
+@dataclass
+class Swatch:
+    name: str
+    shade: str
+    hex: str
+
+def describe(swatch: Swatch) -> str:
+    return f"{swatch.name}.{swatch.shade} -> {swatch.hex}"
+
+if __name__ == "__main__":
+    print(describe(Swatch("yellow", "base", "#D1C3A9")))
 ```

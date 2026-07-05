@@ -70,10 +70,10 @@ const ANSI_BASE: Record<
   "black" | "red" | "green" | "yellow" | "blue" | "magenta" | "cyan" | "white",
   Hsl
 > = {
-  black: { h: 238, s: 30, l: 13 }, // bg
+  black: { h: 238, s: 24, l: 10 }, // bg - experimental: darker + a touch less saturated, may revert
   red: { h: 353, s: 45, l: 58 }, // rouge + berry merged (same hue, ~356/~351)
   green: { h: 100, s: 6, l: 60 }, // sage
-  yellow: { h: 39, s: 46, l: 70 }, // pastel gold - same warm hue family as the old marigold, softened
+  yellow: { h: 39, s: 30, l: 74 }, // pastel gold - experimental: desaturated further to soften against the rest of the palette, may revert
   blue: { h: 220, s: 45, l: 55 }, // no rouge2 source, picked to fill the set
   magenta: { h: 238, s: 22, l: 38 }, // matches rouge2's purple anchor almost exactly (keyword color)
   cyan: { h: 189, s: 22, l: 29 }, // accent/teal
@@ -155,6 +155,11 @@ function baseTone(name: keyof typeof ANSI_BASE): Hsl {
 function brightTone(name: keyof typeof ANSI_BASE): Hsl {
   return BRIGHT_HUE_OVERRIDES[name] ?? toBright(ANSI_BASE[name])
 }
+
+// A muted neutral grey used for de-emphasized text (code comments, secondary
+// copy) - independent of the black family's tint/shade scale, so it stays
+// stable if the black anchor's hue/saturation is retuned later.
+export const mutedGrey = hslToHex({ h: 238, s: 20, l: 36 })
 
 export const palette: Record<AnsiName, ColorFamily> = {
   black: buildFamily(baseTone("black")),

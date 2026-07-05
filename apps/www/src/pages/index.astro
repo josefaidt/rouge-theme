@@ -1,5 +1,5 @@
 ---
-import { palette } from '@rouge/palette'
+import { palette, withAlpha } from '@rouge/palette'
 import { palette as legacyPalette } from '@rouge/rouge-2'
 import PaletteSwatches from '../components/PaletteSwatches.astro'
 import Sample from '../content/sample.mdx'
@@ -7,6 +7,16 @@ import { groupLegacyPalette } from '../lib/group-legacy-palette'
 import '../styles/global.css'
 
 const rouge2Families = groupLegacyPalette(legacyPalette)
+
+const theme = {
+  bg: palette.black.dark,
+  fg: palette.black.lighter,
+  accent: palette.red.light,
+  accentStrong: palette.red.base,
+  link: palette.cyan.light,
+  linkHover: palette.cyan.lighter,
+  border: withAlpha(palette.magenta.dark, 40),
+}
 ---
 
 <html lang="en">
@@ -16,28 +26,45 @@ const rouge2Families = groupLegacyPalette(legacyPalette)
     <title>Rouge palette</title>
   </head>
   <body class="mx-auto max-w-4xl px-6 py-12">
-    <h1 class="mb-2 text-4xl font-bold text-white">Rouge</h1>
-    <p class="mb-12 text-white/60">A preview of the Rouge palette family, past and present.</p>
+    <section class="flex flex-col items-center gap-3 py-16 text-center">
+      <p class="wordmark m-0 leading-none">Rouge</p>
+      <p class="muted max-w-md">A preview of the Rouge palette family, past and present.</p>
+    </section>
 
     <PaletteSwatches title="Rouge 3 — palette" families={palette} />
 
     <section class="mb-16">
-      <h2 class="mb-4 text-2xl font-semibold text-white">In use</h2>
-      <p class="mb-4 text-white/60">
-        Rendered with <a class="underline" href="https://expressive-code.com/">Expressive Code</a> — use the
-        switcher above the code block to compare Rouge, Rouge 2, and Rouge 3.
+      <h2 class="heading mb-4 text-2xl font-semibold">In use</h2>
+      <p class="muted mb-4">
+        Rendered with <a class="link" href="https://expressive-code.com/">Expressive Code</a>. The TypeScript
+        sample is shown side-by-side in Rouge, Rouge 2, and Rouge 3 for comparison; the rest are rendered in Rouge 3.
       </p>
       <Sample />
     </section>
 
+    <script>
+      // Expressive Code only scopes its frame chrome vars (background, borders,
+      // tabs) to `.expressive-code[data-theme]` or `:root[data-theme]` - an
+      // ancestor wrapper isn't enough (unlike its per-token text colors, which
+      // do respect an ancestor). Copy the wrapper's theme onto the generated
+      // element itself so each comparison column reads its own theme fully.
+      for (const wrapper of document.querySelectorAll<HTMLElement>("[data-theme]")) {
+        const ec = wrapper.querySelector<HTMLElement>(":scope > .expressive-code")
+        if (ec && wrapper.dataset.theme) ec.dataset.theme = wrapper.dataset.theme
+      }
+    </script>
+
     <PaletteSwatches title="Rouge 2 — palette (legacy)" families={rouge2Families} />
 
     <section class="mb-16">
-      <h2 class="mb-4 text-2xl font-semibold text-white">Rouge (legacy v1)</h2>
-      <p class="text-white/60">
+      <h2 class="heading mb-4 text-2xl font-semibold">Rouge (legacy v1)</h2>
+      <p class="muted">
         The original Rouge theme has no structured palette of its own — colors are inlined directly throughout its
-        theme JSON. See it above in the code sample's theme switcher.
+        theme JSON. See it above in the leftmost column of the side-by-side comparison.
       </p>
     </section>
   </body>
 </html>
+
+{/* values only - the classes that consume these vars live in global.css so they also reach content rendered outside this component's scope (e.g. sample.mdx) */}
+<style define:vars={theme}></style>

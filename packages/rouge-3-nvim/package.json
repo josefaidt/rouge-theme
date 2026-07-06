@@ -1,0 +1,15 @@
+{
+  "name": "@rouge/rouge-3-nvim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/generate.ts"
+  },
+  "dependencies": {
+    "@rouge/palette": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}
